@@ -1,6 +1,5 @@
 import json
 import os
-import sqlite3
 import time
 import unicodedata
 
@@ -10,9 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv("LASTFM_API_KEY")
 LASTFM_URL = "https://ws.audioscrobbler.com/2.0/"
-DB_PATH = "data/raw/cache.db"
+TAGS_PATH = "data/artist_tags.json"          # cache of Last.fm tags (committed)
+OVERRIDES_PATH = "data/genre_overrides.json"  # genres you assign by hand
 MIN_TAG_COUNT = 20  # ignore tags Last.fm scores below this (0-100)
-OVERRIDES_PATH = "data/genre_overrides.json"
 
 # Places, nationalities, languages: useful for the map, not for genres.
 # Expand as you spot more.
@@ -30,15 +29,24 @@ NOISE_TAGS = {
     "albums i own", "spotify", "00s", "10s", "90s", "80s",
 }
 
+_cache = None
 
-def get_db():
-    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute(
-        "CREATE TABLE IF NOT EXISTS raw_tags "
-        "(artist TEXT PRIMARY KEY, tags TEXT)"
-    )
-    return conn
+
+def load_cache():
+    global _cache
+    if _cache is None:
+        try:
+            with open(TAGS_PATH) as f:
+                _cache = json.load(f)
+        except FileNotFoundError:
+            _cache = {}
+    return _cache
+
+
+def save_cache():
+    os.makedirs(os.path.dirname(TAGS_PATH), exist_ok=True)
+    with open(TAGS_PATH, "w") as f:
+        json.dump(_cache, f, indent=1, ensure_ascii=False, sort_keys=True)
 
 
 def strip_accents(text):
@@ -68,13 +76,9 @@ def fetch_raw(name):
 
 
 def get_raw_tags(artist):
-    conn = get_db()
-    row = conn.execute(
-        "SELECT tags FROM raw_tags WHERE artist = ?", (artist,)
-    ).fetchone()
-    if row:
-        conn.close()
-        return json.loads(row[0])
+    cache = load_cache()
+    if artist in cache:
+        return cache[artist]
 
     raw = fetch_raw(artist)
     plain = strip_accents(artist)
@@ -82,12 +86,8 @@ def get_raw_tags(artist):
         raw = fetch_raw(plain)
 
     # Cache misses too, so we never re-query artists with no tags
-    conn.execute(
-        "INSERT OR REPLACE INTO raw_tags VALUES (?, ?)",
-        (artist, json.dumps(raw)),
-    )
-    conn.commit()
-    conn.close()
+    cache[artist] = raw
+    save_cache()
     return raw
 
 
@@ -117,6 +117,7 @@ def get_genres(artist):
         return override
     return split_tags(artist, get_raw_tags(artist))[0]
 
+
 def get_origins(artist):
     return split_tags(artist, get_raw_tags(artist))[1]
 
@@ -124,5 +125,5 @@ def get_origins(artist):
 if __name__ == "__main__":
     for a in ["Jaden Bojsen", "Keanu Silva", "Crunkz", "Bad Bunny",
               "RÜFÜS DU SOL", "Collem"]:
-        print(a, "-> genres:", get_genres(a) or "Unknown",
+        print(a, "->", get_genres(a) or "Unknown",
               "| origin:", get_origins(a) or "-")

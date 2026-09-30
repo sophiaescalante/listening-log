@@ -122,11 +122,24 @@ def main():
         entry.update(summarize(by_week[start]))
         weeks.append(entry)
 
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-    with open(OUT_PATH, "w") as f:
-        json.dump({"generated_at": datetime.now(timezone.utc).isoformat(),
-                   "timezone": str(TIMEZONE),
-                   "weeks": weeks}, f, indent=2, ensure_ascii=False)
+    previous = None
+    if os.path.exists(OUT_PATH):
+        try:
+            with open(OUT_PATH) as f:
+                previous = json.load(f).get("weeks")
+        except ValueError:
+            previous = None
+
+    changed = previous != weeks
+    if changed:  # only rewrite the file when the data really changed
+        os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+        with open(OUT_PATH, "w") as f:
+            json.dump({"generated_at": datetime.now(timezone.utc).isoformat(),
+                       "timezone": str(TIMEZONE),
+                       "weeks": weeks}, f, indent=2, ensure_ascii=False)
+
+    print(("Wrote" if changed else "No changes to") +
+          f" {len(weeks)} week(s) from {len(rows)} plays ({OUT_PATH})")
 
     print(f"Wrote {len(weeks)} week(s) from {len(rows)} plays to {OUT_PATH}")
     for w in weeks:

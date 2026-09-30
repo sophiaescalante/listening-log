@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T20:29:31.133482+00:00",
+  "generated_at": "2026-09-30T20:38:33.077347+00:00",
   "timezone": "America/New_York",
   "weeks": [
     {
@@ -11,12 +11,8 @@
       "genre_coverage": 1.0,
       "genres": [
         {
-          "name": "spanish techno",
-          "plays": 17
-        },
-        {
           "name": "electronic",
-          "plays": 11
+          "plays": 28
         },
         {
           "name": "house",
