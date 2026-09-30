@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-30T20:38:33.077347+00:00",
+  "generated_at": "2026-09-30T20:45:14.634795+00:00",
   "timezone": "America/New_York",
   "weeks": [
     {
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
-      "total_plays": 52,
-      "unique_tracks": 35,
-      "repeat_rate": 1.49,
+      "total_plays": 59,
+      "unique_tracks": 36,
+      "repeat_rate": 1.64,
       "genre_coverage": 1.0,
       "genres": [
         {
@@ -15,12 +15,12 @@
           "plays": 28
         },
         {
-          "name": "house",
-          "plays": 7
+          "name": "pop",
+          "plays": 12
         },
         {
-          "name": "pop",
-          "plays": 6
+          "name": "house",
+          "plays": 7
         },
         {
           "name": "alternative rnb",
@@ -52,6 +52,10 @@
         },
         {
           "name": "phonk",
+          "plays": 1
+        },
+        {
+          "name": "indie pop",
           "plays": 1
         }
       ],
@@ -87,6 +91,10 @@
           "plays": 17
         },
         {
+          "name": "ADÉLA",
+          "plays": 8
+        },
+        {
           "name": "Kaskade",
           "plays": 5
         },
@@ -104,10 +112,6 @@
         },
         {
           "name": "Matroda",
-          "plays": 2
-        },
-        {
-          "name": "ADÉLA",
           "plays": 2
         },
         {
@@ -132,7 +136,7 @@
         {
           "track": "NICOLE KIDMAN",
           "artist": "ADÉLA",
-          "plays": 2
+          "plays": 8
         },
         {
           "track": "I Got Feelings",
