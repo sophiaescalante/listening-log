@@ -7,6 +7,10 @@ on:
 
 permissions:
   contents: write            # lets the job commit the refreshed data
+s
+concurrency:
+  group: update-listening-data   # runs queue up instead of overlapping
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -38,6 +42,6 @@ jobs:
             echo "Nothing to commit."
           else
             git commit -m "Update listening data"
-            git pull --rebase
+            git pull --rebase -X theirs
             git push
           fi
