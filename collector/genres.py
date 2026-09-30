@@ -12,6 +12,7 @@ API_KEY = os.getenv("LASTFM_API_KEY")
 LASTFM_URL = "https://ws.audioscrobbler.com/2.0/"
 DB_PATH = "data/raw/cache.db"
 MIN_TAG_COUNT = 20  # ignore tags Last.fm scores below this (0-100)
+OVERRIDES_PATH = "data/genre_overrides.json"
 
 # Places, nationalities, languages: useful for the map, not for genres.
 # Expand as you spot more.
@@ -101,9 +102,20 @@ def split_tags(artist, raw):
     return genres[:5], origins[:3]
 
 
-def get_genres(artist):
-    return split_tags(artist, get_raw_tags(artist))[0]
+def load_overrides():
+    """Genres you assign by hand, for artists Last.fm has no tags for."""
+    try:
+        with open(OVERRIDES_PATH) as f:
+            return {k.lower(): v for k, v in json.load(f).items()}
+    except FileNotFoundError:
+        return {}
 
+
+def get_genres(artist):
+    override = load_overrides().get(artist.lower())
+    if override:
+        return override
+    return split_tags(artist, get_raw_tags(artist))[0]
 
 def get_origins(artist):
     return split_tags(artist, get_raw_tags(artist))[1]
