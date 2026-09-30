@@ -11,13 +11,20 @@ load_dotenv()
 API_KEY = os.getenv("LASTFM_API_KEY")
 LASTFM_URL = "https://ws.audioscrobbler.com/2.0/"
 DB_PATH = "data/raw/cache.db"
+MIN_TAG_COUNT = 20  # ignore tags Last.fm scores below this (0-100)
 
-# Tags that are places, nationalities, or junk rather than genres.
-# Expand this list as you spot more noise.
-BLOCKLIST = {
+# Places, nationalities, languages: useful for the map, not for genres.
+# Expand as you spot more.
+ORIGIN_TAGS = {
+    "german", "germany", "usa", "uk", "american", "british", "australia",
+    "australian", "canadian", "canada", "puerto rico", "los angeles",
+    "london", "swedish", "sweden", "dutch", "netherlands", "french",
+    "france", "danish", "denmark", "spanish", "latin",
+}
+
+# Junk that is neither a genre nor a place.
+NOISE_TAGS = {
     "seen live", "favorites", "favourites", "favorite", "favourite",
-    "usa", "uk", "american", "british", "australia", "australian",
-    "canadian", "canada", "puerto rico", "los angeles", "london",
     "male vocalists", "female vocalists", "singer-songwriter",
     "albums i own", "spotify", "00s", "10s", "90s", "80s",
 }
@@ -27,7 +34,7 @@ def get_db():
     os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.execute(
-        "CREATE TABLE IF NOT EXISTS artist_tags "
+        "CREATE TABLE IF NOT EXISTS raw_tags "
         "(artist TEXT PRIMARY KEY, tags TEXT)"
     )
     return conn
@@ -38,8 +45,8 @@ def strip_accents(text):
     return "".join(c for c in decomposed if not unicodedata.combining(c))
 
 
-def fetch_tags(name):
-    """Ask Last.fm for an artist's top tags. Returns [] if none found."""
+def fetch_raw(name):
+    """Ask Last.fm for an artist's tags. Returns [[tag, score], ...]."""
     r = requests.get(
         LASTFM_URL,
         params={
@@ -56,44 +63,54 @@ def fetch_tags(name):
     if "error" in data:
         return []
     tags = data.get("toptags", {}).get("tag", [])
-    return [t["name"].lower() for t in tags if int(t["count"]) >= 20]
+    return [[t["name"].lower(), int(t["count"])] for t in tags]
 
 
-def clean(tags, artist):
-    out = []
-    for t in tags:
-        if t in BLOCKLIST or t == artist.lower() or t in out:
-            continue
-        out.append(t)
-    return out[:5]
-
-
-def get_genres(artist):
+def get_raw_tags(artist):
     conn = get_db()
     row = conn.execute(
-        "SELECT tags FROM artist_tags WHERE artist = ?", (artist,)
+        "SELECT tags FROM raw_tags WHERE artist = ?", (artist,)
     ).fetchone()
     if row:
         conn.close()
         return json.loads(row[0])
 
-    tags = fetch_tags(artist)
+    raw = fetch_raw(artist)
     plain = strip_accents(artist)
-    if not tags and plain != artist:
-        tags = fetch_tags(plain)
+    if not raw and plain != artist:
+        raw = fetch_raw(plain)
 
-    genres = clean(tags, artist)
     # Cache misses too, so we never re-query artists with no tags
     conn.execute(
-        "INSERT OR REPLACE INTO artist_tags VALUES (?, ?)",
-        (artist, json.dumps(genres)),
+        "INSERT OR REPLACE INTO raw_tags VALUES (?, ?)",
+        (artist, json.dumps(raw)),
     )
     conn.commit()
     conn.close()
-    return genres
+    return raw
+
+
+def split_tags(artist, raw):
+    genres, origins = [], []
+    for name, score in raw:
+        if score < MIN_TAG_COUNT or name in NOISE_TAGS or name == artist.lower():
+            continue
+        bucket = origins if name in ORIGIN_TAGS else genres
+        if name not in bucket:
+            bucket.append(name)
+    return genres[:5], origins[:3]
+
+
+def get_genres(artist):
+    return split_tags(artist, get_raw_tags(artist))[0]
+
+
+def get_origins(artist):
+    return split_tags(artist, get_raw_tags(artist))[1]
 
 
 if __name__ == "__main__":
-    for a in ["Bad Bunny", "Malcolm Todd", "RÜFÜS DU SOL",
-              "Calvin Harris", "Zeds Dead", "Collem", "Wax Motif"]:
-        print(a, "->", get_genres(a) or "Unknown")
+    for a in ["Jaden Bojsen", "Keanu Silva", "Crunkz", "Bad Bunny",
+              "RÜFÜS DU SOL", "Collem"]:
+        print(a, "-> genres:", get_genres(a) or "Unknown",
+              "| origin:", get_origins(a) or "-")
