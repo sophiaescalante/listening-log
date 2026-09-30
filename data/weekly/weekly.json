@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-09-30T19:34:21.789270+00:00",
+  "timezone": "America/New_York",
+  "weeks": [
+    {
+      "week_start": "2026-09-28",
+      "week_end": "2026-10-04",
+      "total_plays": 50,
+      "unique_tracks": 38,
+      "repeat_rate": 1.32,
+      "approx_minutes": 176,
+      "genre_coverage": 0.7,
+      "genres": [
+        {
+          "name": "unknown",
+          "plays": 15
+        },
+        {
+          "name": "house",
+          "plays": 10
+        },
+        {
+          "name": "electronic",
+          "plays": 9
+        },
+        {
+          "name": "pop",
+          "plays": 6
+        },
+        {
+          "name": "g-house",
+          "plays": 3
+        },
+        {
+          "name": "c",
+          "plays": 1
+        },
+        {
+          "name": "uk garage",
+          "plays": 1
+        },
+        {
+          "name": "alternative rnb",
+          "plays": 1
+        },
+        {
+          "name": "indie",
+          "plays": 1
+        },
+        {
+          "name": "dubstep",
+          "plays": 1
+        },
+        {
+          "name": "nederpunk",
+          "plays": 1
+        },
+        {
+          "name": "electro house",
+          "plays": 1
+        }
+      ],
+      "origins": [
+        {
+          "name": "dutch",
+          "plays": 3
+        },
+        {
+          "name": "usa",
+          "plays": 3
+        },
+        {
+          "name": "german",
+          "plays": 3
+        },
+        {
+          "name": "australian",
+          "plays": 1
+        },
+        {
+          "name": "swedish",
+          "plays": 1
+        },
+        {
+          "name": "canadian",
+          "plays": 1
+        }
+      ],
+      "top_artists": [
+        {
+          "name": "Collem",
+          "plays": 13
+        },
+        {
+          "name": "Kaskade",
+          "plays": 5
+        },
+        {
+          "name": "Daniel Allan",
+          "plays": 2
+        },
+        {
+          "name": "Rihanna",
+          "plays": 2
+        },
+        {
+          "name": "Matroda",
+          "plays": 2
+        },
+        {
+          "name": "ACRAZE",
+          "plays": 1
+        },
+        {
+          "name": "jigitz",
+          "plays": 1
+        },
+        {
+          "name": "Toby Romeo",
+          "plays": 1
+        },
+        {
+          "name": "Mau P",
+          "plays": 1
+        },
+        {
+          "name": "Dean Turnley",
+          "plays": 1
+        }
+      ],
+      "top_tracks": [
+        {
+          "track": "¿Cuál Es El Significado De La Vida?",
+          "artist": "Collem",
+          "plays": 13
+        },
+        {
+          "track": "Rock My World",
+          "artist": "ACRAZE",
+          "plays": 1
+        },
+        {
+          "track": "makeup sex",
+          "artist": "jigitz",
+          "plays": 1
+        },
+        {
+          "track": "Lose U",
+          "artist": "Toby Romeo",
+          "plays": 1
+        },
+        {
+          "track": "neck",
+          "artist": "Mau P",
+          "plays": 1
+        },
+        {
+          "track": "Actin' Tough",
+          "artist": "Dean Turnley",
+          "plays": 1
+        },
+        {
+          "track": "I Can Dance",
+          "artist": "BYOR",
+          "plays": 1
+        },
+        {
+          "track": "Pumpin Blood",
+          "artist": "TWINSICK",
+          "plays": 1
+        },
+        {
+          "track": "Heartbeat",
+          "artist": "nate band",
+          "plays": 1
+        },
+        {
+          "track": "I Got Feelings",
+          "artist": "Twin Diplomacy",
+          "plays": 1
+        }
+      ],
+      "longest_loop": {
+        "track": "¿Cuál Es El Significado De La Vida?",
+        "artist": "Collem",
+        "times_in_a_row": 12
+      }
+    }
+  ]
+}
