@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-09-30T19:34:21.789270+00:00",
+  "generated_at": "2026-09-30T20:21:25.247199+00:00",
   "timezone": "America/New_York",
   "weeks": [
     {
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
-      "total_plays": 50,
-      "unique_tracks": 38,
-      "repeat_rate": 1.32,
-      "approx_minutes": 176,
-      "genre_coverage": 0.7,
+      "total_plays": 52,
+      "unique_tracks": 35,
+      "repeat_rate": 1.49,
+      "genre_coverage": 0.63,
       "genres": [
         {
           "name": "unknown",
-          "plays": 15
-        },
-        {
-          "name": "house",
-          "plays": 10
+          "plays": 19
         },
         {
           "name": "electronic",
-          "plays": 9
+          "plays": 10
+        },
+        {
+          "name": "house",
+          "plays": 7
         },
         {
           "name": "pop",
           "plays": 6
         },
         {
-          "name": "g-house",
-          "plays": 3
-        },
-        {
-          "name": "c",
-          "plays": 1
-        },
-        {
-          "name": "uk garage",
-          "plays": 1
-        },
-        {
           "name": "alternative rnb",
-          "plays": 1
+          "plays": 2
+        },
+        {
+          "name": "g-house",
+          "plays": 2
         },
         {
           "name": "indie",
@@ -58,13 +49,17 @@
         {
           "name": "electro house",
           "plays": 1
+        },
+        {
+          "name": "techno",
+          "plays": 1
+        },
+        {
+          "name": "phonk",
+          "plays": 1
         }
       ],
       "origins": [
-        {
-          "name": "dutch",
-          "plays": 3
-        },
         {
           "name": "usa",
           "plays": 3
@@ -72,6 +67,10 @@
         {
           "name": "german",
           "plays": 3
+        },
+        {
+          "name": "dutch",
+          "plays": 2
         },
         {
           "name": "australian",
@@ -88,8 +87,8 @@
       ],
       "top_artists": [
         {
-          "name": "Collem",
-          "plays": 13
+          "name": "COLLEM",
+          "plays": 17
         },
         {
           "name": "Kaskade",
@@ -97,6 +96,10 @@
         },
         {
           "name": "Daniel Allan",
+          "plays": 2
+        },
+        {
+          "name": "Malcolm Todd",
           "plays": 2
         },
         {
@@ -108,82 +111,78 @@
           "plays": 2
         },
         {
-          "name": "ACRAZE",
+          "name": "ADÉLA",
+          "plays": 2
+        },
+        {
+          "name": "Twin Diplomacy",
           "plays": 1
         },
         {
-          "name": "jigitz",
+          "name": "Ian Asher",
           "plays": 1
         },
         {
-          "name": "Toby Romeo",
-          "plays": 1
-        },
-        {
-          "name": "Mau P",
-          "plays": 1
-        },
-        {
-          "name": "Dean Turnley",
+          "name": "Gotye",
           "plays": 1
         }
       ],
       "top_tracks": [
         {
           "track": "¿Cuál Es El Significado De La Vida?",
-          "artist": "Collem",
-          "plays": 13
+          "artist": "COLLEM",
+          "plays": 17
         },
         {
-          "track": "Rock My World",
-          "artist": "ACRAZE",
-          "plays": 1
-        },
-        {
-          "track": "makeup sex",
-          "artist": "jigitz",
-          "plays": 1
-        },
-        {
-          "track": "Lose U",
-          "artist": "Toby Romeo",
-          "plays": 1
-        },
-        {
-          "track": "neck",
-          "artist": "Mau P",
-          "plays": 1
-        },
-        {
-          "track": "Actin' Tough",
-          "artist": "Dean Turnley",
-          "plays": 1
-        },
-        {
-          "track": "I Can Dance",
-          "artist": "BYOR",
-          "plays": 1
-        },
-        {
-          "track": "Pumpin Blood",
-          "artist": "TWINSICK",
-          "plays": 1
-        },
-        {
-          "track": "Heartbeat",
-          "artist": "nate band",
-          "plays": 1
+          "track": "NICOLE KIDMAN",
+          "artist": "ADÉLA",
+          "plays": 2
         },
         {
           "track": "I Got Feelings",
           "artist": "Twin Diplomacy",
           "plays": 1
+        },
+        {
+          "track": "Stay For Love",
+          "artist": "Kaskade",
+          "plays": 1
+        },
+        {
+          "track": "Club Weapon",
+          "artist": "Daniel Allan",
+          "plays": 1
+        },
+        {
+          "track": "Falling",
+          "artist": "Daniel Allan",
+          "plays": 1
+        },
+        {
+          "track": "Dealing With It",
+          "artist": "Kaskade",
+          "plays": 1
+        },
+        {
+          "track": "Meet Again",
+          "artist": "Kaskade",
+          "plays": 1
+        },
+        {
+          "track": "UV",
+          "artist": "Kaskade",
+          "plays": 1
+        },
+        {
+          "track": "A Little Bit",
+          "artist": "Kaskade",
+          "plays": 1
         }
       ],
       "longest_loop": {
         "track": "¿Cuál Es El Significado De La Vida?",
-        "artist": "Collem",
-        "times_in_a_row": 12
+        "artist": "COLLEM",
+        "times_in_a_row": 16
       }
     }
   ]

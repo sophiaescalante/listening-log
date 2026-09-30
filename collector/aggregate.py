@@ -52,6 +52,19 @@ def longest_loop(plays):
             "artist": best_track["artist_name"],
             "times_in_a_row": best_len}
 
+def load_plays(conn):
+    plays = []
+    for r in conn.execute(
+        "SELECT uts, artist, track FROM scrobbles ORDER BY uts"
+    ):
+        played_at = datetime.fromtimestamp(r["uts"], tz=timezone.utc).isoformat()
+        plays.append({
+            "played_at": played_at,
+            "track_id": (r["artist"] + "|" + r["track"]).lower(),
+            "track_name": r["track"],
+            "artist_name": r["artist"],
+        })
+    return plays
 
 def summarize(plays):
     total = len(plays)
@@ -81,8 +94,6 @@ def summarize(plays):
         "total_plays": total,
         "unique_tracks": unique,
         "repeat_rate": round(total / unique, 2) if unique else 0,
-        # full track length, so this is an upper bound (skips count in full)
-        "approx_minutes": round(sum(p["duration_ms"] for p in plays) / 60000),
         "genre_coverage": round(known / total, 2) if total else 0,
         "genres": [{"name": n, "plays": c} for n, c in genre_plays.most_common()],
         "origins": [{"name": n, "plays": c} for n, c in origin_plays.most_common()],
@@ -97,12 +108,12 @@ def summarize(plays):
 def main():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
-    rows = conn.execute("SELECT * FROM plays ORDER BY played_at").fetchall()
+    rows = load_plays(conn)
     conn.close()
 
     by_week = defaultdict(list)
     for r in rows:
-        by_week[week_start(r["played_at"])].append(dict(r))
+        by_week[week_start(r["played_at"])].append(r)
 
     weeks = []
     for start in sorted(by_week):
