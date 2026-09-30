@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-30T20:45:14.634795+00:00",
+  "generated_at": "2026-09-30T20:51:31.717586+00:00",
   "timezone": "America/New_York",
   "weeks": [
     {
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
-      "total_plays": 59,
+      "total_plays": 61,
       "unique_tracks": 36,
-      "repeat_rate": 1.64,
+      "repeat_rate": 1.69,
       "genre_coverage": 1.0,
       "genres": [
         {
@@ -16,7 +16,7 @@
         },
         {
           "name": "pop",
-          "plays": 12
+          "plays": 14
         },
         {
           "name": "house",
@@ -92,7 +92,7 @@
         },
         {
           "name": "ADÉLA",
-          "plays": 8
+          "plays": 10
         },
         {
           "name": "Kaskade",
@@ -136,7 +136,7 @@
         {
           "track": "NICOLE KIDMAN",
           "artist": "ADÉLA",
-          "plays": 8
+          "plays": 10
         },
         {
           "track": "I Got Feelings",
