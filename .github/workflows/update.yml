@@ -2,7 +2,7 @@ name: Update listening data
 
 on:
   schedule:
-    - cron: "23 */6 * * *"   # every 6 hours (UTC); GitHub may run it a bit late
+    - cron: "17 * * * *"   # every 1 hour (UTC); GitHub may run it a bit late
   workflow_dispatch:         # adds a "Run workflow" button in the Actions tab
 
 permissions:

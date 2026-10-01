@@ -83,7 +83,175 @@
    1
   ]
  ],
+ "AlunaGeorge": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "uk garage",
+   69
+  ],
+  [
+   "trip-hop",
+   44
+  ],
+  [
+   "indie",
+   34
+  ],
+  [
+   "alternative rnb",
+   17
+  ],
+  [
+   "rnb",
+   14
+  ],
+  [
+   "synthpop",
+   12
+  ],
+  [
+   "pop",
+   3
+  ],
+  [
+   "contemporary rnb",
+   3
+  ],
+  [
+   "british",
+   3
+  ]
+ ],
  "Anthony Godfather": [],
+ "Arcángel": [
+  [
+   "flamenco",
+   100
+  ],
+  [
+   "contemporary flamenco",
+   48
+  ],
+  [
+   "reggaeton",
+   25
+  ],
+  [
+   "latin",
+   10
+  ],
+  [
+   "nuevo flamenco",
+   5
+  ],
+  [
+   "latino",
+   2
+  ],
+  [
+   "puerto rico",
+   2
+  ],
+  [
+   "spain",
+   1
+  ],
+  [
+   "trap",
+   1
+  ],
+  [
+   "cantaor",
+   1
+  ]
+ ],
+ "Artemas": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "british",
+   56
+  ],
+  [
+   "rnb",
+   26
+  ],
+  [
+   "indie",
+   4
+  ],
+  [
+   "dark pop",
+   2
+  ],
+  [
+   "england",
+   1
+  ],
+  [
+   "electropop",
+   1
+  ],
+  [
+   "coldwave",
+   1
+  ],
+  [
+   "cypriot",
+   1
+  ],
+  [
+   "united kingdom",
+   1
+  ]
+ ],
+ "Avicii": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   78
+  ],
+  [
+   "dance",
+   40
+  ],
+  [
+   "progressive house",
+   35
+  ],
+  [
+   "electro house",
+   15
+  ],
+  [
+   "swedish",
+   7
+  ],
+  [
+   "edm",
+   2
+  ],
+  [
+   "avicii",
+   1
+  ],
+  [
+   "electronica",
+   1
+  ],
+  [
+   "dj",
+   1
+  ]
+ ],
  "Babsy.": [
   [
    "electronic",
@@ -108,6 +276,90 @@
   [
    "stutter house",
    33
+  ]
+ ],
+ "Bad Bunny": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "trap",
+   72
+  ],
+  [
+   "latin",
+   46
+  ],
+  [
+   "puerto rico",
+   30
+  ],
+  [
+   "trap latino",
+   14
+  ],
+  [
+   "latin pop",
+   11
+  ],
+  [
+   "rap",
+   9
+  ],
+  [
+   "puerto rican",
+   3
+  ],
+  [
+   "latin rap",
+   2
+  ],
+  [
+   "pop rap",
+   2
+  ]
+ ],
+ "Benny Benassi": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "house",
+   97
+  ],
+  [
+   "techno",
+   41
+  ],
+  [
+   "dance",
+   40
+  ],
+  [
+   "trance",
+   15
+  ],
+  [
+   "italian",
+   5
+  ],
+  [
+   "electro",
+   3
+  ],
+  [
+   "electro house",
+   1
+  ],
+  [
+   "electronica",
+   1
+  ],
+  [
+   "benny benassi",
+   1
   ]
  ],
  "Bobby Valentin": [
@@ -245,6 +497,48 @@
   [
    "future bounce",
    2
+  ]
+ ],
+ "Daddy Yankee": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "latin",
+   51
+  ],
+  [
+   "hip-hop",
+   27
+  ],
+  [
+   "spanish",
+   21
+  ],
+  [
+   "rap",
+   9
+  ],
+  [
+   "puerto rico",
+   4
+  ],
+  [
+   "daddy yankee",
+   3
+  ],
+  [
+   "hip hop",
+   1
+  ],
+  [
+   "puerto rican",
+   1
+  ],
+  [
+   "male vocalists",
+   1
   ]
  ],
  "Daniel Allan": [
@@ -387,6 +681,28 @@
    1
   ]
  ],
+ "Effin": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "united states",
+   66
+  ],
+  [
+   "riddim",
+   66
+  ],
+  [
+   "riddim dubstep",
+   33
+  ]
+ ],
  "El Gran Combo De Puerto Rico": [
   [
    "salsa",
@@ -510,6 +826,90 @@
   ],
   [
    "australian",
+   1
+  ]
+ ],
+ "Flume": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "chillout",
+   55
+  ],
+  [
+   "wonky",
+   33
+  ],
+  [
+   "australian",
+   31
+  ],
+  [
+   "instrumental hip-hop",
+   14
+  ],
+  [
+   "downtempo",
+   8
+  ],
+  [
+   "future bass",
+   8
+  ],
+  [
+   "hip hop",
+   2
+  ],
+  [
+   "glitch pop",
+   2
+  ],
+  [
+   "trap",
+   2
+  ]
+ ],
+ "Flux Pavilion": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "electronic",
+   39
+  ],
+  [
+   "bass",
+   15
+  ],
+  [
+   "filthstep",
+   14
+  ],
+  [
+   "heavy dubstep",
+   6
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "brostep",
+   1
+  ],
+  [
+   "grime",
+   1
+  ],
+  [
+   "electronica",
+   1
+  ],
+  [
+   "drum and bass",
    1
   ]
  ],
@@ -780,6 +1180,48 @@
   ],
   [
    "edm",
+   1
+  ]
+ ],
+ "J Balvin": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "pop",
+   33
+  ],
+  [
+   "colombian",
+   20
+  ],
+  [
+   "latin",
+   17
+  ],
+  [
+   "colombia",
+   7
+  ],
+  [
+   "latin pop",
+   7
+  ],
+  [
+   "all",
+   5
+  ],
+  [
+   "trap",
+   1
+  ],
+  [
+   "dancehall",
+   1
+  ],
+  [
+   "hot",
    1
   ]
  ],
@@ -1213,6 +1655,48 @@
    8
   ]
  ],
+ "Major Lazer": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "dancehall",
+   98
+  ],
+  [
+   "reggae",
+   50
+  ],
+  [
+   "dub",
+   40
+  ],
+  [
+   "electro",
+   13
+  ],
+  [
+   "dance",
+   5
+  ],
+  [
+   "ragga",
+   3
+  ],
+  [
+   "moombahton",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "trap",
+   1
+  ]
+ ],
  "Malcolm Todd": [
   [
    "alternative rnb",
@@ -1347,6 +1831,48 @@
   ]
  ],
  "Max Kaluza": [],
+ "Milky Chance": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "indie rock",
+   57
+  ],
+  [
+   "german",
+   34
+  ],
+  [
+   "reggae",
+   33
+  ],
+  [
+   "singer-songwriter",
+   13
+  ],
+  [
+   "blues",
+   6
+  ],
+  [
+   "pop",
+   5
+  ],
+  [
+   "electronic",
+   1
+  ],
+  [
+   "folk",
+   1
+  ],
+  [
+   "indie folk",
+   1
+  ]
+ ],
  "Nate Band": [
   [
    "uk garage",
@@ -1405,6 +1931,48 @@
   [
    "all",
    1
+  ]
+ ],
+ "Odie": [
+  [
+   "rnb",
+   100
+  ],
+  [
+   "canadian",
+   25
+  ],
+  [
+   "punk",
+   17
+  ],
+  [
+   "soul",
+   17
+  ],
+  [
+   "canada",
+   8
+  ],
+  [
+   "chill",
+   8
+  ],
+  [
+   "contemporary rnb",
+   8
+  ],
+  [
+   "pop soul",
+   2
+  ],
+  [
+   "contemporary r&b",
+   2
+  ],
+  [
+   "canadian contemporary rnb",
+   2
   ]
  ],
  "Olly Alexander (Years & Years)": [
@@ -1737,6 +2305,48 @@
    1
   ]
  ],
+ "Tchami": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   92
+  ],
+  [
+   "deep house",
+   51
+  ],
+  [
+   "french",
+   25
+  ],
+  [
+   "future house",
+   6
+  ],
+  [
+   "france",
+   2
+  ],
+  [
+   "trance",
+   1
+  ],
+  [
+   "edm",
+   1
+  ],
+  [
+   "talent",
+   1
+  ],
+  [
+   "groove",
+   1
+  ]
+ ],
  "The Blessed Madonna": [
   [
    "house",
@@ -1839,6 +2449,48 @@
    66
   ]
  ],
+ "Two Feet": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "blues rock",
+   67
+  ],
+  [
+   "electronic",
+   27
+  ],
+  [
+   "american",
+   14
+  ],
+  [
+   "jazz and blues",
+   2
+  ],
+  [
+   "new york",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "pure sex",
+   1
+  ],
+  [
+   "all",
+   1
+  ],
+  [
+   "rock alternative",
+   1
+  ]
+ ],
  "Tyler, The Creator": [
   [
    "hip-hop",
@@ -1878,6 +2530,32 @@
   ],
   [
    "american",
+   1
+  ]
+ ],
+ "Víctor Manuelle": [
+  [
+   "salsa",
+   100
+  ],
+  [
+   "latin",
+   36
+  ],
+  [
+   "puerto rico",
+   11
+  ],
+  [
+   "world",
+   3
+  ],
+  [
+   "salsa romantica",
+   1
+  ],
+  [
+   "victor manuelle",
    1
   ]
  ],
@@ -1923,6 +2601,48 @@
    1
   ]
  ],
+ "Whethan": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "pop",
+   25
+  ],
+  [
+   "american",
+   7
+  ],
+  [
+   "hip-hop",
+   7
+  ],
+  [
+   "go",
+   1
+  ],
+  [
+   "future bass",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "electronic superhighway",
+   1
+  ],
+  [
+   "good luck have fun",
+   1
+  ],
+  [
+   "future beats",
+   1
+  ]
+ ],
  "Willie Colón": [
   [
    "salsa",
@@ -1962,6 +2682,90 @@
   ],
   [
    "dance",
+   1
+  ]
+ ],
+ "Young Miko": [
+  [
+   "rap",
+   100
+  ],
+  [
+   "puerto rico",
+   100
+  ],
+  [
+   "trap",
+   37
+  ],
+  [
+   "hip-hop",
+   37
+  ],
+  [
+   "queer",
+   2
+  ],
+  [
+   "latin",
+   2
+  ],
+  [
+   "hip hop",
+   2
+  ],
+  [
+   "trap latino",
+   1
+  ],
+  [
+   "reggaeton",
+   1
+  ],
+  [
+   "kid",
+   1
+  ]
+ ],
+ "ZHU": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   89
+  ],
+  [
+   "deep house",
+   41
+  ],
+  [
+   "trance",
+   15
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "electronica",
+   1
+  ],
+  [
+   "driving",
+   1
+  ],
+  [
+   "downtempo",
+   1
+  ],
+  [
+   "chinese",
    1
   ]
  ],
@@ -2027,6 +2831,48 @@
   [
    "alternative",
    2
+  ]
+ ],
+ "deadmau5": [
+  [
+   "progressive house",
+   100
+  ],
+  [
+   "house",
+   83
+  ],
+  [
+   "electronic",
+   45
+  ],
+  [
+   "electro house",
+   28
+  ],
+  [
+   "electro",
+   13
+  ],
+  [
+   "minimal",
+   10
+  ],
+  [
+   "tech house",
+   8
+  ],
+  [
+   "orchestral",
+   1
+  ],
+  [
+   "cinematic classical",
+   1
+  ],
+  [
+   "idm",
+   1
   ]
  ],
  "surfside": [],

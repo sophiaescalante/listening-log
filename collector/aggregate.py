@@ -2,15 +2,15 @@ import json
 import os
 import sqlite3
 from collections import Counter, defaultdict
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
+from itertools import groupby
 from zoneinfo import ZoneInfo
 
 from genres import get_genres, get_origins
 
 DB_PATH = "data/raw/cache.db"
-OUT_PATH = "data/weekly/weekly.json"
-TIMEZONE = ZoneInfo("America/New_York")  # weeks follow EST clock, not UTC
-TOP_N = 10
+OUT_DIR = "data/hourly"
+TIMEZONE = ZoneInfo("America/New_York")  # hours follow YOUR clock, not UTC
 
 _genre_memo = {}
 _origin_memo = {}
@@ -28,129 +28,113 @@ def origins_for(artist):
     return _origin_memo[artist]
 
 
-def week_start(played_at):
-    """Monday (local time) of the week a play belongs to."""
-    utc = datetime.fromisoformat(played_at.replace("Z", "+00:00"))
-    local = utc.astimezone(TIMEZONE)
-    return (local - timedelta(days=local.weekday())).date()
+def hour_key(uts):
+    """Local wall-clock hour, like 2026-09-30T19."""
+    local = datetime.fromtimestamp(uts, tz=timezone.utc).astimezone(TIMEZONE)
+    return local.strftime("%Y-%m-%dT%H")
 
 
-def longest_loop(plays):
-    """Longest run of the same track played back to back."""
-    best_track, best_len = None, 0
-    run_track, run_len = None, 0
-    for p in sorted(plays, key=lambda p: p["played_at"]):
-        if p["track_id"] == run_track:
-            run_len += 1
-        else:
-            run_track, run_len = p["track_id"], 1
-        if run_len > best_len:
-            best_track, best_len = p, run_len
-    if best_len < 2:
-        return None
-    return {"track": best_track["track_name"],
-            "artist": best_track["artist_name"],
-            "times_in_a_row": best_len}
+def track_key(play):
+    return (play["artist"].lower(), play["track"].lower())
+
 
 def load_plays(conn):
-    plays = []
-    for r in conn.execute(
+    rows = conn.execute(
         "SELECT uts, artist, track FROM scrobbles ORDER BY uts"
-    ):
-        played_at = datetime.fromtimestamp(r["uts"], tz=timezone.utc).isoformat()
-        plays.append({
-            "played_at": played_at,
-            "track_id": (r["artist"] + "|" + r["track"]).lower(),
-            "track_name": r["track"],
-            "artist_name": r["artist"],
-        })
-    return plays
+    ).fetchall()
+    return [{"uts": r[0], "hour": hour_key(r[0]), "artist": r[1], "track": r[2]}
+            for r in rows]
 
-def summarize(plays):
-    total = len(plays)
-    tracks = Counter()
-    track_info = {}
-    artists = Counter()
-    genre_plays = Counter()
-    origin_plays = Counter()
-    known = 0
 
-    for p in plays:
-        tracks[p["track_id"]] += 1
-        track_info[p["track_id"]] = (p["track_name"], p["artist_name"])
-        artists[p["artist_name"]] += 1
-        g = genres_for(p["artist_name"])
-        if g:
-            known += 1
-            genre_plays[g[0]] += 1  # primary genre only
-        else:
-            genre_plays["unknown"] += 1
-        o = origins_for(p["artist_name"])
-        if o:
-            origin_plays[o[0]] += 1
+def find_loops(plays):
+    """Runs of the same track back to back, filed under the hour they began."""
+    loops = defaultdict(list)
+    start = 0
+    for i in range(1, len(plays) + 1):
+        if i == len(plays) or track_key(plays[i]) != track_key(plays[start]):
+            n = i - start
+            if n >= 2:
+                p = plays[start]
+                loops[p["hour"]].append([p["track"], p["artist"], n])
+            start = i
+    return loops
 
-    unique = len(tracks)
-    return {
-        "total_plays": total,
-        "unique_tracks": unique,
-        "repeat_rate": round(total / unique, 2) if unique else 0,
-        "genre_coverage": round(known / total, 2) if total else 0,
-        "genres": [{"name": n, "plays": c} for n, c in genre_plays.most_common()],
-        "origins": [{"name": n, "plays": c} for n, c in origin_plays.most_common()],
-        "top_artists": [{"name": n, "plays": c}
-                        for n, c in artists.most_common(TOP_N)],
-        "top_tracks": [{"track": track_info[t][0], "artist": track_info[t][1],
-                        "plays": c} for t, c in tracks.most_common(TOP_N)],
-        "longest_loop": longest_loop(plays),
-    }
+
+def build_hours(plays):
+    loops = find_loops(plays)
+    hours = {}
+    for hour, group in groupby(plays, key=lambda p: p["hour"]):
+        group = list(group)
+        genres, origins, tracks, shown = Counter(), Counter(), Counter(), {}
+        for p in group:
+            g = genres_for(p["artist"])
+            genres[g[0] if g else "unknown"] += 1  # primary genre only
+            o = origins_for(p["artist"])
+            if o:
+                origins[o[0]] += 1
+            k = track_key(p)
+            tracks[k] += 1
+            shown.setdefault(k, (p["track"], p["artist"]))
+        hours[hour] = {
+            "n": len(group),
+            "g": dict(genres.most_common()),
+            "o": dict(origins.most_common()),
+            "t": [[shown[k][0], shown[k][1], c] for k, c in tracks.most_common()],
+            "l": loops.get(hour, []),
+        }
+    return hours
+
+
+def dump(obj):
+    return json.dumps(obj, ensure_ascii=False, separators=(",", ":")) + "\n"
+
+
+def write_if_changed(path, text):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            if f.read() == text:
+                return False
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    return True
 
 
 def main():
     conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    rows = load_plays(conn)
+    plays = load_plays(conn)
     conn.close()
 
-    by_week = defaultdict(list)
-    for r in rows:
-        by_week[week_start(r["played_at"])].append(r)
+    hours = build_hours(plays)
+    by_month = defaultdict(dict)
+    for key, rec in hours.items():
+        by_month[key[:7]][key] = rec
 
-    weeks = []
-    for start in sorted(by_week):
-        entry = {"week_start": start.isoformat(),
-                 "week_end": (start + timedelta(days=6)).isoformat()}
-        entry.update(summarize(by_week[start]))
-        weeks.append(entry)
+    months = sorted(by_month)
+    changed = 0
+    for month in months:
+        payload = {"month": month, "hours": by_month[month]}
+        if write_if_changed(f"{OUT_DIR}/{month}.json", dump(payload)):
+            changed += 1
 
+    index_path = f"{OUT_DIR}/index.json"
     previous = None
-    if os.path.exists(OUT_PATH):
+    if os.path.exists(index_path):
         try:
-            with open(OUT_PATH) as f:
-                previous = json.load(f).get("weeks")
+            with open(index_path, encoding="utf-8") as f:
+                previous = json.load(f).get("months")
         except ValueError:
             previous = None
+    if changed or previous != months:
+        write_if_changed(index_path, dump({
+            "months": months,
+            "timezone": str(TIMEZONE),
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+        }))
 
-    changed = previous != weeks
-    if changed:  # only rewrite the file when the data really changed
-        os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-        with open(OUT_PATH, "w") as f:
-            json.dump({"generated_at": datetime.now(timezone.utc).isoformat(),
-                       "timezone": str(TIMEZONE),
-                       "weeks": weeks}, f, indent=2, ensure_ascii=False)
-
-    print(("Wrote" if changed else "No changes to") +
-          f" {len(weeks)} week(s) from {len(rows)} plays ({OUT_PATH})")
-
-    print(f"Wrote {len(weeks)} week(s) from {len(rows)} plays to {OUT_PATH}")
-    for w in weeks:
-        print(f"\nWeek of {w['week_start']}: {w['total_plays']} plays, "
-              f"{w['unique_tracks']} unique, repeat rate {w['repeat_rate']}, "
-              f"genre coverage {int(w['genre_coverage'] * 100)}%")
-        print("  top genres:", ", ".join(
-            f"{g['name']} ({g['plays']})" for g in w["genres"][:4]))
-        if w["longest_loop"]:
-            l = w["longest_loop"]
-            print(f"  longest loop: {l['track']} x{l['times_in_a_row']}")
+    status = "Wrote" if changed or previous != months else "No changes to"
+    print(f"{status} {len(months)} month file(s): {len(plays)} plays "
+          f"in {len(hours)} active hours ({OUT_DIR}/)")
 
 
 if __name__ == "__main__":
