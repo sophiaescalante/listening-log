@@ -210,6 +210,48 @@
    1
   ]
  ],
+ "Aventura": [
+  [
+   "bachata",
+   100
+  ],
+  [
+   "latin",
+   62
+  ],
+  [
+   "spanish",
+   34
+  ],
+  [
+   "pop",
+   29
+  ],
+  [
+   "latino",
+   12
+  ],
+  [
+   "aventura",
+   6
+  ],
+  [
+   "reggaeton",
+   2
+  ],
+  [
+   "dominican",
+   1
+  ],
+  [
+   "dance",
+   1
+  ],
+  [
+   "rnb",
+   1
+  ]
+ ],
  "Avicii": [
   [
    "house",
@@ -559,6 +601,48 @@
    16
   ]
  ],
+ "Danny Ocean": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "electronic",
+   64
+  ],
+  [
+   "venezuela",
+   42
+  ],
+  [
+   "latin",
+   24
+  ],
+  [
+   "venezuelan",
+   12
+  ],
+  [
+   "minimal techno",
+   12
+  ],
+  [
+   "tech house",
+   12
+  ],
+  [
+   "pop",
+   2
+  ],
+  [
+   "minimal",
+   2
+  ],
+  [
+   "techno",
+   1
+  ]
+ ],
  "Deorro": [
   [
    "house",
@@ -701,6 +785,20 @@
   [
    "riddim dubstep",
    33
+  ]
+ ],
+ "El Bogueto": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "mexico",
+   25
+  ],
+  [
+   "reggaeton mexicano",
+   17
   ]
  ],
  "El Gran Combo De Puerto Rico": [
@@ -1268,6 +1366,48 @@
   ]
  ],
  "JAMØ": [],
+ "JHAYCO": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "rap",
+   18
+  ],
+  [
+   "latin",
+   5
+  ],
+  [
+   "puerto rico",
+   5
+  ],
+  [
+   "no pega solo",
+   3
+  ],
+  [
+   "trap",
+   3
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "sex",
+   1
+  ],
+  [
+   "electropop",
+   1
+  ],
+  [
+   "hip hop",
+   1
+  ]
+ ],
  "Jaden Bojsen": [
   [
    "german",
@@ -1376,6 +1516,48 @@
    1
   ]
  ],
+ "Junior H": [
+  [
+   "corridos tumbados",
+   100
+  ],
+  [
+   "mexico",
+   56
+  ],
+  [
+   "trap",
+   17
+  ],
+  [
+   "pop rap",
+   17
+  ],
+  [
+   "corridos",
+   8
+  ],
+  [
+   "corrido tumbado",
+   8
+  ],
+  [
+   "sierreno",
+   8
+  ],
+  [
+   "spanish",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "latin",
+   1
+  ]
+ ],
  "Kaskade": [
   [
    "house",
@@ -1442,6 +1624,44 @@
   [
    "covers",
    2
+  ]
+ ],
+ "Kevin Roldan": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "all",
+   56
+  ],
+  [
+   "colombia",
+   16
+  ],
+  [
+   "latin",
+   4
+  ],
+  [
+   "perreo",
+   2
+  ],
+  [
+   "latino",
+   2
+  ],
+  [
+   "urbano",
+   2
+  ],
+  [
+   "colombian mafe y gabo",
+   1
+  ],
+  [
+   "urban latino",
+   1
   ]
  ],
  "LaVern": [
@@ -2347,6 +2567,48 @@
    1
   ]
  ],
+ "Tainy": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "latin",
+   23
+  ],
+  [
+   "puerto rico",
+   15
+  ],
+  [
+   "producer",
+   10
+  ],
+  [
+   "pop",
+   3
+  ],
+  [
+   "pop rap",
+   3
+  ],
+  [
+   "hip hop",
+   3
+  ],
+  [
+   "trap",
+   1
+  ],
+  [
+   "synthpop",
+   1
+  ],
+  [
+   "spanish",
+   1
+  ]
+ ],
  "Tate McRae": [
   [
    "pop",
@@ -2769,6 +3031,78 @@
    1
   ]
  ],
+ "Wisin & Yandel": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "latin",
+   43
+  ],
+  [
+   "dance",
+   12
+  ],
+  [
+   "puerto rico",
+   11
+  ],
+  [
+   "spanish",
+   4
+  ],
+  [
+   "puerto rican",
+   3
+  ],
+  [
+   "wisin y yandel",
+   3
+  ],
+  [
+   "hip-hop",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "00s",
+   1
+  ]
+ ],
+ "Young Cister": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "hip hop",
+   100
+  ],
+  [
+   "trap",
+   66
+  ],
+  [
+   "chile",
+   66
+  ],
+  [
+   "trap latino",
+   8
+  ],
+  [
+   "pop rap",
+   8
+  ],
+  [
+   "hip-hop",
+   8
+  ]
+ ],
  "Young Miko": [
   [
    "rap",
@@ -2972,6 +3306,48 @@
   [
    "usa",
    17
+  ]
+ ],
+ "Ñengo Flow": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "puerto rico",
+   33
+  ],
+  [
+   "latin",
+   12
+  ],
+  [
+   "rap",
+   12
+  ],
+  [
+   "gangsta rap",
+   6
+  ],
+  [
+   "trap",
+   3
+  ],
+  [
+   "hip-hop",
+   3
+  ],
+  [
+   "malianteo",
+   1
+  ],
+  [
+   "the goat",
+   1
+  ],
+  [
+   "hip hop",
+   1
   ]
  ],
  "Łaszewo": [
