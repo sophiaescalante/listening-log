@@ -1,26 +1,34 @@
 {
-  "generated_at": "2026-09-30T21:14:02.862468+00:00",
+  "generated_at": "2026-10-01T06:08:10.245289+00:00",
   "timezone": "America/New_York",
   "weeks": [
     {
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
-      "total_plays": 63,
-      "unique_tracks": 36,
-      "repeat_rate": 1.75,
-      "genre_coverage": 1.0,
+      "total_plays": 103,
+      "unique_tracks": 52,
+      "repeat_rate": 1.98,
+      "genre_coverage": 0.99,
       "genres": [
         {
-          "name": "electronic",
-          "plays": 28
+          "name": "pop",
+          "plays": 43
         },
         {
-          "name": "pop",
-          "plays": 16
+          "name": "electronic",
+          "plays": 30
         },
         {
           "name": "house",
           "plays": 7
+        },
+        {
+          "name": "indie pop",
+          "plays": 4
+        },
+        {
+          "name": "indie",
+          "plays": 3
         },
         {
           "name": "alternative rnb",
@@ -33,10 +41,6 @@
         {
           "name": "techno",
           "plays": 2
-        },
-        {
-          "name": "indie",
-          "plays": 1
         },
         {
           "name": "dubstep",
@@ -55,14 +59,34 @@
           "plays": 1
         },
         {
-          "name": "indie pop",
+          "name": "dream pop",
+          "plays": 1
+        },
+        {
+          "name": "unknown",
+          "plays": 1
+        },
+        {
+          "name": "trap",
+          "plays": 1
+        },
+        {
+          "name": "uk garage",
+          "plays": 1
+        },
+        {
+          "name": "chillwave",
+          "plays": 1
+        },
+        {
+          "name": "hip hop",
           "plays": 1
         }
       ],
       "origins": [
         {
           "name": "usa",
-          "plays": 3
+          "plays": 4
         },
         {
           "name": "german",
@@ -87,12 +111,16 @@
       ],
       "top_artists": [
         {
+          "name": "Distant Matter",
+          "plays": 25
+        },
+        {
           "name": "COLLEM",
-          "plays": 17
+          "plays": 18
         },
         {
           "name": "ADÉLA",
-          "plays": 12
+          "plays": 13
         },
         {
           "name": "Kaskade",
@@ -100,7 +128,7 @@
         },
         {
           "name": "Daniel Allan",
-          "plays": 2
+          "plays": 3
         },
         {
           "name": "Malcolm Todd",
@@ -115,28 +143,34 @@
           "plays": 2
         },
         {
+          "name": "Fisher",
+          "plays": 2
+        },
+        {
           "name": "Twin Diplomacy",
-          "plays": 1
-        },
-        {
-          "name": "Ian Asher",
-          "plays": 1
-        },
-        {
-          "name": "Gotye",
           "plays": 1
         }
       ],
       "top_tracks": [
         {
+          "track": "u & i",
+          "artist": "Distant Matter",
+          "plays": 22
+        },
+        {
           "track": "¿Cuál Es El Significado De La Vida?",
           "artist": "COLLEM",
-          "plays": 17
+          "plays": 18
         },
         {
           "track": "NICOLE KIDMAN",
           "artist": "ADÉLA",
-          "plays": 12
+          "plays": 13
+        },
+        {
+          "track": "Stay",
+          "artist": "Fisher",
+          "plays": 2
         },
         {
           "track": "I Got Feelings",
@@ -167,22 +201,12 @@
           "track": "Meet Again",
           "artist": "Kaskade",
           "plays": 1
-        },
-        {
-          "track": "UV",
-          "artist": "Kaskade",
-          "plays": 1
-        },
-        {
-          "track": "A Little Bit",
-          "artist": "Kaskade",
-          "plays": 1
         }
       ],
       "longest_loop": {
-        "track": "¿Cuál Es El Significado De La Vida?",
-        "artist": "COLLEM",
-        "times_in_a_row": 16
+        "track": "u & i",
+        "artist": "Distant Matter",
+        "times_in_a_row": 20
       }
     }
   ]

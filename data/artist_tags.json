@@ -85,6 +85,24 @@
    1
   ]
  ],
+ "Conrad.": [
+  [
+   "trap",
+   100
+  ],
+  [
+   "drum n bass",
+   100
+  ],
+  [
+   "colour bass",
+   66
+  ],
+  [
+   "color bass",
+   66
+  ]
+ ],
  "Crunkz": [
   [
    "german",
@@ -137,6 +155,48 @@
    16
   ]
  ],
+ "Distant Matter": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "dance",
+   100
+  ],
+  [
+   "canadian",
+   16
+  ],
+  [
+   "indie",
+   16
+  ],
+  [
+   "indie pop",
+   8
+  ],
+  [
+   "electropop",
+   8
+  ],
+  [
+   "electronic",
+   8
+  ],
+  [
+   "dance pop",
+   2
+  ],
+  [
+   "edm",
+   2
+  ],
+  [
+   "tropical house",
+   2
+  ]
+ ],
  "Dxrk ダーク": [
   [
    "phonk",
@@ -172,6 +232,48 @@
   ],
   [
    "d4rk synth wave",
+   1
+  ]
+ ],
+ "Fisher": [
+  [
+   "female vocalists",
+   100
+  ],
+  [
+   "indie",
+   81
+  ],
+  [
+   "house",
+   41
+  ],
+  [
+   "pop",
+   31
+  ],
+  [
+   "tech house",
+   13
+  ],
+  [
+   "rock",
+   10
+  ],
+  [
+   "electronic",
+   8
+  ],
+  [
+   "female vocalist",
+   2
+  ],
+  [
+   "singer-songwriter",
+   2
+  ],
+  [
+   "australian",
    1
   ]
  ],
@@ -295,6 +397,48 @@
    16
   ]
  ],
+ "Jordana": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "pop",
+   100
+  ],
+  [
+   "indie rock",
+   29
+  ],
+  [
+   "female vocalists",
+   29
+  ],
+  [
+   "rutracker",
+   8
+  ],
+  [
+   "indie",
+   8
+  ],
+  [
+   "singer-songwriter",
+   4
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ]
+ ],
  "Kaskade": [
   [
    "house",
@@ -403,6 +547,54 @@
   [
    "stutter house",
    1
+  ]
+ ],
+ "LeDorean": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "indie",
+   100
+  ],
+  [
+   "dance",
+   66
+  ],
+  [
+   "house",
+   66
+  ],
+  [
+   "electro",
+   33
+  ]
+ ],
+ "MARQ": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "indie",
+   100
+  ],
+  [
+   "american",
+   16
+  ],
+  [
+   "singer-songwriter",
+   16
+  ],
+  [
+   "bedroom",
+   8
+  ],
+  [
+   "bedroom pop",
+   8
   ]
  ],
  "MARTEN HØRGER": [],
@@ -550,6 +742,66 @@
    1
   ]
  ],
+ "Nate Band": [
+  [
+   "uk garage",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "ukg",
+   66
+  ],
+  [
+   "speed garage",
+   66
+  ]
+ ],
+ "ODESZA": [
+  [
+   "chillwave",
+   100
+  ],
+  [
+   "electronic",
+   88
+  ],
+  [
+   "ambient",
+   38
+  ],
+  [
+   "glo-fi",
+   35
+  ],
+  [
+   "electronica",
+   11
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "chillout",
+   2
+  ],
+  [
+   "future bass",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "all",
+   1
+  ]
+ ],
  "Olly Alexander (Years & Years)": [
   [
    "pop",
@@ -590,6 +842,32 @@
   [
    "uk",
    1
+  ]
+ ],
+ "RIZ LA VIE": [
+  [
+   "hip hop",
+   100
+  ],
+  [
+   "soul",
+   100
+  ],
+  [
+   "usa",
+   66
+  ],
+  [
+   "hip-hop",
+   66
+  ],
+  [
+   "united states",
+   33
+  ],
+  [
+   "male vocalist",
+   33
   ]
  ],
  "Regard": [
@@ -786,6 +1064,48 @@
    1
   ]
  ],
+ "The Marías": [
+  [
+   "dream pop",
+   100
+  ],
+  [
+   "indie pop",
+   86
+  ],
+  [
+   "bedroom pop",
+   38
+  ],
+  [
+   "indie",
+   38
+  ],
+  [
+   "sophisti-pop",
+   8
+  ],
+  [
+   "alternative",
+   8
+  ],
+  [
+   "pop",
+   6
+  ],
+  [
+   "my top songs",
+   2
+  ],
+  [
+   "alternative rnb",
+   2
+  ],
+  [
+   "puerto rico",
+   2
+  ]
+ ],
  "Twin Diplomacy": [
   [
    "electronic",
@@ -867,5 +1187,48 @@
    "bedroom pop",
    8
   ]
- ]
+ ],
+ "beabadoobee": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "indie rock",
+   70
+  ],
+  [
+   "bedroom pop",
+   37
+  ],
+  [
+   "indie",
+   37
+  ],
+  [
+   "dream pop",
+   14
+  ],
+  [
+   "alternative rock",
+   12
+  ],
+  [
+   "female vocalists",
+   12
+  ],
+  [
+   "lo-fi",
+   3
+  ],
+  [
+   "philippines",
+   2
+  ],
+  [
+   "alternative",
+   2
+  ]
+ ],
+ "surfside": []
 }
