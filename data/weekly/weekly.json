@@ -1,38 +1,54 @@
 {
-  "generated_at": "2026-10-01T06:08:10.245289+00:00",
+  "generated_at": "2026-10-01T13:30:56.251821+00:00",
   "timezone": "America/New_York",
   "weeks": [
     {
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
-      "total_plays": 103,
-      "unique_tracks": 52,
-      "repeat_rate": 1.98,
-      "genre_coverage": 0.99,
+      "total_plays": 154,
+      "unique_tracks": 93,
+      "repeat_rate": 1.66,
+      "genre_coverage": 0.97,
       "genres": [
         {
           "name": "pop",
-          "plays": 43
+          "plays": 46
         },
         {
           "name": "electronic",
-          "plays": 30
+          "plays": 40
+        },
+        {
+          "name": "salsa",
+          "plays": 15
         },
         {
           "name": "house",
-          "plays": 7
+          "plays": 10
+        },
+        {
+          "name": "indie",
+          "plays": 4
         },
         {
           "name": "indie pop",
           "plays": 4
         },
         {
-          "name": "indie",
-          "plays": 3
+          "name": "unknown",
+          "plays": 4
         },
         {
           "name": "alternative rnb",
-          "plays": 2
+          "plays": 3
+        },
+        {
+          "name": "future bass",
+          "plays": 3
+        },
+        {
+          "name": "dance",
+          "plays": 3
         },
         {
           "name": "g-house",
@@ -40,6 +56,18 @@
         },
         {
           "name": "techno",
+          "plays": 2
+        },
+        {
+          "name": "trap",
+          "plays": 2
+        },
+        {
+          "name": "dembow",
+          "plays": 2
+        },
+        {
+          "name": "electropop",
           "plays": 2
         },
         {
@@ -63,14 +91,6 @@
           "plays": 1
         },
         {
-          "name": "unknown",
-          "plays": 1
-        },
-        {
-          "name": "trap",
-          "plays": 1
-        },
-        {
           "name": "uk garage",
           "plays": 1
         },
@@ -81,19 +101,51 @@
         {
           "name": "hip hop",
           "plays": 1
+        },
+        {
+          "name": "tech house",
+          "plays": 1
+        },
+        {
+          "name": "mexico",
+          "plays": 1
+        },
+        {
+          "name": "hip-hop",
+          "plays": 1
+        },
+        {
+          "name": "colombia",
+          "plays": 1
         }
       ],
       "origins": [
         {
+          "name": "latin",
+          "plays": 14
+        },
+        {
           "name": "usa",
-          "plays": 4
+          "plays": 5
+        },
+        {
+          "name": "american",
+          "plays": 5
         },
         {
           "name": "german",
-          "plays": 3
+          "plays": 4
         },
         {
           "name": "dutch",
+          "plays": 2
+        },
+        {
+          "name": "swedish",
+          "plays": 2
+        },
+        {
+          "name": "france",
           "plays": 2
         },
         {
@@ -101,11 +153,11 @@
           "plays": 1
         },
         {
-          "name": "swedish",
+          "name": "canadian",
           "plays": 1
         },
         {
-          "name": "canadian",
+          "name": "spanish",
           "plays": 1
         }
       ],
@@ -116,7 +168,7 @@
         },
         {
           "name": "COLLEM",
-          "plays": 18
+          "plays": 19
         },
         {
           "name": "ADÉLA",
@@ -127,28 +179,28 @@
           "plays": 5
         },
         {
+          "name": "Calvin Harris",
+          "plays": 5
+        },
+        {
+          "name": "El Gran Combo De Puerto Rico",
+          "plays": 5
+        },
+        {
+          "name": "Rihanna",
+          "plays": 4
+        },
+        {
+          "name": "Adolescent's Orquesta",
+          "plays": 4
+        },
+        {
           "name": "Daniel Allan",
           "plays": 3
         },
         {
           "name": "Malcolm Todd",
-          "plays": 2
-        },
-        {
-          "name": "Rihanna",
-          "plays": 2
-        },
-        {
-          "name": "Matroda",
-          "plays": 2
-        },
-        {
-          "name": "Fisher",
-          "plays": 2
-        },
-        {
-          "name": "Twin Diplomacy",
-          "plays": 1
+          "plays": 3
         }
       ],
       "top_tracks": [
@@ -160,7 +212,7 @@
         {
           "track": "¿Cuál Es El Significado De La Vida?",
           "artist": "COLLEM",
-          "plays": 18
+          "plays": 19
         },
         {
           "track": "NICOLE KIDMAN",
@@ -170,37 +222,37 @@
         {
           "track": "Stay",
           "artist": "Fisher",
+          "plays": 3
+        },
+        {
+          "track": "How Deep Is Your Love",
+          "artist": "Calvin Harris",
+          "plays": 3
+        },
+        {
+          "track": "Obsessica",
+          "artist": "Malcolm Todd",
           "plays": 2
         },
         {
-          "track": "I Got Feelings",
-          "artist": "Twin Diplomacy",
-          "plays": 1
+          "track": "SOS",
+          "artist": "Rihanna",
+          "plays": 2
         },
         {
-          "track": "Stay For Love",
-          "artist": "Kaskade",
-          "plays": 1
+          "track": "Overthinker",
+          "artist": "Inzo",
+          "plays": 2
         },
         {
-          "track": "Club Weapon",
-          "artist": "Daniel Allan",
-          "plays": 1
+          "track": "Que Sensación - Remix",
+          "artist": "Jezzy",
+          "plays": 2
         },
         {
-          "track": "Falling",
-          "artist": "Daniel Allan",
-          "plays": 1
-        },
-        {
-          "track": "Dealing With It",
-          "artist": "Kaskade",
-          "plays": 1
-        },
-        {
-          "track": "Meet Again",
-          "artist": "Kaskade",
-          "plays": 1
+          "track": "i'll be there",
+          "artist": "warner case",
+          "plays": 2
         }
       ],
       "longest_loop": {
