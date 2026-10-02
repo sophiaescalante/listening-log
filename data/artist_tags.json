@@ -83,6 +83,32 @@
    1
   ]
  ],
+ "Alejo": [
+  [
+   "bass",
+   100
+  ],
+  [
+   "latin",
+   25
+  ],
+  [
+   "glitch hop",
+   17
+  ],
+  [
+   "latin pop",
+   17
+  ],
+  [
+   "reggaeton",
+   8
+  ],
+  [
+   "puerto rico",
+   8
+  ]
+ ],
  "AlunaGeorge": [
   [
    "electronic",
@@ -488,6 +514,12 @@
    1
   ]
  ],
+ "Breakfast n Vegas": [
+  [
+   "house",
+   100
+  ]
+ ],
  "COLLEM": [],
  "Calvin Harris": [
   [
@@ -644,6 +676,48 @@
   ],
   [
    "puerto rican",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ]
+ ],
+ "Dalex": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "latin",
+   44
+  ],
+  [
+   "usa",
+   29
+  ],
+  [
+   "rnb",
+   7
+  ],
+  [
+   "sexual",
+   4
+  ],
+  [
+   "sex",
+   4
+  ],
+  [
+   "all",
+   4
+  ],
+  [
+   "xxx",
+   1
+  ],
+  [
+   "united states",
    1
   ],
   [
@@ -1578,6 +1652,20 @@
    16
   ]
  ],
+ "Jay Wheeler": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "puerto rico",
+   100
+  ],
+  [
+   "puerto rican",
+   66
+  ]
+ ],
  "Jezzy": [
   [
    "dembow",
@@ -2151,6 +2239,12 @@
   [
    "speedpunk",
    8
+  ]
+ ],
+ "Mackie": [
+  [
+   "dancehall",
+   100
   ]
  ],
  "MadeinTYO": [
@@ -2861,6 +2955,48 @@
    1
   ]
  ],
+ "Roa": [
+  [
+   "romanian",
+   100
+  ],
+  [
+   "breakbeat",
+   79
+  ],
+  [
+   "electronic",
+   40
+  ],
+  [
+   "japanese",
+   13
+  ],
+  [
+   "agressive",
+   4
+  ],
+  [
+   "groovy",
+   4
+  ],
+  [
+   "experimental",
+   4
+  ],
+  [
+   "drum and bass",
+   1
+  ],
+  [
+   "dubstep",
+   1
+  ],
+  [
+   "dance",
+   1
+  ]
+ ],
  "Robin Schulz": [
   [
    "electronic",
@@ -3291,6 +3427,32 @@
    33
   ]
  ],
+ "Trap Capos": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "trap",
+   66
+  ],
+  [
+   "puerto rico",
+   66
+  ],
+  [
+   "trap latino",
+   33
+  ],
+  [
+   "trap boricua",
+   33
+  ]
+ ],
  "Twin Diplomacy": [
   [
    "electronic",
@@ -3668,6 +3830,48 @@
   ],
   [
    "00s",
+   1
+  ]
+ ],
+ "YOVNGCHIMI": [
+  [
+   "drill",
+   100
+  ],
+  [
+   "puerto rico",
+   44
+  ],
+  [
+   "latin",
+   7
+  ],
+  [
+   "rap",
+   7
+  ],
+  [
+   "goat",
+   4
+  ],
+  [
+   "hip-hop",
+   4
+  ],
+  [
+   "gangsta rap",
+   4
+  ],
+  [
+   "detroit rap",
+   1
+  ],
+  [
+   "trap",
+   1
+  ],
+  [
+   "malianteo",
    1
   ]
  ],
