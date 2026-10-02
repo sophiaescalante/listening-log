@@ -115,6 +115,56 @@
 
   footer { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
 
+  /* ---- song cards ---- */
+  .hovercard {
+    position: fixed; z-index: 20; width: 288px; background: var(--surface);
+    border: 1px solid var(--line); border-radius: 12px; padding: 12px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .45); pointer-events: none;
+  }
+  .hovercard h3 { font-family: var(--serif); font-weight: 500; font-size: 1.05rem; margin: 0 0 6px; display: flex; align-items: center; gap: 8px; }
+  .hovercard h3 i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
+  .hovercard h3 span { color: var(--muted); font-family: var(--sans); font-size: .8rem; font-weight: 400; margin-left: auto; }
+  .song { display: flex; gap: 10px; align-items: center; padding: 6px 0; }
+  .song + .song { border-top: 1px solid var(--line); }
+  .song .meta { min-width: 0; }
+  .song .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .92rem; }
+  .song .a { color: var(--muted); font-size: .8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .art {
+    flex: none; width: 44px; height: 44px; border-radius: 6px; background: #2a2640; overflow: hidden;
+    display: grid; place-items: center; color: var(--muted); font-family: var(--serif); font-size: 1.1rem;
+  }
+  .art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .art.big { width: 72px; height: 72px; font-size: 1.5rem; }
+  .art.thumb { width: 36px; height: 36px; border-radius: 5px; font-size: .95rem; }
+  .rank li.has-preview { cursor: pointer; }
+  .rank li.has-preview .art { position: relative; }
+  .rank li.has-preview .art::after {
+    content: "\25B6"; position: absolute; inset: 0; display: grid; place-items: center;
+    background: rgba(19, 17, 28, .6); color: var(--text); font-size: .8rem; opacity: 0; transition: opacity .15s;
+  }
+  .rank li.has-preview:hover .art::after, .rank li.has-preview:focus-visible .art::after { opacity: 1; }
+  .hint { color: var(--accent); font-size: .78rem; margin-top: 2px; }
+  .dock {
+    position: fixed; z-index: 30; left: 50%; transform: translateX(-50%); bottom: 16px;
+    width: min(560px, calc(100vw - 24px)); background: var(--surface); border: 1px solid var(--line);
+    border-radius: 14px; padding: 12px 12px 10px; box-shadow: 0 16px 40px rgba(0, 0, 0, .55);
+  }
+  .dock-head { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .dock-head .meta { min-width: 0; flex: 1; }
+  .dock-head .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+  .dock-head .a { color: var(--muted); font-size: .85rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .dock-head button {
+    font: inherit; color: var(--muted); background: transparent; border: 1px solid var(--line);
+    border-radius: 8px; padding: 4px 12px; cursor: pointer;
+  }
+  .dock-head button:hover { color: var(--text); background: var(--bg); }
+  .dock iframe { width: 100%; height: 152px; border: 0; border-radius: 12px; display: block; }
+  .dock small { display: block; color: var(--muted); font-size: .75rem; margin-top: 6px; }
+  #map g[tabindex] { outline: none; cursor: pointer; }
+  #map g[tabindex]:focus-visible circle { stroke: var(--text); stroke-width: 3; }
+  .rank li:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  .rank .lead { display: flex; gap: 12px; align-items: center; min-width: 0; }
+
   @media (max-width: 820px) {
     .hero, .lists { grid-template-columns: 1fr; gap: 40px; }
     main { padding-top: 32px; }
@@ -193,6 +243,17 @@
   <footer id="footer"></footer>
 </main>
 
+<div class="hovercard" id="hovercard" role="tooltip" hidden></div>
+
+<aside class="dock" id="dock" aria-label="Song preview" hidden>
+  <div class="dock-head">
+    <div class="meta"><div class="t" id="dockTitle"></div><div class="a" id="dockArtist"></div></div>
+    <button type="button" id="dockClose" aria-label="Close preview">Close</button>
+  </div>
+  <div id="dockBody"></div>
+  <small>Played by Spotify's embedded player. It may load Spotify cookies once you press play.</small>
+</aside>
+
 <script>
 (function () {
   "use strict";
@@ -211,6 +272,10 @@
   var cache = {};            // grain -> {list, byStart}
   var state = { grain: "week", idx: 0 };
   var isDemo = false;
+  var artMap = Object.create(null);   // "artist|track" -> cover file name
+  var spMap = Object.create(null);    // "artist|track" -> Spotify track id
+  var ART_BASE = "https://lastfm-img.freetls.fastly.net/i/u/300x300/";
+  var card = document.getElementById("hovercard");
   var realStart = null;       // first hour of real data (demo hours come before it)
 
   var $ = function (id) { return document.getElementById(id); };
@@ -309,7 +374,7 @@
       Object.keys(r.o).forEach(function (k) { o[k] = (o[k] || 0) + r.o[k]; });
       r.t.forEach(function (t) {
         var tk = (t[1] + "|" + t[0]).toLowerCase();
-        var e = tracks[tk] || (tracks[tk] = { track: t[0], artist: t[1], plays: 0 });
+        var e = tracks[tk] || (tracks[tk] = { track: t[0], artist: t[1], plays: 0, genre: t[3] || "unknown" });
         e.plays += t[2];
         var ak = t[1].toLowerCase();
         var a = artists[ak] || (artists[ak] = { name: t[1], plays: 0 });
@@ -322,13 +387,15 @@
     function byPlays(a, b) { return b.plays - a.plays; }
     function vals(d) { return Object.keys(d).map(function (k) { return d[k]; }); }
     var uniq = Object.keys(tracks).length;
+    var allTracks = vals(tracks).sort(byPlays);
     return {
       total_plays: total,
       unique_tracks: uniq,
       repeat_rate: uniq ? total / uniq : 0,
       genres: Object.keys(g).map(function (k) { return { name: k, plays: g[k] }; }).sort(byPlays),
       origins: Object.keys(o).map(function (k) { return { name: k, plays: o[k] }; }).sort(byPlays).slice(0, 8),
-      top_tracks: vals(tracks).sort(byPlays).slice(0, 10),
+      top_tracks: allTracks.slice(0, 10),
+      all_tracks: allTracks,
       top_artists: vals(artists).sort(byPlays).slice(0, 10),
       longest_loop: loop
     };
@@ -367,6 +434,110 @@
     hours = out.concat(hours);
   }
 
+  /* ---------- song cards ---------- */
+  function artUrl(track, artist) {
+    var f = artMap[(artist + "|" + track).toLowerCase()];
+    return f && /^[0-9a-f]{32}\.[a-z0-9]+$/i.test(f) ? ART_BASE + f : "";
+  }
+  function artBox(url, label, cls) {
+    var box = h("div", { class: "art" + (cls ? " " + cls : "") });
+    var letter = ((label || "?").trim().charAt(0) || "?").toUpperCase();
+    if (url) {
+      var img = h("img", { src: url, alt: "", loading: "lazy", referrerpolicy: "no-referrer" });
+      img.addEventListener("error", function () { img.remove(); box.textContent = letter; });
+      box.appendChild(img);
+    } else {
+      box.textContent = letter;
+    }
+    return box;
+  }
+  function spotifyId(track, artist) {
+    var id = spMap[(artist + "|" + track).toLowerCase()];
+    return id && /^[A-Za-z0-9]{22}$/.test(id) ? id : "";
+  }
+  function openPlayer(t) {
+    var id = spotifyId(t.track, t.artist);
+    if (!id) return;
+    hideCard();
+    $("dockTitle").textContent = t.track;
+    $("dockArtist").textContent = t.artist;
+    var body = $("dockBody");
+    clear(body);
+    body.appendChild(h("iframe", {
+      src: "https://open.spotify.com/embed/track/" + id,
+      title: "Spotify player: " + t.track + " by " + t.artist,
+      allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+      loading: "lazy"
+    }));
+    $("dock").hidden = false;
+  }
+  function closePlayer() { clear($("dockBody")); $("dock").hidden = true; }
+  function plural(n, word) { return n + " " + word + (n === 1 ? "" : "s"); }
+  function songRow(t) {
+    var row = h("div", { class: "song" });
+    row.appendChild(artBox(artUrl(t.track, t.artist), t.track));
+    var meta = h("div", { class: "meta" });
+    meta.appendChild(h("div", { class: "t" }, t.track));
+    meta.appendChild(h("div", { class: "a" }, t.artist + ", " + plural(t.plays, "play")));
+    row.appendChild(meta);
+    return row;
+  }
+  function genreCard(sum, name, plays) {
+    var head = h("h3");
+    var dot = h("i"); dot.style.background = colorOf[name] || UNKNOWN_COLOR;
+    head.appendChild(dot);
+    head.appendChild(document.createTextNode(name));
+    head.appendChild(h("span", null, plural(plays, "play") + " (" + Math.round(plays / sum.total_plays * 100) + "%)"));
+    var nodes = [head];
+    sum.all_tracks.filter(function (t) { return t.genre === name; }).slice(0, 3)
+      .forEach(function (t) { nodes.push(songRow(t)); });
+    return nodes;
+  }
+  function trackCard(t) {
+    var row = h("div", { class: "song" });
+    row.appendChild(artBox(artUrl(t.track, t.artist), t.track, "big"));
+    var meta = h("div", { class: "meta" });
+    meta.appendChild(h("div", { class: "t" }, t.track));
+    meta.appendChild(h("div", { class: "a" }, t.artist));
+    meta.appendChild(h("div", { class: "a" }, plural(t.plays, "play") + ", " + t.genre));
+    if (spotifyId(t.track, t.artist)) meta.appendChild(h("div", { class: "hint" }, "Click to play a preview"));
+    row.appendChild(meta);
+    return [row];
+  }
+  function placeCard(x, y) {
+    var w = card.offsetWidth, hgt = card.offsetHeight, m = 12;
+    var left = Math.max(m, Math.min(x + 16, window.innerWidth - w - m));
+    var top = y + 18;
+    if (top + hgt > window.innerHeight - m) top = Math.max(m, y - hgt - 14);
+    card.style.left = left + "px";
+    card.style.top = top + "px";
+  }
+  function showCard(nodes, x, y) {
+    clear(card);
+    nodes.forEach(function (n) { card.appendChild(n); });
+    card.hidden = false;
+    placeCard(x, y);
+  }
+  function hideCard() { card.hidden = true; }
+  function bindCard(el, build) {
+    function center() { var r = el.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; }
+    el.addEventListener("mouseenter", function (e) { showCard(build(), e.clientX, e.clientY); });
+    el.addEventListener("mousemove", function (e) { if (!card.hidden) placeCard(e.clientX, e.clientY); });
+    var touching = false;  // on touch screens the card stays until you tap elsewhere
+    el.addEventListener("pointerdown", function (e) { touching = e.pointerType === "touch"; });
+    el.addEventListener("mouseleave", function () { if (!touching) hideCard(); });
+    el.addEventListener("focus", function () { var c = center(); showCard(build(), c[0], c[1]); });
+    el.addEventListener("blur", hideCard);
+    el.addEventListener("click", function (e) {  // a tap (no hover on touch screens) opens the card and keeps it open
+      e.stopPropagation();
+      showCard(build(), e.clientX, e.clientY);
+    });
+  }
+  document.addEventListener("click", hideCard);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { hideCard(); closePlayer(); } });
+  $("dockClose").addEventListener("click", closePlayer);
+  window.addEventListener("scroll", hideCard, { passive: true });
+
   /* ---------- bubble map: pack circles so they touch but never overlap ---------- */
   function pack(items) {
     var placed = [];
@@ -403,7 +574,8 @@
     svg.setAttribute("viewBox", [minX - pad, minY - pad, (maxX - minX) + pad * 2, (maxY - minY) + pad * 2].join(" "));
 
     placed.forEach(function (p) {
-      var g = s("g");
+      var g = s("g", { tabindex: "0", role: "img", "aria-label": p.it.name + ": " + plural(p.it.plays, "play") });
+      bindCard(g, (function (name, plays) { return function () { return genreCard(sum, name, plays); }; })(p.it.name, p.it.plays));
       var unknown = p.it.name === "unknown";
       var c = s("circle", { cx: p.x.toFixed(1), cy: p.y.toFixed(1), r: p.it.r.toFixed(1), fill: colorOf[p.it.name] || UNKNOWN_COLOR, "fill-opacity": unknown ? "0.35" : "0.92" });
       if (unknown) { c.setAttribute("stroke", UNKNOWN_COLOR); c.setAttribute("stroke-dasharray", "4 4"); }
@@ -478,6 +650,40 @@
       var bar = h("div", { class: "bar" });
       bar.style.width = Math.max(4, r.plays / max * 100) + "%";
       li.appendChild(bar);
+      ol.appendChild(li);
+    });
+  }
+
+  function drawTracks(sum) {
+    var ol = $("tracks");
+    clear(ol);
+    var rows = sum.top_tracks;
+    var max = rows.length ? rows[0].plays : 1;
+    rows.forEach(function (r) {
+      var li = h("li", { tabindex: "0" });
+      var row = h("div", { class: "row" });
+      var lead = h("div", { class: "lead" });
+      lead.appendChild(artBox(artUrl(r.track, r.artist), r.track, "thumb"));
+      var left = h("div", { style: "min-width:0" });
+      left.appendChild(h("div", { class: "name" }, r.track));
+      left.appendChild(h("div", { class: "by" }, r.artist));
+      lead.appendChild(left);
+      row.appendChild(lead);
+      row.appendChild(h("div", { class: "n" }, String(r.plays)));
+      li.appendChild(row);
+      var bar = h("div", { class: "bar" });
+      bar.style.width = Math.max(4, r.plays / max * 100) + "%";
+      li.appendChild(bar);
+      bindCard(li, function () { return trackCard(r); });
+      if (spotifyId(r.track, r.artist)) {
+        li.className = "has-preview";
+        li.setAttribute("role", "button");
+        li.setAttribute("aria-label", "Play a preview of " + r.track + " by " + r.artist);
+        li.addEventListener("click", function () { openPlayer(r); });
+        li.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openPlayer(r); }
+        });
+      }
       ol.appendChild(li);
     });
   }
@@ -557,6 +763,7 @@
 
   /* ---------- main render ---------- */
   function render() {
+    hideCard();
     var grain = state.grain;
     var list = getBuckets(grain).list;
     var b = list[state.idx];
@@ -595,7 +802,7 @@
       $("nUnique").textContent = String(sum.unique_tracks);
       $("nRepeat").textContent = sum.repeat_rate.toFixed(2);
       drawRecord(sum, grain);
-      drawRank("tracks", sum.top_tracks, "track", "artist");
+      drawTracks(sum);
       drawRank("artists", sum.top_artists, "name", null);
       drawOrigins(sum);
     }
@@ -606,11 +813,15 @@
   function prepare(index, files) {
     meta = index;
     hours = [];
+    artMap = Object.create(null);
+    spMap = Object.create(null);
     files.forEach(function (f) {
       Object.keys(f.hours).forEach(function (k) {
         var ms = keyToMs(k);
         if (!isNaN(ms)) hours.push({ ms: ms, rec: f.hours[k] });
       });
+      Object.keys(f.art || {}).forEach(function (k) { artMap[k] = f.art[k]; });
+      Object.keys(f.sp || {}).forEach(function (k) { spMap[k] = f.sp[k]; });
     });
     hours.sort(function (a, b) { return a.ms - b.ms; });
     realStart = hours.length ? hours[0].ms : null;

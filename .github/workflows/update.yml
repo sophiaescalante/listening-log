@@ -29,6 +29,8 @@ jobs:
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
           LASTFM_USER: ${{ secrets.LASTFM_USER }}
+          SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIPY_CLIENT_ID }}
+          SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
         run: |
           python collector/collect_lastfm.py
           python collector/aggregate.py
@@ -37,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/hourly data/artist_tags.json
+          git add data/hourly data/artist_tags.json data/spotify_ids.json
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else

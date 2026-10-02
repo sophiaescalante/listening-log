@@ -7,6 +7,7 @@ from itertools import groupby
 from zoneinfo import ZoneInfo
 
 from genres import get_genres, get_origins
+from spotify_ids import resolve_ids
 
 DB_PATH = "data/raw/cache.db"
 OUT_DIR = "data/hourly"
@@ -39,11 +40,13 @@ def track_key(play):
 
 
 def load_plays(conn):
+    cols = [r[1] for r in conn.execute("PRAGMA table_info(scrobbles)")]
+    image = "image" if "image" in cols else "''"
     rows = conn.execute(
-        "SELECT uts, artist, track FROM scrobbles ORDER BY uts"
+        f"SELECT uts, artist, track, {image} FROM scrobbles ORDER BY uts"
     ).fetchall()
-    return [{"uts": r[0], "hour": hour_key(r[0]), "artist": r[1], "track": r[2]}
-            for r in rows]
+    return [{"uts": r[0], "hour": hour_key(r[0]), "artist": r[1], "track": r[2],
+             "image": r[3] or ""} for r in rows]
 
 
 def find_loops(plays):
@@ -60,9 +63,14 @@ def find_loops(plays):
     return loops
 
 
+def art_key(track, artist):
+    return f"{artist}|{track}".lower()
+
+
 def build_hours(plays):
     loops = find_loops(plays)
     hours = {}
+    art = {}  # track -> cover file name (first real one we see)
     for hour, group in groupby(plays, key=lambda p: p["hour"]):
         group = list(group)
         genres, origins, tracks, shown = Counter(), Counter(), Counter(), {}
@@ -74,15 +82,18 @@ def build_hours(plays):
                 origins[o[0]] += 1
             k = track_key(p)
             tracks[k] += 1
-            shown.setdefault(k, (p["track"], p["artist"]))
+            shown.setdefault(k, (p["track"], p["artist"], g[0] if g else "unknown"))
+            if p["image"]:
+                art.setdefault(art_key(p["track"], p["artist"]), p["image"])
         hours[hour] = {
             "n": len(group),
             "g": dict(genres.most_common()),
             "o": dict(origins.most_common()),
-            "t": [[shown[k][0], shown[k][1], c] for k, c in tracks.most_common()],
+            "t": [[shown[k][0], shown[k][1], c, shown[k][2]]
+                  for k, c in tracks.most_common()],
             "l": loops.get(hour, []),
         }
-    return hours
+    return hours, art
 
 
 def dump(obj):
@@ -105,7 +116,15 @@ def main():
     plays = load_plays(conn)
     conn.close()
 
-    hours = build_hours(plays)
+    hours, art = build_hours(plays)
+
+    # Spotify track IDs for the preview player, most-played tracks first.
+    # Tracks we couldn't match just get no player.
+    counts = Counter()
+    for rec in hours.values():
+        for t in rec["t"]:
+            counts[(t[1], t[0])] += t[2]
+    ids = resolve_ids([pair for pair, _ in counts.most_common()])
     by_month = defaultdict(dict)
     for key, rec in hours.items():
         by_month[key[:7]][key] = rec
@@ -113,7 +132,17 @@ def main():
     months = sorted(by_month)
     changed = 0
     for month in months:
-        payload = {"month": month, "hours": by_month[month]}
+        month_art, month_sp = {}, {}
+        for rec in by_month[month].values():
+            for t in rec["t"]:
+                k = art_key(t[0], t[1])
+                if k in art:
+                    month_art[k] = art[k]
+                if ids.get(k):
+                    month_sp[k] = ids[k]
+        payload = {"month": month, "hours": by_month[month],
+                   "art": dict(sorted(month_art.items())),
+                   "sp": dict(sorted(month_sp.items()))}
         if write_if_changed(f"{OUT_DIR}/{month}.json", dump(payload)):
             changed += 1
 
