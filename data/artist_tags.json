@@ -320,48 +320,6 @@
    33
   ]
  ],
- "Baby Keem": [
-  [
-   "rap",
-   100
-  ],
-  [
-   "hip-hop",
-   100
-  ],
-  [
-   "trap",
-   58
-  ],
-  [
-   "hip hop",
-   15
-  ],
-  [
-   "west coast hip hop",
-   3
-  ],
-  [
-   "united states",
-   3
-  ],
-  [
-   "pop rap",
-   3
-  ],
-  [
-   "california",
-   1
-  ],
-  [
-   "los angeles",
-   1
-  ],
-  [
-   "american",
-   1
-  ]
- ],
  "Bad Bunny": [
   [
    "reggaeton",
@@ -767,48 +725,6 @@
   [
    "tropical house",
    2
-  ]
- ],
- "Dom Dolla": [
-  [
-   "house",
-   100
-  ],
-  [
-   "electronic",
-   14
-  ],
-  [
-   "australian",
-   9
-  ],
-  [
-   "australia",
-   4
-  ],
-  [
-   "deep house",
-   2
-  ],
-  [
-   "aussie",
-   1
-  ],
-  [
-   "future house",
-   1
-  ],
-  [
-   "tech house",
-   1
-  ],
-  [
-   "eiffel tower",
-   1
-  ],
-  [
-   "edm",
-   1
   ]
  ],
  "Dxrk ダーク": [
@@ -1219,48 +1135,6 @@
   [
    "male vocalists",
    2
-  ]
- ],
- "Goth Babe": [
-  [
-   "dream pop",
-   100
-  ],
-  [
-   "indie pop",
-   69
-  ],
-  [
-   "lo-fi",
-   46
-  ],
-  [
-   "garage rock",
-   29
-  ],
-  [
-   "usa",
-   8
-  ],
-  [
-   "post-punk",
-   8
-  ],
-  [
-   "alternative",
-   8
-  ],
-  [
-   "indie",
-   1
-  ],
-  [
-   "pop",
-   1
-  ],
-  [
-   "surf rock",
-   1
   ]
  ],
  "Gotye": [
@@ -1684,51 +1558,6 @@
    1
   ]
  ],
-<<<<<<< Updated upstream
-=======
- "KAYTRANADA": [
-  [
-   "electronic",
-   100
-  ],
-  [
-   "hip-hop",
-   70
-  ],
-  [
-   "experimental",
-   29
-  ],
-  [
-   "beats",
-   27
-  ],
-  [
-   "house",
-   11
-  ],
-  [
-   "rnb",
-   6
-  ],
-  [
-   "hip hop",
-   5
-  ],
-  [
-   "canada",
-   1
-  ],
-  [
-   "alternative rnb",
-   1
-  ],
-  [
-   "canadian",
-   1
-  ]
- ],
->>>>>>> Stashed changes
  "Kaskade": [
   [
    "house",
@@ -2086,48 +1915,6 @@
   [
    "speedpunk",
    8
-  ]
- ],
- "MadeinTYO": [
-  [
-   "hip hop",
-   100
-  ],
-  [
-   "rap",
-   56
-  ],
-  [
-   "all",
-   16
-  ],
-  [
-   "hip-hop",
-   16
-  ],
-  [
-   "trap",
-   8
-  ],
-  [
-   "american",
-   2
-  ],
-  [
-   "georgia",
-   2
-  ],
-  [
-   "emo rap",
-   1
-  ],
-  [
-   "united states",
-   1
-  ],
-  [
-   "pop rap",
-   1
   ]
  ],
  "Major Lazer": [
@@ -2518,48 +2305,6 @@
    4
   ]
  ],
- "Peach Pit": [
-  [
-   "indie pop",
-   100
-  ],
-  [
-   "math rock",
-   100
-  ],
-  [
-   "canadian",
-   61
-  ],
-  [
-   "indie",
-   61
-  ],
-  [
-   "indie rock",
-   30
-  ],
-  [
-   "canada",
-   12
-  ],
-  [
-   "alternative rock",
-   9
-  ],
-  [
-   "vancouver",
-   1
-  ],
-  [
-   "instrumental",
-   1
-  ],
-  [
-   "post-rock",
-   1
-  ]
- ],
  "Plan B": [
   [
    "hip-hop",
@@ -2822,93 +2567,6 @@
    1
   ]
  ],
-<<<<<<< Updated upstream
-=======
- "Surfaces": [
-  [
-   "soul",
-   100
-  ],
-  [
-   "pop",
-   73
-  ],
-  [
-   "rnb",
-   34
-  ],
-  [
-   "indie",
-   22
-  ],
-  [
-   "indie pop",
-   6
-  ],
-  [
-   "usa",
-   6
-  ],
-  [
-   "american",
-   3
-  ],
-  [
-   "alt-pop",
-   1
-  ],
-  [
-   "pop rap",
-   1
-  ],
-  [
-   "death metal",
-   1
-  ]
- ],
- "TV Girl": [
-  [
-   "indie pop",
-   100
-  ],
-  [
-   "lo-fi",
-   83
-  ],
-  [
-   "indie",
-   50
-  ],
-  [
-   "chillwave",
-   42
-  ],
-  [
-   "pop",
-   12
-  ],
-  [
-   "san diego",
-   9
-  ],
-  [
-   "california",
-   7
-  ],
-  [
-   "american",
-   1
-  ],
-  [
-   "neo-psychedelia",
-   1
-  ],
-  [
-   "dream pop",
-   1
-  ]
- ],
->>>>>>> Stashed changes
  "Tainy": [
   [
    "reggaeton",
@@ -3119,32 +2777,6 @@
    2
   ]
  ],
- "The Space Ocean": [
-  [
-   "indie",
-   100
-  ],
-  [
-   "rock",
-   100
-  ],
-  [
-   "indie rock",
-   66
-  ],
-  [
-   "lo-fi",
-   66
-  ],
-  [
-   "sun and moon and stars and outer space",
-   33
-  ],
-  [
-   "ocean",
-   33
-  ]
- ],
  "Twin Diplomacy": [
   [
    "electronic",
@@ -3247,48 +2879,6 @@
    1
   ]
  ],
- "Verzache": [
-  [
-   "canadian",
-   100
-  ],
-  [
-   "canada",
-   64
-  ],
-  [
-   "indie",
-   11
-  ],
-  [
-   "hip-hop",
-   11
-  ],
-  [
-   "pop",
-   1
-  ],
-  [
-   "singer-songwriter",
-   1
-  ],
-  [
-   "electronic",
-   1
-  ],
-  [
-   "indie pop",
-   1
-  ],
-  [
-   "indie-folk",
-   1
-  ],
-  [
-   "alternative",
-   1
-  ]
- ],
  "Víctor Manuelle": [
   [
    "salsa",
@@ -3312,48 +2902,6 @@
   ],
   [
    "victor manuelle",
-   1
-  ]
- ],
- "Wallows": [
-  [
-   "indie",
-   100
-  ],
-  [
-   "indie rock",
-   82
-  ],
-  [
-   "indie pop",
-   42
-  ],
-  [
-   "alternative",
-   33
-  ],
-  [
-   "rock",
-   15
-  ],
-  [
-   "usa",
-   7
-  ],
-  [
-   "alternative rock",
-   7
-  ],
-  [
-   "my top songs",
-   2
-  ],
-  [
-   "pop",
-   1
-  ],
-  [
-   "american",
    1
   ]
  ],
