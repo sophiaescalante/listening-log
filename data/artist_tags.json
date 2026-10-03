@@ -2369,6 +2369,48 @@
    1
   ]
  ],
+ "Grupo Frontera": [
+  [
+   "norteno",
+   100
+  ],
+  [
+   "latin",
+   44
+  ],
+  [
+   "rnb",
+   29
+  ],
+  [
+   "mexico",
+   29
+  ],
+  [
+   "country",
+   4
+  ],
+  [
+   "united states",
+   4
+  ],
+  [
+   "texas",
+   4
+  ],
+  [
+   "rancheras",
+   1
+  ],
+  [
+   "musica mexicana",
+   1
+  ],
+  [
+   "industry plant",
+   1
+  ]
+ ],
  "Grupo Niche": [
   [
    "salsa",
@@ -4017,6 +4059,48 @@
    1
   ]
  ],
+ "Myke Towers": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "puerto rico",
+   18
+  ],
+  [
+   "trap",
+   5
+  ],
+  [
+   "latin",
+   5
+  ],
+  [
+   "rap",
+   1
+  ],
+  [
+   "hip hop",
+   1
+  ],
+  [
+   "hip-hop",
+   1
+  ],
+  [
+   "latin rap",
+   1
+  ],
+  [
+   "dancehall",
+   1
+  ],
+  [
+   "pop rap",
+   1
+  ]
+ ],
  "Nate Band": [
   [
    "uk garage",
@@ -4873,6 +4957,48 @@
   [
    "doom rock",
    10
+  ]
+ ],
+ "Steve Lacy": [
+  [
+   "free jazz",
+   100
+  ],
+  [
+   "jazz",
+   90
+  ],
+  [
+   "rnb",
+   29
+  ],
+  [
+   "saxophone",
+   29
+  ],
+  [
+   "avant-garde jazz",
+   13
+  ],
+  [
+   "avant-garde",
+   10
+  ],
+  [
+   "soul",
+   10
+  ],
+  [
+   "soprano sax",
+   3
+  ],
+  [
+   "neo-soul",
+   2
+  ],
+  [
+   "alternative rnb",
+   2
   ]
  ],
  "Surfaces": [
