@@ -109,6 +109,20 @@
    8
   ]
  ],
+ "Aloboi": [
+  [
+   "luxembourg",
+   100
+  ],
+  [
+   "electropop",
+   4
+  ],
+  [
+   "microtonal",
+   3
+  ]
+ ],
  "AlunaGeorge": [
   [
    "electronic",
@@ -152,6 +166,24 @@
   ]
  ],
  "Anthony Godfather": [],
+ "Anti Up": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "house",
+   25
+  ],
+  [
+   "bass house",
+   16
+  ],
+  [
+   "usa",
+   16
+  ]
+ ],
  "Arcángel": [
   [
    "flamenco",
@@ -589,6 +621,24 @@
    8
   ]
  ],
+ "Cid": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "usa",
+   11
+  ],
+  [
+   "edm",
+   7
+  ],
+  [
+   "electro house",
+   7
+  ]
+ ],
  "Conrad.": [
   [
    "trap",
@@ -949,6 +999,48 @@
    1
   ]
  ],
+ "Dynoro": [
+  [
+   "lithuanian",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "edm",
+   29
+  ],
+  [
+   "dance",
+   7
+  ],
+  [
+   "2019",
+   4
+  ],
+  [
+   "lituanian",
+   4
+  ],
+  [
+   "piotr krasko w swojej mazurskiej posiadlosci",
+   4
+  ],
+  [
+   "javilda",
+   1
+  ],
+  [
+   "dynoro",
+   1
+  ],
+  [
+   "stefan hula na sniadaniu przy mamuciej skoczni",
+   1
+  ]
+ ],
  "Effin": [
   [
    "dubstep",
@@ -1237,6 +1329,48 @@
    1
   ]
  ],
+ "Frank Ocean": [
+  [
+   "rnb",
+   100
+  ],
+  [
+   "soul",
+   90
+  ],
+  [
+   "hip-hop",
+   49
+  ],
+  [
+   "r&b",
+   32
+  ],
+  [
+   "ofwgkta",
+   12
+  ],
+  [
+   "neo-soul",
+   9
+  ],
+  [
+   "alternative rnb",
+   6
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "hip hop",
+   1
+  ],
+  [
+   "pop",
+   1
+  ]
+ ],
  "Frankie Ruiz": [
   [
    "salsa",
@@ -1405,6 +1539,48 @@
    1
   ]
  ],
+ "Grimes": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "dream pop",
+   90
+  ],
+  [
+   "experimental",
+   47
+  ],
+  [
+   "psychedelic",
+   34
+  ],
+  [
+   "canadian",
+   14
+  ],
+  [
+   "synthpop",
+   9
+  ],
+  [
+   "female vocalists",
+   6
+  ],
+  [
+   "electropop",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "indie",
+   1
+  ]
+ ],
  "Grupo Niche": [
   [
    "salsa",
@@ -1445,6 +1621,16 @@
   [
    "niche",
    1
+  ]
+ ],
+ "HARDSTYLE CVNT": [
+  [
+   "hardstyle",
+   100
+  ],
+  [
+   "electronic",
+   100
   ]
  ],
  "Ian Asher": [
@@ -1988,6 +2174,48 @@
    1
   ]
  ],
+ "Kid Cudi": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   65
+  ],
+  [
+   "alternative rap",
+   31
+  ],
+  [
+   "hip hop",
+   23
+  ],
+  [
+   "house",
+   7
+  ],
+  [
+   "electronic",
+   3
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "alternative hip-hop",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "kid cudi",
+   1
+  ]
+ ],
  "LaVern": [
   [
    "house",
@@ -2184,6 +2412,7 @@
    1
   ]
  ],
+ "Lxzt": [],
  "MARQ": [
   [
    "indie pop",
@@ -2239,6 +2468,48 @@
   [
    "speedpunk",
    8
+  ]
+ ],
+ "MPH": [
+  [
+   "uk garage",
+   100
+  ],
+  [
+   "electronic",
+   64
+  ],
+  [
+   "bassline",
+   24
+  ],
+  [
+   "2-step",
+   3
+  ],
+  [
+   "ukg",
+   1
+  ],
+  [
+   "breakstep",
+   1
+  ],
+  [
+   "edm",
+   1
+  ],
+  [
+   "future garage",
+   1
+  ],
+  [
+   "bass house",
+   1
+  ],
+  [
+   "stutter house",
+   1
   ]
  ],
  "Mackie": [
@@ -2465,6 +2736,44 @@
   ]
  ],
  "Max Kaluza": [],
+ "Mild Minds": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "lo-fi",
+   36
+  ],
+  [
+   "australian",
+   24
+  ],
+  [
+   "chillout",
+   11
+  ],
+  [
+   "downtempo",
+   1
+  ],
+  [
+   "vocal",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "chill",
+   1
+  ],
+  [
+   "funk_add_to_lidarr_batch_18",
+   1
+  ]
+ ],
  "Milky Chance": [
   [
    "indie",
@@ -3065,6 +3374,48 @@
    33
   ]
  ],
+ "Sara Landry": [
+  [
+   "minimal techno",
+   100
+  ],
+  [
+   "techno",
+   80
+  ],
+  [
+   "hard techno",
+   9
+  ],
+  [
+   "electronic",
+   1
+  ],
+  [
+   "acid techno",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "hypertechno",
+   1
+  ],
+  [
+   "acid",
+   1
+  ],
+  [
+   "united states",
+   1
+  ]
+ ],
  "Skrillex": [
   [
    "dubstep",
@@ -3425,6 +3776,48 @@
   [
    "ocean",
    33
+  ]
+ ],
+ "The Whitest Boy Alive": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "electronic",
+   80
+  ],
+  [
+   "indie pop",
+   47
+  ],
+  [
+   "norwegian",
+   34
+  ],
+  [
+   "electronica",
+   8
+  ],
+  [
+   "german",
+   5
+  ],
+  [
+   "pop",
+   3
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "indie rock",
+   1
+  ],
+  [
+   "scandinavian",
+   1
   ]
  ],
  "Trap Capos": [
