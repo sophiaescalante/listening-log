@@ -595,6 +595,32 @@
    1
   ]
  ],
+ "Capochino": [
+  [
+   "usa",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "bass",
+   66
+  ],
+  [
+   "dubstep",
+   66
+  ],
+  [
+   "midtempo",
+   33
+  ],
+  [
+   "mexican",
+   33
+  ]
+ ],
  "Chris Jedi": [
   [
    "reggaeton",
@@ -833,6 +859,48 @@
   [
    "techno",
    1
+  ]
+ ],
+ "Darius": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "psychedelic",
+   89
+  ],
+  [
+   "pop",
+   54
+  ],
+  [
+   "ambient",
+   47
+  ],
+  [
+   "experimental",
+   17
+  ],
+  [
+   "techno",
+   14
+  ],
+  [
+   "rave",
+   13
+  ],
+  [
+   "breakbeat hardcore",
+   4
+  ],
+  [
+   "happy hardcore",
+   4
+  ],
+  [
+   "synth rock",
+   4
   ]
  ],
  "Deorro": [
@@ -1203,6 +1271,48 @@
    1
   ]
  ],
+ "Feist": [
+  [
+   "female vocalists",
+   100
+  ],
+  [
+   "indie",
+   92
+  ],
+  [
+   "singer-songwriter",
+   52
+  ],
+  [
+   "canadian",
+   42
+  ],
+  [
+   "indie pop",
+   21
+  ],
+  [
+   "folk",
+   5
+  ],
+  [
+   "pop",
+   4
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "canada",
+   1
+  ],
+  [
+   "indie rock",
+   1
+  ]
+ ],
  "Fisher": [
   [
    "female vocalists",
@@ -1455,6 +1565,48 @@
    2
   ]
  ],
+ "Ghastly": [
+  [
+   "death metal",
+   100
+  ],
+  [
+   "electronic",
+   13
+  ],
+  [
+   "dubstep",
+   5
+  ],
+  [
+   "finland",
+   3
+  ],
+  [
+   "finnish",
+   1
+  ],
+  [
+   "future house",
+   1
+  ],
+  [
+   "black metal",
+   1
+  ],
+  [
+   "bass house",
+   1
+  ],
+  [
+   "old school death metal",
+   1
+  ],
+  [
+   "hip hop",
+   1
+  ]
+ ],
  "Goth Babe": [
   [
    "dream pop",
@@ -1631,6 +1783,48 @@
   [
    "electronic",
    100
+  ]
+ ],
+ "Hotel Ugly": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "neo soul",
+   100
+  ],
+  [
+   "alternative",
+   17
+  ],
+  [
+   "soul",
+   17
+  ],
+  [
+   "indie pop",
+   8
+  ],
+  [
+   "usa",
+   8
+  ],
+  [
+   "alternative rock",
+   8
+  ],
+  [
+   "ten million plays",
+   3
+  ],
+  [
+   "over 1 million listeners",
+   3
+  ],
+  [
+   "alternative ryb",
+   3
   ]
  ],
  "Ian Asher": [
@@ -1852,6 +2046,48 @@
    66
   ]
  ],
+ "Jessica Audiffred": [
+  [
+   "techno",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "electro",
+   66
+  ],
+  [
+   "dubstep",
+   66
+  ],
+  [
+   "trap",
+   33
+  ],
+  [
+   "chill house",
+   33
+  ],
+  [
+   "mexico",
+   33
+  ],
+  [
+   "audiffred",
+   10
+  ],
+  [
+   "red muse",
+   10
+  ],
+  [
+   "jessica",
+   10
+  ]
+ ],
  "Jezzy": [
   [
    "dembow",
@@ -2068,6 +2304,48 @@
    1
   ]
  ],
+ "Kanye West": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   69
+  ],
+  [
+   "hip hop",
+   25
+  ],
+  [
+   "rnb",
+   24
+  ],
+  [
+   "kanye west",
+   7
+  ],
+  [
+   "gay fish",
+   3
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "chicago",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ]
+ ],
  "Kaskade": [
   [
    "house",
@@ -2258,6 +2536,48 @@
    1
   ]
  ],
+ "Layz": [
+  [
+   "grime",
+   100
+  ],
+  [
+   "london",
+   16
+  ],
+  [
+   "dubstep",
+   11
+  ],
+  [
+   "uk",
+   11
+  ],
+  [
+   "urban",
+   5
+  ],
+  [
+   "layz",
+   5
+  ],
+  [
+   "boy better know",
+   5
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ],
+  [
+   "croatian",
+   1
+  ]
+ ],
  "LeDorean": [
   [
    "pop",
@@ -2278,6 +2598,48 @@
   [
    "electro",
    33
+  ]
+ ],
+ "Level Up": [
+  [
+   "hands up",
+   100
+  ],
+  [
+   "spoken word",
+   25
+  ],
+  [
+   "good",
+   17
+  ],
+  [
+   "comedy",
+   17
+  ],
+  [
+   "gaming",
+   8
+  ],
+  [
+   "dubstep",
+   8
+  ],
+  [
+   "norway",
+   8
+  ],
+  [
+   "pokemon",
+   3
+  ],
+  [
+   "go",
+   3
+  ],
+  [
+   "art",
+   3
   ]
  ],
  "Lola Young": [
@@ -3044,6 +3406,24 @@
    2
   ]
  ],
+ "Oscar Welsh": [
+  [
+   "bhdfactory",
+   100
+  ],
+  [
+   "uk",
+   100
+  ],
+  [
+   "indie pop",
+   7
+  ],
+  [
+   "pop",
+   7
+  ]
+ ],
  "PAWSA": [
   [
    "tech house",
@@ -3374,6 +3754,48 @@
    33
   ]
  ],
+ "Sade": [
+  [
+   "soul",
+   100
+  ],
+  [
+   "jazz",
+   69
+  ],
+  [
+   "female vocalists",
+   41
+  ],
+  [
+   "chillout",
+   31
+  ],
+  [
+   "pop",
+   10
+  ],
+  [
+   "smooth jazz",
+   4
+  ],
+  [
+   "sade",
+   4
+  ],
+  [
+   "rnb",
+   1
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "80s",
+   1
+  ]
+ ],
  "Sara Landry": [
   [
    "minimal techno",
@@ -3456,6 +3878,48 @@
   [
    "american",
    1
+  ]
+ ],
+ "Space Wizard": [
+  [
+   "hard rock",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "doom metal",
+   66
+  ],
+  [
+   "heavy metal",
+   66
+  ],
+  [
+   "dubstep",
+   33
+  ],
+  [
+   "usa",
+   33
+  ],
+  [
+   "traditional metal",
+   33
+  ],
+  [
+   "traditional heavy metal",
+   10
+  ],
+  [
+   "us metal",
+   10
+  ],
+  [
+   "doom rock",
+   10
   ]
  ],
  "Surfaces": [
@@ -3778,6 +4242,48 @@
    33
   ]
  ],
+ "The Weeknd": [
+  [
+   "rnb",
+   100
+  ],
+  [
+   "electronic",
+   72
+  ],
+  [
+   "dubstep",
+   26
+  ],
+  [
+   "canadian",
+   25
+  ],
+  [
+   "prog-rnb",
+   7
+  ],
+  [
+   "pop",
+   6
+  ],
+  [
+   "r&b",
+   6
+  ],
+  [
+   "alternative rnb",
+   2
+  ],
+  [
+   "soul",
+   1
+  ],
+  [
+   "hip-hop",
+   1
+  ]
+ ],
  "The Whitest Boy Alive": [
   [
    "indie",
@@ -3945,6 +4451,48 @@
   ],
   [
    "american",
+   1
+  ]
+ ],
+ "Tynan": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "trap",
+   16
+  ],
+  [
+   "usa",
+   3
+  ],
+  [
+   "electronic",
+   3
+  ],
+  [
+   "heavy bass",
+   1
+  ],
+  [
+   "edm",
+   1
+  ],
+  [
+   "electro house",
+   1
+  ],
+  [
+   "filthstep",
+   1
+  ],
+  [
+   "bass house",
+   1
+  ],
+  [
+   "brostep",
    1
   ]
  ],
@@ -4501,6 +5049,24 @@
   [
    "usa",
    17
+  ]
+ ],
+ "wodd": [
+  [
+   "france",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "dubstep",
+   66
+  ],
+  [
+   "riddim",
+   66
   ]
  ],
  "Ñengo Flow": [
