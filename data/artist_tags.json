@@ -895,6 +895,48 @@
    1
   ]
  ],
+ "Capital Cities": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "indie",
+   94
+  ],
+  [
+   "electropop",
+   50
+  ],
+  [
+   "pop",
+   40
+  ],
+  [
+   "rock",
+   12
+  ],
+  [
+   "indie pop",
+   9
+  ],
+  [
+   "american",
+   5
+  ],
+  [
+   "synthpop",
+   1
+  ],
+  [
+   "indietronica",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ]
+ ],
  "Capochino": [
   [
    "usa",
