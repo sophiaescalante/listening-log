@@ -1,4 +1,38 @@
 {
+ "ACRAZE": [
+  [
+   "house",
+   100
+  ],
+  [
+   "pop",
+   44
+  ],
+  [
+   "dance",
+   7
+  ],
+  [
+   "electronic",
+   7
+  ],
+  [
+   "funk_add_to_lidarr",
+   4
+  ],
+  [
+   "usa",
+   4
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "funk_add_to_lidarr_batch_1",
+   1
+  ]
+ ],
  "ADÉLA": [
   [
    "pop",
@@ -125,6 +159,48 @@
    1
   ]
  ],
+ "Alan Fitzpatrick": [
+  [
+   "techno",
+   100
+  ],
+  [
+   "tech house",
+   48
+  ],
+  [
+   "minimal",
+   29
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "bedrock",
+   4
+  ],
+  [
+   "drumcode",
+   2
+  ],
+  [
+   "house",
+   1
+  ],
+  [
+   "minimal techno",
+   1
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "uk",
+   1
+  ]
+ ],
  "Alejo": [
   [
    "bass",
@@ -204,6 +280,48 @@
   ],
   [
    "pop",
+   1
+  ]
+ ],
+ "Aluna": [
+  [
+   "dance",
+   100
+  ],
+  [
+   "pop",
+   79
+  ],
+  [
+   "trance",
+   20
+  ],
+  [
+   "ambient",
+   13
+  ],
+  [
+   "british",
+   4
+  ],
+  [
+   "chillout",
+   2
+  ],
+  [
+   "electropop",
+   2
+  ],
+  [
+   "doom metal",
+   1
+  ],
+  [
+   "rnb",
+   1
+  ],
+  [
+   "electronic",
    1
   ]
  ],
@@ -493,6 +611,48 @@
   ],
   [
    "dj",
+   1
+  ]
+ ],
+ "BLOND:ISH": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   33
+  ],
+  [
+   "minimal",
+   22
+  ],
+  [
+   "tech house",
+   10
+  ],
+  [
+   "canada",
+   3
+  ],
+  [
+   "kompakt",
+   3
+  ],
+  [
+   "techno",
+   1
+  ],
+  [
+   "deep house",
+   1
+  ],
+  [
+   "minimal techno",
+   1
+  ],
+  [
+   "all",
    1
   ]
  ],
@@ -1031,6 +1191,90 @@
    8
   ]
  ],
+ "Chris Lake": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electro house",
+   59
+  ],
+  [
+   "progressive house",
+   30
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "dance",
+   11
+  ],
+  [
+   "electro",
+   7
+  ],
+  [
+   "club",
+   2
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "tech house",
+   1
+  ],
+  [
+   "vocal house",
+   1
+  ]
+ ],
+ "Chris Lorenzo": [
+  [
+   "uk garage",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "british",
+   29
+  ],
+  [
+   "house",
+   29
+  ],
+  [
+   "bass house",
+   15
+  ],
+  [
+   "bassline",
+   15
+  ],
+  [
+   "dance",
+   4
+  ],
+  [
+   "dj",
+   1
+  ],
+  [
+   "uk",
+   1
+  ],
+  [
+   "english",
+   1
+  ]
+ ],
  "Cid": [
   [
    "electronic",
@@ -1432,6 +1676,48 @@
   ],
   [
    "melbourne bounce",
+   1
+  ]
+ ],
+ "Dillon Francis": [
+  [
+   "moombahton",
+   100
+  ],
+  [
+   "dubstep",
+   80
+  ],
+  [
+   "electro house",
+   43
+  ],
+  [
+   "electronic",
+   29
+  ],
+  [
+   "electro",
+   14
+  ],
+  [
+   "electronica",
+   8
+  ],
+  [
+   "trap",
+   7
+  ],
+  [
+   "house",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "all",
    1
   ]
  ],
@@ -2575,6 +2861,48 @@
    100
   ]
  ],
+ "Hayden James": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   79
+  ],
+  [
+   "australian",
+   13
+  ],
+  [
+   "dance",
+   7
+  ],
+  [
+   "deep house",
+   2
+  ],
+  [
+   "disco",
+   2
+  ],
+  [
+   "good",
+   1
+  ],
+  [
+   "australia",
+   1
+  ],
+  [
+   "disco house",
+   1
+  ],
+  [
+   "art",
+   1
+  ]
+ ],
  "Hotel Ugly": [
   [
    "indie",
@@ -2924,6 +3252,48 @@
   [
    "dembow",
    100
+  ]
+ ],
+ "Jigitz": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "hyperpop",
+   56
+  ],
+  [
+   "electronic",
+   17
+  ],
+  [
+   "trance",
+   4
+  ],
+  [
+   "indie",
+   2
+  ],
+  [
+   "dance",
+   2
+  ],
+  [
+   "house",
+   2
+  ],
+  [
+   "synthpop",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "beats",
+   1
   ]
  ],
  "Joe Arroyo": [
@@ -3330,6 +3700,48 @@
    2
   ]
  ],
+ "Kettama": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   79
+  ],
+  [
+   "techno",
+   20
+  ],
+  [
+   "detroit techno",
+   13
+  ],
+  [
+   "deep house",
+   7
+  ],
+  [
+   "detroit electro",
+   7
+  ],
+  [
+   "ireland",
+   2
+  ],
+  [
+   "breaks",
+   1
+  ],
+  [
+   "irish",
+   1
+  ],
+  [
+   "art pop",
+   1
+  ]
+ ],
  "Kevin Roldan": [
   [
    "reggaeton",
@@ -3450,6 +3862,24 @@
   [
    "stutter house",
    1
+  ]
+ ],
+ "Lance Savali": [
+  [
+   "deep house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "ukg",
+   66
+  ],
+  [
+   "uk garage",
+   66
   ]
  ],
  "Layz": [
@@ -4100,7 +4530,59 @@
    66
   ]
  ],
+ "Mau P": [
+  [
+   "house",
+   100
+  ],
+  [
+   "tech house",
+   64
+  ],
+  [
+   "dutch",
+   24
+  ],
+  [
+   "techno",
+   24
+  ],
+  [
+   "electronic",
+   5
+  ],
+  [
+   "netherlands",
+   1
+  ],
+  [
+   "tech",
+   1
+  ]
+ ],
  "Max Kaluza": [],
+ "MesTo": [
+  [
+   "mesciak debesciak",
+   100
+  ],
+  [
+   "future house",
+   100
+  ],
+  [
+   "edm",
+   17
+  ],
+  [
+   "dutch",
+   17
+  ],
+  [
+   "mesto",
+   8
+  ]
+ ],
  "Mild Minds": [
   [
    "electronic",
@@ -4301,6 +4783,48 @@
   [
    "angola",
    66
+  ]
+ ],
+ "Noizu": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   16
+  ],
+  [
+   "usa",
+   11
+  ],
+  [
+   "dance",
+   11
+  ],
+  [
+   "los angeles",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "shoegaze",
+   1
+  ],
+  [
+   "eletronic",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "tech-house",
+   1
   ]
  ],
  "ODESZA": [
@@ -4641,6 +5165,48 @@
    1
   ]
  ],
+ "Prospa": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   64
+  ],
+  [
+   "rave",
+   42
+  ],
+  [
+   "dance",
+   24
+  ],
+  [
+   "breakbeat",
+   12
+  ],
+  [
+   "british",
+   5
+  ],
+  [
+   "uk",
+   5
+  ],
+  [
+   "electro",
+   1
+  ],
+  [
+   "breaks",
+   1
+  ],
+  [
+   "english",
+   1
+  ]
+ ],
  "RIZ LA VIE": [
   [
    "hip hop",
@@ -4913,6 +5479,54 @@
    100
   ]
  ],
+ "SHIP WREK": [
+  [
+   "dance",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "trap",
+   17
+  ],
+  [
+   "los angeles",
+   4
+  ],
+  [
+   "dance-pop",
+   2
+  ],
+  [
+   "united states",
+   2
+  ],
+  [
+   "edm",
+   2
+  ]
+ ],
+ "SILVA BUMPA": [
+  [
+   "uk",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "uk garage",
+   66
+  ],
+  [
+   "speed garage",
+   66
+  ]
+ ],
  "SVDDEN DEATH": [
   [
    "dubstep",
@@ -5079,6 +5693,36 @@
   [
    "elcriminal03",
    10
+  ]
+ ],
+ "Sidepiece": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "dance",
+   17
+  ],
+  [
+   "uk",
+   4
+  ],
+  [
+   "funk_add_to_lidarr_batch_23",
+   2
+  ],
+  [
+   "british",
+   2
+  ],
+  [
+   "edm",
+   2
   ]
  ],
  "Skrillex": [
@@ -6561,6 +7205,25 @@
    1
   ]
  ],
+ "it's murph": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   44
+  ],
+  [
+   "dance",
+   29
+  ],
+  [
+   "uk",
+   7
+  ]
+ ],
+ "me n ü": [],
  "surfside": [],
  "warner case": [
   [
