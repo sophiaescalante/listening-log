@@ -75,6 +75,66 @@
    1
   ]
  ],
+ "ANOTR": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "dutch",
+   66
+  ],
+  [
+   "netherlands",
+   17
+  ]
+ ],
+ "Addison Rae": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "american",
+   40
+  ],
+  [
+   "electropop",
+   21
+  ],
+  [
+   "alt-pop",
+   13
+  ],
+  [
+   "queen of pop",
+   6
+  ],
+  [
+   "tiktok",
+   5
+  ],
+  [
+   "female vocalists",
+   5
+  ],
+  [
+   "my top songs",
+   1
+  ],
+  [
+   "contemporary rnb",
+   1
+  ],
+  [
+   "downtempo",
+   1
+  ]
+ ],
  "Adolescent's Orquesta": [
   [
    "salsa",
@@ -367,6 +427,48 @@
    3
   ]
  ],
+ "Anna of the North": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "synthpop",
+   65
+  ],
+  [
+   "indie pop",
+   39
+  ],
+  [
+   "norwegian",
+   39
+  ],
+  [
+   "norway",
+   12
+  ],
+  [
+   "dream pop",
+   10
+  ],
+  [
+   "alternative rnb",
+   10
+  ],
+  [
+   "all",
+   2
+  ],
+  [
+   "dreamwave",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ]
+ ],
  "Anthony Godfather": [],
  "Anti Up": [
   [
@@ -614,6 +716,40 @@
    1
   ]
  ],
+ "BELOVED SUN": [
+  [
+   "spoken word",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "experimental",
+   66
+  ],
+  [
+   "hip-hop",
+   66
+  ],
+  [
+   "queer",
+   33
+  ],
+  [
+   "new orleans",
+   33
+  ],
+  [
+   "rnb",
+   33
+  ],
+  [
+   "funk_add_to_lidarr_batch_3",
+   10
+  ]
+ ],
  "BLOND:ISH": [
   [
    "house",
@@ -806,6 +942,48 @@
   [
    "pop rap",
    2
+  ]
+ ],
+ "Balu Brigada": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "indie",
+   100
+  ],
+  [
+   "indie rock",
+   66
+  ],
+  [
+   "new zealand",
+   66
+  ],
+  [
+   "alternative",
+   19
+  ],
+  [
+   "alternative pop",
+   8
+  ],
+  [
+   "pop",
+   8
+  ],
+  [
+   "idnie pop",
+   1
+  ],
+  [
+   "groove-pop",
+   1
+  ],
+  [
+   "went to a concert",
+   1
   ]
  ],
  "Benny Benassi": [
@@ -1763,6 +1941,48 @@
    1
   ]
  ],
+ "Disco Lines": [
+  [
+   "dance",
+   100
+  ],
+  [
+   "house",
+   69
+  ],
+  [
+   "edm",
+   29
+  ],
+  [
+   "electronic",
+   16
+  ],
+  [
+   "usa",
+   4
+  ],
+  [
+   "electropop",
+   1
+  ],
+  [
+   "indie",
+   1
+  ],
+  [
+   "remix",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "electro house",
+   1
+  ]
+ ],
  "Distant Matter": [
   [
    "pop",
@@ -2093,6 +2313,12 @@
   [
    "global fusion",
    1
+  ]
+ ],
+ "Ellisar": [
+  [
+   "electropop",
+   100
   ]
  ],
  "Emmit Fenn": [
@@ -2431,6 +2657,48 @@
    1
   ]
  ],
+ "Fred again..": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   79
+  ],
+  [
+   "uk garage",
+   35
+  ],
+  [
+   "dance",
+   28
+  ],
+  [
+   "deep house",
+   9
+  ],
+  [
+   "british",
+   9
+  ],
+  [
+   "progressive house",
+   9
+  ],
+  [
+   "future garage",
+   3
+  ],
+  [
+   "stutter house",
+   3
+  ],
+  [
+   "pop",
+   1
+  ]
+ ],
  "Galantis": [
   [
    "house",
@@ -2515,6 +2783,48 @@
    2
   ]
  ],
+ "Gee Tee": [
+  [
+   "egg punk",
+   100
+  ],
+  [
+   "garage punk",
+   93
+  ],
+  [
+   "synthpunk",
+   48
+  ],
+  [
+   "garage rock",
+   7
+  ],
+  [
+   "punk",
+   4
+  ],
+  [
+   "australian",
+   2
+  ],
+  [
+   "punk rock",
+   2
+  ],
+  [
+   "synth punk",
+   1
+  ],
+  [
+   "lo-fi",
+   1
+  ],
+  [
+   "synth",
+   1
+  ]
+ ],
  "Ghastly": [
   [
    "death metal",
@@ -2596,6 +2906,48 @@
   ],
   [
    "nu-jazz",
+   1
+  ]
+ ],
+ "Good Neighbours": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "indie pop",
+   64
+  ],
+  [
+   "dance",
+   11
+  ],
+  [
+   "guitar",
+   3
+  ],
+  [
+   "uk",
+   1
+  ],
+  [
+   "ambient",
+   1
+  ],
+  [
+   "montreal",
+   1
+  ],
+  [
+   "keyboard",
+   1
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "bass",
    1
   ]
  ],
@@ -3132,6 +3484,28 @@
    1
   ]
  ],
+ "Jack Marlow": [
+  [
+   "uk",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "garage",
+   66
+  ],
+  [
+   "british",
+   66
+  ],
+  [
+   "garage house",
+   33
+  ]
+ ],
  "Jaden Bojsen": [
   [
    "german",
@@ -3148,6 +3522,48 @@
   [
    "house",
    16
+  ]
+ ],
+ "Jakob": [
+  [
+   "post-rock",
+   100
+  ],
+  [
+   "instrumental",
+   51
+  ],
+  [
+   "ambient",
+   26
+  ],
+  [
+   "new zealand",
+   13
+  ],
+  [
+   "post rock",
+   5
+  ],
+  [
+   "experimental",
+   2
+  ],
+  [
+   "atmospheric",
+   1
+  ],
+  [
+   "post-metal",
+   1
+  ],
+  [
+   "shoegaze",
+   1
+  ],
+  [
+   "progressive",
+   1
   ]
  ],
  "James Hype": [
@@ -3988,6 +4404,48 @@
    3
   ]
  ],
+ "Lil Uzi Vert": [
+  [
+   "trap",
+   100
+  ],
+  [
+   "hip-hop",
+   74
+  ],
+  [
+   "rap",
+   46
+  ],
+  [
+   "emo rap",
+   39
+  ],
+  [
+   "pop rap",
+   13
+  ],
+  [
+   "hip hop",
+   11
+  ],
+  [
+   "yeah",
+   10
+  ],
+  [
+   "cloud rap",
+   3
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "pennsylvania",
+   1
+  ]
+ ],
  "Lola Young": [
   [
    "pop",
@@ -4307,6 +4765,48 @@
    1
   ]
  ],
+ "Mac Miller": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   75
+  ],
+  [
+   "underground hip-hop",
+   20
+  ],
+  [
+   "hip hop",
+   14
+  ],
+  [
+   "pittsburgh",
+   6
+  ],
+  [
+   "underground rap",
+   6
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "pop rap",
+   1
+  ],
+  [
+   "jazz rap",
+   1
+  ],
+  [
+   "neo-soul",
+   1
+  ]
+ ],
  "Mackie": [
   [
    "dancehall",
@@ -4440,6 +4940,48 @@
   ]
  ],
  "Marco Consonni": [],
+ "Masego": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "rnb",
+   51
+  ],
+  [
+   "soul",
+   22
+  ],
+  [
+   "electronic",
+   12
+  ],
+  [
+   "jamaica",
+   6
+  ],
+  [
+   "trap",
+   3
+  ],
+  [
+   "house",
+   3
+  ],
+  [
+   "trap house jazz",
+   1
+  ],
+  [
+   "jamaican",
+   1
+  ],
+  [
+   "blues",
+   1
+  ]
+ ],
  "Matroda": [
   [
    "g-house",
@@ -5233,6 +5775,7 @@
    33
   ]
  ],
+ "Rambo.": [],
  "Rauw Alejandro": [
   [
    "reggaeton",
@@ -5356,6 +5899,48 @@
   ],
   [
    "reggae",
+   1
+  ]
+ ],
+ "Riovaz": [
+  [
+   "hyperpop",
+   100
+  ],
+  [
+   "indie",
+   25
+  ],
+  [
+   "pop",
+   4
+  ],
+  [
+   "hiphop",
+   4
+  ],
+  [
+   "hip hop",
+   2
+  ],
+  [
+   "electronic",
+   2
+  ],
+  [
+   "house",
+   2
+  ],
+  [
+   "synthpop",
+   1
+  ],
+  [
+   "new jersey",
+   1
+  ],
+  [
+   "hip-hop",
    1
   ]
  ],
@@ -5653,6 +6238,24 @@
    1
   ]
  ],
+ "Sayfalse": [
+  [
+   "phonk",
+   100
+  ],
+  [
+   "us",
+   100
+  ],
+  [
+   "brazilian phonk",
+   66
+  ],
+  [
+   "gym phonk",
+   66
+  ]
+ ],
  "Shelow Shaq": [
   [
    "latino",
@@ -5849,6 +6452,62 @@
   [
    "alternative rnb",
    2
+  ]
+ ],
+ "Subtronics": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "riddim",
+   41
+  ],
+  [
+   "brostep",
+   9
+  ],
+  [
+   "electronic",
+   9
+  ],
+  [
+   "good",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "art",
+   1
+  ],
+  [
+   "pennsylvania",
+   1
+  ],
+  [
+   "edm",
+   1
+  ],
+  [
+   "philadelphia",
+   1
+  ]
+ ],
+ "Sunday Scaries": [
+  [
+   "dance",
+   100
+  ],
+  [
+   "electronic",
+   44
+  ],
+  [
+   "house",
+   7
   ]
  ],
  "Surfaces": [
@@ -6411,6 +7070,48 @@
    1
   ]
  ],
+ "Tiësto": [
+  [
+   "trance",
+   100
+  ],
+  [
+   "electronic",
+   63
+  ],
+  [
+   "dance",
+   30
+  ],
+  [
+   "techno",
+   25
+  ],
+  [
+   "electronica",
+   9
+  ],
+  [
+   "progressive trance",
+   4
+  ],
+  [
+   "house",
+   3
+  ],
+  [
+   "dutch",
+   1
+  ],
+  [
+   "vocal trance",
+   1
+  ],
+  [
+   "tiesto",
+   1
+  ]
+ ],
  "Toby Romeo": [
   [
    "c",
@@ -6943,6 +7644,32 @@
    1
   ]
  ],
+ "Wuki": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   44
+  ],
+  [
+   "usa",
+   7
+  ],
+  [
+   "edm",
+   7
+  ],
+  [
+   "post-nerdcore",
+   4
+  ],
+  [
+   "uk funky",
+   4
+  ]
+ ],
  "YOVNGCHIMI": [
   [
    "drill",
@@ -7237,6 +7964,48 @@
   [
    "usa",
    17
+  ]
+ ],
+ "will.i.am": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   67
+  ],
+  [
+   "rnb",
+   42
+  ],
+  [
+   "funk",
+   36
+  ],
+  [
+   "hip hop",
+   13
+  ],
+  [
+   "pop",
+   8
+  ],
+  [
+   "american",
+   5
+  ],
+  [
+   "dance",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ],
+  [
+   "electronic",
+   1
   ]
  ],
  "wodd": [
