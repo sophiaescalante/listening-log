@@ -1857,6 +1857,40 @@
    4
   ]
  ],
+ "DeVault": [
+  [
+   "american",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "california",
+   66
+  ],
+  [
+   "united states",
+   66
+  ],
+  [
+   "pop",
+   8
+  ],
+  [
+   "dubstep",
+   8
+  ],
+  [
+   "house",
+   8
+  ],
+  [
+   "edm",
+   2
+  ]
+ ],
  "Deorro": [
   [
    "house",
@@ -3922,6 +3956,48 @@
    1
   ]
  ],
+ "Justin Bieber": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "black metal",
+   58
+  ],
+  [
+   "rnb",
+   35
+  ],
+  [
+   "justin bieber",
+   25
+  ],
+  [
+   "hip-hop",
+   11
+  ],
+  [
+   "r&b",
+   7
+  ],
+  [
+   "canadian",
+   7
+  ],
+  [
+   "male vocalists",
+   1
+  ],
+  [
+   "female vocalists",
+   1
+  ],
+  [
+   "brutal death metal",
+   1
+  ]
+ ],
  "KAROL G": [
   [
    "reggaeton",
@@ -4982,6 +5058,48 @@
   ]
  ],
  "Marco Consonni": [],
+ "Marlon Hoffstadt": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "deep house",
+   66
+  ],
+  [
+   "electronic",
+   66
+  ],
+  [
+   "trance",
+   8
+  ],
+  [
+   "dance",
+   8
+  ],
+  [
+   "electronica",
+   8
+  ],
+  [
+   "elektrostat",
+   3
+  ],
+  [
+   "germany",
+   3
+  ],
+  [
+   "thc",
+   3
+  ]
+ ],
  "Masego": [
   [
    "jazz",
@@ -7930,6 +8048,48 @@
   [
    "bedroom pop",
    8
+  ]
+ ],
+ "Zedd": [
+  [
+   "electro house",
+   100
+  ],
+  [
+   "electronic",
+   98
+  ],
+  [
+   "house",
+   62
+  ],
+  [
+   "electro",
+   36
+  ],
+  [
+   "dubstep",
+   17
+  ],
+  [
+   "complextro",
+   12
+  ],
+  [
+   "progressive house",
+   11
+  ],
+  [
+   "dance",
+   2
+  ],
+  [
+   "electronica",
+   2
+  ],
+  [
+   "german",
+   2
   ]
  ],
  "beabadoobee": [
