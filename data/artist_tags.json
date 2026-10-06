@@ -1142,6 +1142,20 @@
    4
   ]
  ],
+ "Blake and Miles": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "los angeles",
+   66
+  ]
+ ],
  "Bob Moses": [
   [
    "deep house",
@@ -1755,6 +1769,70 @@
    2
   ]
  ],
+ "Cuco": [
+  [
+   "experimental",
+   100
+  ],
+  [
+   "dream pop",
+   100
+  ],
+  [
+   "indie pop",
+   52
+  ],
+  [
+   "indie",
+   29
+  ],
+  [
+   "rnb",
+   15
+  ],
+  [
+   "bedroom pop",
+   4
+  ],
+  [
+   "post-rock",
+   4
+  ],
+  [
+   "chillwave",
+   1
+  ],
+  [
+   "los angeles",
+   1
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
+ "Current Blue": [
+  [
+   "lo-fi",
+   100
+  ],
+  [
+   "indie",
+   100
+  ],
+  [
+   "bedroom pop",
+   66
+  ],
+  [
+   "bedroom soul",
+   66
+  ],
+  [
+   "funk_add_to_lidarr_batch_6",
+   33
+  ]
+ ],
  "DLG.": [
   [
    "salsa",
@@ -1794,6 +1872,90 @@
   ],
   [
    "hip hop",
+   1
+  ]
+ ],
+ "DUCKWRTH": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   85
+  ],
+  [
+   "funk",
+   25
+  ],
+  [
+   "trap",
+   8
+  ],
+  [
+   "united states",
+   2
+  ],
+  [
+   "indie",
+   2
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "underground hip hop",
+   1
+  ],
+  [
+   "underground hip-hop",
+   1
+  ],
+  [
+   "hip hop",
+   1
+  ]
+ ],
+ "DaBaby": [
+  [
+   "rap",
+   100
+  ],
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "trap",
+   62
+  ],
+  [
+   "hip hop",
+   36
+  ],
+  [
+   "american",
+   6
+  ],
+  [
+   "ohio",
+   2
+  ],
+  [
+   "pop rap",
+   2
+  ],
+  [
+   "dababy",
+   1
+  ],
+  [
+   "homophobic",
+   1
+  ],
+  [
+   "southern hip hop",
    1
   ]
  ],
@@ -2353,6 +2515,48 @@
    1
   ]
  ],
+ "Dreamer Isioma": [
+  [
+   "rnb",
+   100
+  ],
+  [
+   "soul",
+   44
+  ],
+  [
+   "pop",
+   16
+  ],
+  [
+   "indie",
+   16
+  ],
+  [
+   "united states",
+   4
+  ],
+  [
+   "mrdoom is epic",
+   4
+  ],
+  [
+   "funk",
+   1
+  ],
+  [
+   "singer-songwriter",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "female vocalist",
+   1
+  ]
+ ],
  "Dxrk ダーク": [
   [
    "phonk",
@@ -2598,6 +2802,48 @@
   ],
   [
    "global fusion",
+   1
+  ]
+ ],
+ "Elderbrook": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "deep house",
+   11
+  ],
+  [
+   "chillout",
+   11
+  ],
+  [
+   "british",
+   3
+  ],
+  [
+   "england",
+   1
+  ],
+  [
+   "electronica",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "british music",
    1
   ]
  ],
@@ -3561,6 +3807,48 @@
   [
    "electronic",
    100
+  ]
+ ],
+ "Harry Styles": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "rock",
+   76
+  ],
+  [
+   "pop rock",
+   42
+  ],
+  [
+   "alternative",
+   30
+  ],
+  [
+   "british",
+   13
+  ],
+  [
+   "soft rock",
+   7
+  ],
+  [
+   "indie",
+   6
+  ],
+  [
+   "one direction",
+   2
+  ],
+  [
+   "folk",
+   2
+  ],
+  [
+   "bisexual",
+   2
   ]
  ],
  "Hayden James": [
@@ -5006,6 +5294,48 @@
    1
   ]
  ],
+ "León Larregui": [
+  [
+   "mexico",
+   100
+  ],
+  [
+   "rock",
+   73
+  ],
+  [
+   "mexican",
+   22
+  ],
+  [
+   "all",
+   22
+  ],
+  [
+   "leo larregui",
+   6
+  ],
+  [
+   "alternativo",
+   3
+  ],
+  [
+   "alternative",
+   3
+  ],
+  [
+   "design",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "latin",
+   1
+  ]
+ ],
  "Lil Uzi Vert": [
   [
    "trap",
@@ -5541,7 +5871,91 @@
    1
   ]
  ],
+ "Manu Chao": [
+  [
+   "reggae",
+   100
+  ],
+  [
+   "latin",
+   73
+  ],
+  [
+   "ska",
+   36
+  ],
+  [
+   "world",
+   34
+  ],
+  [
+   "alternative",
+   17
+  ],
+  [
+   "french",
+   5
+  ],
+  [
+   "spanish",
+   3
+  ],
+  [
+   "world music",
+   1
+  ],
+  [
+   "folk",
+   1
+  ],
+  [
+   "rock",
+   1
+  ]
+ ],
  "Marco Consonni": [],
+ "Marigold": [
+  [
+   "swedish",
+   100
+  ],
+  [
+   "indie rock",
+   44
+  ],
+  [
+   "pop",
+   7
+  ],
+  [
+   "indie",
+   7
+  ],
+  [
+   "indie pop",
+   4
+  ],
+  [
+   "alternative rock",
+   4
+  ],
+  [
+   "experimental",
+   4
+  ],
+  [
+   "melodic hardcore",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "post-hardcore",
+   1
+  ]
+ ],
  "Marlon Hoffstadt": [
   [
    "pop",
@@ -5999,6 +6413,48 @@
    100
   ]
  ],
+ "Nicki Minaj": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   88
+  ],
+  [
+   "rnb",
+   34
+  ],
+  [
+   "pop",
+   31
+  ],
+  [
+   "hip hop",
+   15
+  ],
+  [
+   "female vocalists",
+   10
+  ],
+  [
+   "sexy",
+   6
+  ],
+  [
+   "nicki minaj",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "dance",
+   1
+  ]
+ ],
  "Niiko x SWAE": [
   [
    "dance",
@@ -6391,6 +6847,48 @@
   [
    "drum and bass",
    6
+  ]
+ ],
+ "Pixies": [
+  [
+   "alternative rock",
+   100
+  ],
+  [
+   "alternative",
+   98
+  ],
+  [
+   "indie",
+   52
+  ],
+  [
+   "indie rock",
+   46
+  ],
+  [
+   "rock",
+   22
+  ],
+  [
+   "80s",
+   4
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "post-punk",
+   1
+  ],
+  [
+   "grunge",
+   1
+  ],
+  [
+   "90s",
+   1
   ]
  ],
  "Plan B": [
@@ -6874,6 +7372,48 @@
   [
    "electronic",
    100
+  ]
+ ],
+ "SALES": [
+  [
+   "lo-fi",
+   100
+  ],
+  [
+   "indie pop",
+   73
+  ],
+  [
+   "indie",
+   44
+  ],
+  [
+   "minimal rock",
+   11
+  ],
+  [
+   "bedroom pop",
+   4
+  ],
+  [
+   "dream pop",
+   4
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "guitar pop",
+   1
+  ],
+  [
+   "minimal pop",
+   1
+  ],
+  [
+   "female vocalists",
+   1
   ]
  ],
  "SHIP WREK": [
@@ -8576,6 +9116,12 @@
   [
    "future beats",
    1
+  ]
+ ],
+ "WhoHeem": [
+  [
+   "hip-hop",
+   100
   ]
  ],
  "Willie Colón": [
