@@ -590,6 +590,48 @@
    66
   ]
  ],
+ "Ariana Grande": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "rnb",
+   52
+  ],
+  [
+   "female vocalists",
+   29
+  ],
+  [
+   "ariana grande",
+   9
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "dance",
+   4
+  ],
+  [
+   "r&b",
+   3
+  ],
+  [
+   "nickelodeon",
+   1
+  ],
+  [
+   "soul",
+   1
+  ],
+  [
+   "dance-pop",
+   1
+  ]
+ ],
  "Artemas": [
   [
    "pop",
@@ -1190,6 +1232,48 @@
    100
   ]
  ],
+ "Britney Spears": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "dance",
+   50
+  ],
+  [
+   "female vocalists",
+   32
+  ],
+  [
+   "britney spears",
+   20
+  ],
+  [
+   "legend",
+   9
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "sexy",
+   3
+  ],
+  [
+   "90s",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ],
+  [
+   "diva",
+   1
+  ]
+ ],
  "COLLEM": [],
  "Calvin Harris": [
   [
@@ -1340,6 +1424,48 @@
   ],
   [
    "food and drink",
+   1
+  ]
+ ],
+ "Charlie Puth": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "rnb",
+   47
+  ],
+  [
+   "soul",
+   25
+  ],
+  [
+   "usa",
+   7
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "male vocalists",
+   3
+  ],
+  [
+   "singer-songwriter",
+   1
+  ],
+  [
+   "singer/songwriter",
+   1
+  ],
+  [
+   "r&b",
+   1
+  ],
+  [
+   "jung kook",
    1
   ]
  ],
@@ -2185,6 +2311,48 @@
    1
   ]
  ],
+ "Dominic Fike": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "indie pop",
+   81
+  ],
+  [
+   "pop",
+   24
+  ],
+  [
+   "alternative",
+   11
+  ],
+  [
+   "american",
+   5
+  ],
+  [
+   "alternative pop",
+   3
+  ],
+  [
+   "hip-hop",
+   3
+  ],
+  [
+   "my top songs",
+   1
+  ],
+  [
+   "florida",
+   1
+  ],
+  [
+   "usa",
+   1
+  ]
+ ],
  "Dxrk ダーク": [
   [
    "phonk",
@@ -2262,6 +2430,48 @@
   ],
   [
    "stefan hula na sniadaniu przy mamuciej skoczni",
+   1
+  ]
+ ],
+ "Edward Maya": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "house",
+   89
+  ],
+  [
+   "dance",
+   51
+  ],
+  [
+   "trance",
+   40
+  ],
+  [
+   "romanian",
+   17
+  ],
+  [
+   "electro",
+   8
+  ],
+  [
+   "club",
+   7
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "romania",
+   1
+  ],
+  [
+   "electronica",
    1
   ]
  ],
@@ -2388,6 +2598,48 @@
   ],
   [
    "global fusion",
+   1
+  ]
+ ],
+ "Elley Duhé": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "rnb",
+   77
+  ],
+  [
+   "electronic",
+   9
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "united states",
+   2
+  ],
+  [
+   "female vocalists",
+   2
+  ],
+  [
+   "female vocalist",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "dance",
+   1
+  ],
+  [
+   "house",
    1
   ]
  ],
@@ -3109,6 +3361,28 @@
   [
    "indie rock",
    1
+  ]
+ ],
+ "Gravagerz": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "luxembourg",
+   66
+  ],
+  [
+   "producer",
+   66
+  ],
+  [
+   "edm",
+   33
   ]
  ],
  "Grimes": [
@@ -4082,6 +4356,48 @@
    1
   ]
  ],
+ "KYLE": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   46
+  ],
+  [
+   "rnb",
+   12
+  ],
+  [
+   "acoustic",
+   12
+  ],
+  [
+   "trap",
+   4
+  ],
+  [
+   "pop rap",
+   4
+  ],
+  [
+   "italian",
+   2
+  ],
+  [
+   "cosenza",
+   1
+  ],
+  [
+   "gentechenonstabene",
+   1
+  ],
+  [
+   "united states",
+   1
+  ]
+ ],
  "Kali Uchis": [
   [
    "rnb",
@@ -4234,6 +4550,48 @@
    2
   ]
  ],
+ "Kesha": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "dance",
+   70
+  ],
+  [
+   "electropop",
+   37
+  ],
+  [
+   "female vocalists",
+   35
+  ],
+  [
+   "electronic",
+   15
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "kesha",
+   2
+  ],
+  [
+   "female vocalist",
+   1
+  ],
+  [
+   "dance pop",
+   1
+  ],
+  [
+   "dance-pop",
+   1
+  ]
+ ],
  "Kettama": [
   [
    "house",
@@ -4356,6 +4714,48 @@
    1
   ]
  ],
+ "La Obsesion": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "mexico",
+   56
+  ],
+  [
+   "neoperreo",
+   17
+  ],
+  [
+   "hip-hop",
+   4
+  ],
+  [
+   "dirty south",
+   2
+  ],
+  [
+   "gangsta rap",
+   2
+  ],
+  [
+   "latin rap",
+   2
+  ],
+  [
+   "trap",
+   1
+  ],
+  [
+   "pop rap",
+   1
+  ],
+  [
+   "mexican",
+   1
+  ]
+ ],
  "LaVern": [
   [
    "house",
@@ -4395,6 +4795,48 @@
   ],
   [
    "stutter house",
+   1
+  ]
+ ],
+ "Lady Gaga": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "dance",
+   72
+  ],
+  [
+   "electronic",
+   36
+  ],
+  [
+   "female vocalists",
+   30
+  ],
+  [
+   "female vocalist",
+   6
+  ],
+  [
+   "lady gaga",
+   4
+  ],
+  [
+   "electropop",
+   3
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "singer-songwriter",
+   1
+  ],
+  [
+   "sexy",
    1
   ]
  ],
@@ -4520,6 +4962,48 @@
   [
    "art",
    3
+  ]
+ ],
+ "Levity": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "alternative",
+   13
+  ],
+  [
+   "polish",
+   8
+  ],
+  [
+   "polish jazz",
+   5
+  ],
+  [
+   "piano",
+   1
+  ],
+  [
+   "krautrock",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ],
+  [
+   "poland",
+   1
+  ],
+  [
+   "bass",
+   1
+  ],
+  [
+   "avant-pop",
+   1
   ]
  ],
  "Lil Uzi Vert": [
@@ -5467,6 +5951,48 @@
    66
   ]
  ],
+ "Nelly Furtado": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "female vocalists",
+   65
+  ],
+  [
+   "folk",
+   29
+  ],
+  [
+   "canadian",
+   28
+  ],
+  [
+   "singer-songwriter",
+   11
+  ],
+  [
+   "rnb",
+   4
+  ],
+  [
+   "dance",
+   2
+  ],
+  [
+   "nelly furtado",
+   1
+  ],
+  [
+   "latin",
+   1
+  ],
+  [
+   "portuguese",
+   1
+  ]
+ ],
  "New Beat Order": [
   [
    "house",
@@ -5783,6 +6309,48 @@
    1
   ]
  ],
+ "Phantogram": [
+  [
+   "trip-hop",
+   100
+  ],
+  [
+   "electronic",
+   82
+  ],
+  [
+   "indie",
+   37
+  ],
+  [
+   "experimental",
+   32
+  ],
+  [
+   "new york",
+   5
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "indie pop",
+   3
+  ],
+  [
+   "female vocalists",
+   1
+  ],
+  [
+   "indietronica",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ]
+ ],
  "PinkPantheress": [
   [
    "pop",
@@ -5865,6 +6433,48 @@
   [
    "uk hip-hop",
    1
+  ]
+ ],
+ "Post Malone": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   84
+  ],
+  [
+   "trap",
+   40
+  ],
+  [
+   "pop",
+   36
+  ],
+  [
+   "cloud rap",
+   18
+  ],
+  [
+   "hip hop",
+   14
+  ],
+  [
+   "country",
+   12
+  ],
+  [
+   "rnb",
+   3
+  ],
+  [
+   "pop rap",
+   2
+  ],
+  [
+   "american",
+   2
   ]
  ],
  "Prospa": [
@@ -5975,6 +6585,48 @@
   ],
   [
    "rnb",
+   1
+  ]
+ ],
+ "Ray Volpe": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "brostep",
+   16
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "electronic",
+   3
+  ],
+  [
+   "basssss",
+   1
+  ],
+  [
+   "heavy dubstep",
+   1
+  ],
+  [
+   "bass",
+   1
+  ],
+  [
+   "dubtep",
+   1
+  ],
+  [
+   "briddim",
+   1
+  ],
+  [
+   "melodic dubstep",
    1
   ]
  ],
@@ -6416,6 +7068,90 @@
    66
   ]
  ],
+ "Selena Gomez": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "female vocalists",
+   55
+  ],
+  [
+   "disney",
+   28
+  ],
+  [
+   "pop rock",
+   19
+  ],
+  [
+   "dance",
+   7
+  ],
+  [
+   "selena gomez",
+   6
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "electropop",
+   1
+  ],
+  [
+   "teen pop",
+   1
+  ],
+  [
+   "rnb",
+   1
+  ]
+ ],
+ "Seven Lions": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "electronic",
+   69
+  ],
+  [
+   "trance",
+   33
+  ],
+  [
+   "electro house",
+   20
+  ],
+  [
+   "house",
+   8
+  ],
+  [
+   "progressive house",
+   8
+  ],
+  [
+   "drum and bass",
+   7
+  ],
+  [
+   "progressive trance",
+   2
+  ],
+  [
+   "electro",
+   2
+  ],
+  [
+   "dance",
+   1
+  ]
+ ],
  "Shawn Mendes": [
   [
    "pop",
@@ -6565,6 +7301,48 @@
   ],
   [
    "dance",
+   1
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
+ "Skywave": [
+  [
+   "shoegaze",
+   100
+  ],
+  [
+   "post-punk",
+   57
+  ],
+  [
+   "noise pop",
+   25
+  ],
+  [
+   "dream pop",
+   25
+  ],
+  [
+   "indie",
+   5
+  ],
+  [
+   "noise rock",
+   4
+  ],
+  [
+   "noise",
+   4
+  ],
+  [
+   "lo-fi",
+   1
+  ],
+  [
+   "indie rock",
    1
   ],
   [
@@ -7591,6 +8369,44 @@
   ],
   [
    "victor manuelle",
+   1
+  ]
+ ],
+ "WOOLI": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "usa",
+   11
+  ],
+  [
+   "new york",
+   7
+  ],
+  [
+   "american",
+   7
+  ],
+  [
+   "future bass",
+   4
+  ],
+  [
+   "edm",
+   4
+  ],
+  [
+   "riddim",
+   4
+  ],
+  [
+   "dubtep",
+   1
+  ],
+  [
+   "briddim",
    1
   ]
  ],
