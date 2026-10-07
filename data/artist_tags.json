@@ -1240,6 +1240,48 @@
    1
   ]
  ],
+ "Bonobo": [
+  [
+   "downtempo",
+   100
+  ],
+  [
+   "electronic",
+   72
+  ],
+  [
+   "trip-hop",
+   46
+  ],
+  [
+   "chillout",
+   44
+  ],
+  [
+   "ninja tune",
+   11
+  ],
+  [
+   "electronica",
+   6
+  ],
+  [
+   "ambient electronic",
+   5
+  ],
+  [
+   "lounge",
+   1
+  ],
+  [
+   "ambient",
+   1
+  ],
+  [
+   "british",
+   1
+  ]
+ ],
  "Breakfast n Vegas": [
   [
    "house",
@@ -1289,6 +1331,48 @@
   ]
  ],
  "COLLEM": [],
+ "Cage the Elephant": [
+  [
+   "indie rock",
+   100
+  ],
+  [
+   "alternative",
+   72
+  ],
+  [
+   "rock",
+   46
+  ],
+  [
+   "indie",
+   41
+  ],
+  [
+   "punk rock",
+   14
+  ],
+  [
+   "alternative rock",
+   11
+  ],
+  [
+   "garage rock",
+   5
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "punk",
+   1
+  ],
+  [
+   "blues rock",
+   1
+  ]
+ ],
  "Calvin Harris": [
   [
    "electronic",
@@ -2512,6 +2596,48 @@
   ],
   [
    "usa",
+   1
+  ]
+ ],
+ "Dr. Dog": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "indie rock",
+   75
+  ],
+  [
+   "lo-fi",
+   44
+  ],
+  [
+   "indie pop",
+   32
+  ],
+  [
+   "alternative",
+   14
+  ],
+  [
+   "psychedelic",
+   9
+  ],
+  [
+   "folk",
+   6
+  ],
+  [
+   "alt-country",
+   2
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "americana",
    1
   ]
  ],
@@ -4258,6 +4384,48 @@
   [
    "puerto rican",
    66
+  ]
+ ],
+ "Jaymes Young": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "alternative",
+   53
+  ],
+  [
+   "electronic",
+   29
+  ],
+  [
+   "indie pop",
+   27
+  ],
+  [
+   "electropop",
+   11
+  ],
+  [
+   "singer-songwriter",
+   5
+  ],
+  [
+   "electronica",
+   3
+  ],
+  [
+   "experimental rock",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "indie rock",
+   1
   ]
  ],
  "Jessica Audiffred": [
@@ -7170,6 +7338,44 @@
    2
   ]
  ],
+ "Richy Mitch & The Coal Miners": [
+  [
+   "folk",
+   100
+  ],
+  [
+   "acoustic",
+   36
+  ],
+  [
+   "indie folk",
+   11
+  ],
+  [
+   "indie",
+   11
+  ],
+  [
+   "indie rock",
+   1
+  ],
+  [
+   "colorado",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "modern folk rock",
+   1
+  ],
+  [
+   "over 1 million listeners",
+   1
+  ]
+ ],
  "Rihanna": [
   [
    "pop",
@@ -7804,6 +8010,48 @@
   [
    "edm",
    2
+  ]
+ ],
+ "Ski Mask the Slump God": [
+  [
+   "trap",
+   100
+  ],
+  [
+   "hip-hop",
+   76
+  ],
+  [
+   "rap",
+   47
+  ],
+  [
+   "hip hop",
+   19
+  ],
+  [
+   "florida",
+   11
+  ],
+  [
+   "trap metal",
+   5
+  ],
+  [
+   "southern hip hop",
+   3
+  ],
+  [
+   "hardcore hip hop",
+   1
+  ],
+  [
+   "ski mask the slump god",
+   1
+  ],
+  [
+   "american",
+   1
   ]
  ],
  "Skrillex": [
