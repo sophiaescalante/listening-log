@@ -5561,6 +5561,48 @@
    1
   ]
  ],
+ "Jungle": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "psychedelic",
+   50
+  ],
+  [
+   "techno",
+   25
+  ],
+  [
+   "jungle",
+   23
+  ],
+  [
+   "funk",
+   10
+  ],
+  [
+   "soul",
+   10
+  ],
+  [
+   "dancehall",
+   10
+  ],
+  [
+   "british",
+   2
+  ],
+  [
+   "neo-soul",
+   1
+  ],
+  [
+   "indie",
+   1
+  ]
+ ],
  "Junior H": [
   [
    "corridos tumbados",
@@ -7800,6 +7842,20 @@
    1
   ]
  ],
+ "NOVE!L": [
+  [
+   "hard techno",
+   100
+  ],
+  [
+   "techno",
+   100
+  ],
+  [
+   "hard dance",
+   66
+  ]
+ ],
  "Nate Band": [
   [
    "uk garage",
@@ -8798,6 +8854,48 @@
   [
    "male vocalist",
    33
+  ]
+ ],
+ "ROSALÍA": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "spanish",
+   76
+  ],
+  [
+   "flamenco",
+   49
+  ],
+  [
+   "art pop",
+   35
+  ],
+  [
+   "flamenco nuevo",
+   17
+  ],
+  [
+   "spain",
+   16
+  ],
+  [
+   "female vocalists",
+   13
+  ],
+  [
+   "neoperreo",
+   4
+  ],
+  [
+   "flamenco pop",
+   3
+  ],
+  [
+   "reggaeton",
+   3
   ]
  ],
  "Rambo.": [],
@@ -11696,6 +11794,44 @@
    1
   ]
  ],
+ "Zep": [
+  [
+   "hip hop",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "alternative",
+   66
+  ],
+  [
+   "hip-hop",
+   66
+  ],
+  [
+   "electroclash",
+   33
+  ],
+  [
+   "zep",
+   33
+  ],
+  [
+   "experimental",
+   33
+  ],
+  [
+   "trap",
+   10
+  ],
+  [
+   "map",
+   10
+  ]
+ ],
  "beabadoobee": [
   [
    "indie pop",
@@ -11781,6 +11917,48 @@
   ]
  ],
  "eric404": [],
+ "girl in red": [
+  [
+   "dream pop",
+   100
+  ],
+  [
+   "indie pop",
+   94
+  ],
+  [
+   "indie",
+   53
+  ],
+  [
+   "bedroom pop",
+   34
+  ],
+  [
+   "lo-fi",
+   14
+  ],
+  [
+   "norwegian",
+   12
+  ],
+  [
+   "pop",
+   11
+  ],
+  [
+   "indie rock",
+   3
+  ],
+  [
+   "female vocalists",
+   3
+  ],
+  [
+   "norway",
+   3
+  ]
+ ],
  "it's murph": [
   [
    "house",
