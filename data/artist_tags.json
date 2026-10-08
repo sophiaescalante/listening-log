@@ -93,6 +93,48 @@
    17
   ]
  ],
+ "ATLiens": [
+  [
+   "trap",
+   100
+  ],
+  [
+   "dubstep",
+   82
+  ],
+  [
+   "brostep",
+   36
+  ],
+  [
+   "halftime",
+   36
+  ],
+  [
+   "intro",
+   11
+  ],
+  [
+   "deconstructed club",
+   11
+  ],
+  [
+   "midtempo bass",
+   4
+  ],
+  [
+   "riddim",
+   1
+  ],
+  [
+   "good",
+   1
+  ],
+  [
+   "art",
+   1
+  ]
+ ],
  "Addison Rae": [
   [
    "pop",
@@ -700,6 +742,24 @@
    1
   ]
  ],
+ "Arlene MC": [
+  [
+   "dembow",
+   100
+  ],
+  [
+   "usa",
+   25
+  ],
+  [
+   "latin urban",
+   16
+  ],
+  [
+   "reggaeton",
+   16
+  ]
+ ],
  "Artemas": [
   [
    "pop",
@@ -1096,6 +1156,48 @@
    1
   ]
  ],
+ "Bb trickz": [
+  [
+   "drill",
+   100
+  ],
+  [
+   "princesita de españa",
+   100
+  ],
+  [
+   "rap",
+   37
+  ],
+  [
+   "hip hop",
+   17
+  ],
+  [
+   "spain",
+   8
+  ],
+  [
+   "spanish",
+   8
+  ],
+  [
+   "detroit",
+   8
+  ],
+  [
+   "catalan",
+   1
+  ],
+  [
+   "alternative rnb",
+   1
+  ],
+  [
+   "electropop",
+   1
+  ]
+ ],
  "Benny Benassi": [
   [
    "electronic",
@@ -1135,6 +1237,48 @@
   ],
   [
    "benny benassi",
+   1
+  ]
+ ],
+ "Between Friends": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "my top songs",
+   14
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "electronic",
+   4
+  ],
+  [
+   "dance-pop",
+   2
+  ],
+  [
+   "los angeles",
+   2
+  ],
+  [
+   "alt-pop",
+   2
+  ],
+  [
+   "bedroom pop",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "spotify",
    1
   ]
  ],
@@ -1466,6 +1610,48 @@
    1
   ]
  ],
+ "BØRNS": [
+  [
+   "ambient",
+   100
+  ],
+  [
+   "folk",
+   100
+  ],
+  [
+   "pop",
+   66
+  ],
+  [
+   "synthpop",
+   66
+  ],
+  [
+   "everything",
+   33
+  ],
+  [
+   "indie-pop",
+   33
+  ],
+  [
+   "favs",
+   33
+  ],
+  [
+   "nul",
+   10
+  ],
+  [
+   "wanted",
+   10
+  ],
+  [
+   "michigan",
+   10
+  ]
+ ],
  "COLLEM": [],
  "Cage the Elephant": [
   [
@@ -1710,6 +1896,48 @@
   ],
   [
    "food and drink",
+   1
+  ]
+ ],
+ "Charli xcx": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "synthpop",
+   97
+  ],
+  [
+   "electronic",
+   57
+  ],
+  [
+   "female vocalists",
+   32
+  ],
+  [
+   "electroclash",
+   14
+  ],
+  [
+   "electropop",
+   14
+  ],
+  [
+   "hyperpop",
+   11
+  ],
+  [
+   "british",
+   3
+  ],
+  [
+   "bubblegum bass",
+   2
+  ],
+  [
+   "dance-pop",
    1
   ]
  ],
@@ -2067,6 +2295,7 @@
    2
   ]
  ],
+ "CrySomeMore": [],
  "Cuco": [
   [
    "experimental",
@@ -2561,6 +2790,48 @@
    1
   ]
  ],
+ "Diplo": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "hip-hop",
+   77
+  ],
+  [
+   "trip-hop",
+   41
+  ],
+  [
+   "ninja tune",
+   29
+  ],
+  [
+   "electronica",
+   12
+  ],
+  [
+   "hip hop",
+   4
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "electro",
+   1
+  ],
+  [
+   "turntablism",
+   1
+  ],
+  [
+   "baile funk",
+   1
+  ]
+ ],
  "Disclosure": [
   [
    "electronic",
@@ -2859,6 +3130,48 @@
   ],
   [
    "americana",
+   1
+  ]
+ ],
+ "Drake": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   71
+  ],
+  [
+   "rnb",
+   34
+  ],
+  [
+   "hip hop",
+   26
+  ],
+  [
+   "canadian",
+   12
+  ],
+  [
+   "drake",
+   4
+  ],
+  [
+   "pop",
+   3
+  ],
+  [
+   "r&b",
+   1
+  ],
+  [
+   "canada",
+   1
+  ],
+  [
+   "young money",
    1
   ]
  ],
@@ -3452,6 +3765,48 @@
    1
   ]
  ],
+ "Fitz and the Tantrums": [
+  [
+   "soul",
+   100
+  ],
+  [
+   "pop",
+   57
+  ],
+  [
+   "indie",
+   33
+  ],
+  [
+   "funk",
+   29
+  ],
+  [
+   "indie pop",
+   7
+  ],
+  [
+   "blue eyed soul",
+   6
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "blue-eyed soul",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "usa",
+   1
+  ]
+ ],
  "Flume": [
   [
    "electronic",
@@ -3533,6 +3888,48 @@
   ],
   [
    "drum and bass",
+   1
+  ]
+ ],
+ "Fly": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "nu jazz",
+   16
+  ],
+  [
+   "nu-jazz",
+   7
+  ],
+  [
+   "ambient",
+   7
+  ],
+  [
+   "contemporary jazz",
+   2
+  ],
+  [
+   "trip-hop",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ],
+  [
+   "bass",
+   1
+  ],
+  [
+   "chillout",
+   1
+  ],
+  [
+   "brazilian",
    1
   ]
  ],
@@ -3914,6 +4311,24 @@
    1
   ]
  ],
+ "Gorillat": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "usa",
+   100
+  ],
+  [
+   "bass",
+   66
+  ],
+  [
+   "dubstep",
+   66
+  ]
+ ],
  "Goth Babe": [
   [
    "dream pop",
@@ -4240,6 +4655,7 @@
    100
   ]
  ],
+ "HURTBOX": [],
  "Harry Styles": [
   [
    "pop",
@@ -4595,6 +5011,48 @@
    1
   ]
  ],
+ "JVKE": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "my top songs",
+   37
+  ],
+  [
+   "indie",
+   37
+  ],
+  [
+   "american",
+   8
+  ],
+  [
+   "classical",
+   2
+  ],
+  [
+   "usa",
+   2
+  ],
+  [
+   "cute",
+   1
+  ],
+  [
+   "beautiful",
+   1
+  ],
+  [
+   "christian",
+   1
+  ]
+ ],
  "Jack Marlow": [
   [
    "uk",
@@ -4615,6 +5073,12 @@
   [
    "garage house",
    33
+  ]
+ ],
+ "Jacob Vallen": [
+  [
+   "chill house",
+   100
   ]
  ],
  "Jaden Bojsen": [
@@ -4716,6 +5180,48 @@
   ],
   [
    "artistes",
+   1
+  ]
+ ],
+ "Jawny": [
+  [
+   "lo-fi",
+   100
+  ],
+  [
+   "indie pop",
+   69
+  ],
+  [
+   "bedroom pop",
+   29
+  ],
+  [
+   "indie",
+   17
+  ],
+  [
+   "slacker rock",
+   8
+  ],
+  [
+   "alternative",
+   8
+  ],
+  [
+   "pop",
+   4
+  ],
+  [
+   "indie rock",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "american",
    1
   ]
  ],
@@ -5307,6 +5813,48 @@
    1
   ]
  ],
+ "Kai Wachi": [
+  [
+   "trap",
+   100
+  ],
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "electronic",
+   17
+  ],
+  [
+   "trapstyle",
+   7
+  ],
+  [
+   "good",
+   1
+  ],
+  [
+   "art",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "hybrid",
+   1
+  ],
+  [
+   "find",
+   1
+  ],
+  [
+   "go",
+   1
+  ]
+ ],
  "Kali Uchis": [
   [
    "rnb",
@@ -5457,6 +6005,48 @@
   [
    "covers",
    2
+  ]
+ ],
+ "Kendrick Lamar": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   70
+  ],
+  [
+   "west coast",
+   19
+  ],
+  [
+   "hip hop",
+   16
+  ],
+  [
+   "compton",
+   6
+  ],
+  [
+   "california",
+   6
+  ],
+  [
+   "west coast hip hop",
+   5
+  ],
+  [
+   "conscious",
+   2
+  ],
+  [
+   "jazz rap",
+   2
+  ],
+  [
+   "conscious hip hop",
+   1
   ]
  ],
  "Kesha": [
@@ -6125,6 +6715,20 @@
    1
   ]
  ],
+ "Liu Kang": [
+  [
+   "metalcore",
+   100
+  ],
+  [
+   "hardcore",
+   44
+  ],
+  [
+   "emotional hardcore",
+   29
+  ]
+ ],
  "Lola Young": [
   [
    "pop",
@@ -6175,6 +6779,48 @@
   [
    "dembow",
    100
+  ]
+ ],
+ "Lorde": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "indie pop",
+   87
+  ],
+  [
+   "electronic",
+   50
+  ],
+  [
+   "indie",
+   45
+  ],
+  [
+   "new zealand",
+   17
+  ],
+  [
+   "female vocalists",
+   10
+  ],
+  [
+   "alternative",
+   6
+  ],
+  [
+   "art pop",
+   2
+  ],
+  [
+   "synthpop",
+   1
+  ],
+  [
+   "electropop",
+   1
   ]
  ],
  "Los Dutis": [
@@ -6337,6 +6983,24 @@
   ]
  ],
  "MARTEN HØRGER": [],
+ "MARY DROPPINZ": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "usa",
+   100
+  ],
+  [
+   "bass",
+   66
+  ],
+  [
+   "dubstep",
+   66
+  ]
+ ],
  "MBP": [
   [
    "nederpunk",
@@ -7300,6 +7964,32 @@
    66
   ]
  ],
+ "Njoy": [
+  [
+   "french",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "poland",
+   66
+  ],
+  [
+   "dance",
+   66
+  ],
+  [
+   "funky french filtered disco house",
+   33
+  ],
+  [
+   "filtered house",
+   33
+  ]
+ ],
  "Noizu": [
   [
    "house",
@@ -7596,6 +8286,48 @@
    4
   ]
  ],
+ "Parcels": [
+  [
+   "funk",
+   100
+  ],
+  [
+   "indie",
+   67
+  ],
+  [
+   "indie pop",
+   35
+  ],
+  [
+   "synthpop",
+   20
+  ],
+  [
+   "australian",
+   10
+  ],
+  [
+   "australia",
+   2
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "yacht rock revival",
+   1
+  ],
+  [
+   "nu-disco",
+   1
+  ],
+  [
+   "twee",
+   1
+  ]
+ ],
  "Peach Pit": [
   [
    "indie pop",
@@ -7635,6 +8367,48 @@
   ],
   [
    "post-rock",
+   1
+  ]
+ ],
+ "Peggy Gou": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   67
+  ],
+  [
+   "techno",
+   36
+  ],
+  [
+   "korean",
+   22
+  ],
+  [
+   "deep house",
+   11
+  ],
+  [
+   "acid house",
+   2
+  ],
+  [
+   "electronica",
+   1
+  ],
+  [
+   "electro",
+   1
+  ],
+  [
+   "south-korea",
+   1
+  ],
+  [
+   "south korean",
    1
   ]
  ],
@@ -9497,6 +10271,48 @@
    1
   ]
  ],
+ "Tame Impala": [
+  [
+   "psychedelic rock",
+   100
+  ],
+  [
+   "psychedelic",
+   91
+  ],
+  [
+   "indie rock",
+   38
+  ],
+  [
+   "australian",
+   31
+  ],
+  [
+   "rock",
+   13
+  ],
+  [
+   "indie",
+   8
+  ],
+  [
+   "neo-psychedelia",
+   5
+  ],
+  [
+   "psychedelic pop",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "space rock",
+   1
+  ]
+ ],
  "Tate McRae": [
   [
    "pop",
@@ -9886,6 +10702,48 @@
   ],
   [
    "scandinavian",
+   1
+  ]
+ ],
+ "ThxSoMch": [
+  [
+   "canadian",
+   100
+  ],
+  [
+   "rap",
+   64
+  ],
+  [
+   "post-punk",
+   42
+  ],
+  [
+   "hip-hop",
+   24
+  ],
+  [
+   "emo rap",
+   12
+  ],
+  [
+   "lo-fi",
+   5
+  ],
+  [
+   "canada",
+   5
+  ],
+  [
+   "to tag",
+   2
+  ],
+  [
+   "indie",
+   1
+  ],
+  [
+   "hip hop",
    1
   ]
  ],
@@ -10533,6 +11391,7 @@
    4
   ]
  ],
+ "XEER": [],
  "YOVNGCHIMI": [
   [
    "drill",
@@ -10921,6 +11780,7 @@
    1
   ]
  ],
+ "eric404": [],
  "it's murph": [
   [
    "house",
