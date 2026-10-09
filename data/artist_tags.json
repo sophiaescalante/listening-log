@@ -2360,6 +2360,48 @@
    33
   ]
  ],
+ "D.O.D": [
+  [
+   "electro",
+   100
+  ],
+  [
+   "psychedelic",
+   25
+  ],
+  [
+   "house",
+   16
+  ],
+  [
+   "dutch",
+   16
+  ],
+  [
+   "deep house",
+   8
+  ],
+  [
+   "netherlands",
+   8
+  ],
+  [
+   "electro house",
+   8
+  ],
+  [
+   "electro-house",
+   2
+  ],
+  [
+   "big room",
+   2
+  ],
+  [
+   "darkpsy",
+   2
+  ]
+ ],
  "DLG.": [
   [
    "salsa",
@@ -3588,6 +3630,48 @@
   ],
   [
    "melodic house and techno",
+   1
+  ]
+ ],
+ "Eliza Rose": [
+  [
+   "house",
+   100
+  ],
+  [
+   "soul",
+   69
+  ],
+  [
+   "dance",
+   29
+  ],
+  [
+   "electronic",
+   29
+  ],
+  [
+   "rnb",
+   15
+  ],
+  [
+   "uk",
+   4
+  ],
+  [
+   "london",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "england",
    1
   ]
  ],
@@ -7081,6 +7165,48 @@
    1
   ]
  ],
+ "Love Regenerator": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "breakbeat",
+   69
+  ],
+  [
+   "rave",
+   29
+  ],
+  [
+   "scottish",
+   16
+  ],
+  [
+   "hardcore breaks",
+   8
+  ],
+  [
+   "tech house",
+   4
+  ],
+  [
+   "hardcore",
+   1
+  ],
+  [
+   "uk",
+   1
+  ],
+  [
+   "house",
+   1
+  ],
+  [
+   "dance",
+   1
+  ]
+ ],
  "Lxzt": [],
  "MARQ": [
   [
@@ -9601,6 +9727,48 @@
    1
   ]
  ],
+ "SZA": [
+  [
+   "rnb",
+   100
+  ],
+  [
+   "soul",
+   80
+  ],
+  [
+   "alternative rnb",
+   43
+  ],
+  [
+   "electronic",
+   43
+  ],
+  [
+   "neo-soul",
+   18
+  ],
+  [
+   "female vocalists",
+   14
+  ],
+  [
+   "alternative",
+   9
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "pop",
+   2
+  ],
+  [
+   "hip-hop",
+   2
+  ]
+ ],
  "Sade": [
   [
    "soul",
@@ -11956,6 +12124,48 @@
   [
    "alternative",
    2
+  ]
+ ],
+ "benny blanco": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "hip hop",
+   25
+  ],
+  [
+   "electronic",
+   16
+  ],
+  [
+   "hip-hop",
+   7
+  ],
+  [
+   "selena gomez",
+   4
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "instrumental",
+   1
+  ],
+  [
+   "beats",
+   1
+  ],
+  [
+   "producer",
+   1
+  ],
+  [
+   "usa",
+   1
   ]
  ],
  "deadmau5": [
