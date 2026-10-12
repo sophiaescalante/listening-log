@@ -1,4 +1,46 @@
 {
+ "A$AP Rocky": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   62
+  ],
+  [
+   "underground hip-hop",
+   19
+  ],
+  [
+   "swag",
+   17
+  ],
+  [
+   "cloud rap",
+   8
+  ],
+  [
+   "new york",
+   7
+  ],
+  [
+   "hip hop",
+   5
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "trap",
+   1
+  ],
+  [
+   "east coast hip hop",
+   1
+  ]
+ ],
  "ACRAZE": [
   [
    "house",
@@ -5707,6 +5749,7 @@
    33
   ]
  ],
+ "Jack Murnin": [],
  "Jackson Laird": [
   [
    "indie pop",
@@ -7671,6 +7714,7 @@
    1
   ]
  ],
+ "Lorenzo Di Meglio-Cid": [],
  "Los Dutis": [
   [
    "mexico",
@@ -9143,6 +9187,48 @@
   ],
   [
    "uk",
+   1
+  ]
+ ],
+ "Omar Apollo": [
+  [
+   "rnb",
+   100
+  ],
+  [
+   "soul",
+   100
+  ],
+  [
+   "funk",
+   35
+  ],
+  [
+   "indie",
+   27
+  ],
+  [
+   "alternative rnb",
+   4
+  ],
+  [
+   "pop",
+   2
+  ],
+  [
+   "queer",
+   2
+  ],
+  [
+   "mexican",
+   1
+  ],
+  [
+   "us",
+   1
+  ],
+  [
+   "lgbt",
    1
   ]
  ],
