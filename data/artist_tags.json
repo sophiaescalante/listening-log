@@ -4459,6 +4459,7 @@
    1
   ]
  ],
+ "FatSync": [],
  "Feid": [
   [
    "reggaeton",
@@ -5340,6 +5341,48 @@
    33
   ]
  ],
+ "Green Velvet": [
+  [
+   "techno",
+   100
+  ],
+  [
+   "house",
+   80
+  ],
+  [
+   "electronic",
+   38
+  ],
+  [
+   "electro",
+   21
+  ],
+  [
+   "electronica",
+   7
+  ],
+  [
+   "acid house",
+   4
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "tech house",
+   1
+  ],
+  [
+   "chicago",
+   1
+  ],
+  [
+   "detroit techno",
+   1
+  ]
+ ],
  "Grimes": [
   [
    "electronic",
@@ -6007,6 +6050,12 @@
   ]
  ],
  "Jack Murnin": [],
+ "Jack Orley": [
+  [
+   "dutch",
+   100
+  ]
+ ],
  "Jackson Laird": [
   [
    "indie pop",
@@ -9753,6 +9802,7 @@
    4
   ]
  ],
+ "POLOVICH": [],
  "Parcels": [
   [
    "funk",
@@ -12915,6 +12965,48 @@
    1
   ]
  ],
+ "Vintage Culture": [
+  [
+   "house",
+   100
+  ],
+  [
+   "brazil",
+   64
+  ],
+  [
+   "deep house",
+   42
+  ],
+  [
+   "brazilian",
+   24
+  ],
+  [
+   "techno",
+   5
+  ],
+  [
+   "electronic",
+   5
+  ],
+  [
+   "dance",
+   1
+  ],
+  [
+   "brasil",
+   1
+  ],
+  [
+   "vocal house",
+   1
+  ],
+  [
+   "progressive house",
+   1
+  ]
+ ],
  "Víctor Manuelle": [
   [
    "salsa",
@@ -13670,6 +13762,24 @@
   [
    "alternative",
    2
+  ]
+ ],
+ "beltran": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "brazil",
+   16
+  ],
+  [
+   "brazilian",
+   16
   ]
  ],
  "benny blanco": [
