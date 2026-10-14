@@ -177,6 +177,32 @@
    1
   ]
  ],
+ "AYYBO": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "usa",
+   17
+  ],
+  [
+   "dance",
+   17
+  ],
+  [
+   "deep house",
+   8
+  ],
+  [
+   "california",
+   8
+  ]
+ ],
  "Addison Rae": [
   [
    "pop",
@@ -1688,6 +1714,48 @@
    33
   ]
  ],
+ "Brandon": [
+  [
+   "synthwave",
+   100
+  ],
+  [
+   "rnb",
+   36
+  ],
+  [
+   "usa",
+   11
+  ],
+  [
+   "all",
+   11
+  ],
+  [
+   "retrowave",
+   5
+  ],
+  [
+   "six20",
+   5
+  ],
+  [
+   "soul",
+   1
+  ],
+  [
+   "game soundtrack",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "electronic",
+   1
+  ]
+ ],
  "Breakfast n Vegas": [
   [
    "house",
@@ -2948,6 +3016,7 @@
    1
   ]
  ],
+ "Danell Arma": [],
  "Daniel Allan": [
   [
    "electronic",
@@ -3008,6 +3077,7 @@
    1
   ]
  ],
+ "Dansyn": [],
  "Darius": [
   [
    "electronic",
@@ -4245,6 +4315,48 @@
    1
   ]
  ],
+ "Empire of the Sun": [
+  [
+   "electronic",
+   100
+  ],
+  [
+   "synthpop",
+   78
+  ],
+  [
+   "australian",
+   35
+  ],
+  [
+   "electronica",
+   22
+  ],
+  [
+   "synth pop",
+   10
+  ],
+  [
+   "indie",
+   5
+  ],
+  [
+   "electropop",
+   4
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "psychedelic",
+   1
+  ]
+ ],
  "Ephixa": [
   [
    "dubstep",
@@ -4431,6 +4543,7 @@
    1
   ]
  ],
+ "Fezzo": [],
  "Fisher": [
   [
    "female vocalists",
@@ -6636,6 +6749,16 @@
   [
    "american",
    1
+  ]
+ ],
+ "JØRD": [
+  [
+   "brazil",
+   100
+  ],
+  [
+   "tech house",
+   100
   ]
  ],
  "KAROL G": [
@@ -10186,6 +10309,7 @@
    3
   ]
  ],
+ "Ragie Ban": [],
  "Rambo.": [],
  "Rauw Alejandro": [
   [
@@ -12345,6 +12469,40 @@
    1
   ]
  ],
+ "Tini Gessler": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "dj",
+   17
+  ],
+  [
+   "germany",
+   17
+  ],
+  [
+   "10s",
+   8
+  ],
+  [
+   "under 2000 listeners",
+   8
+  ],
+  [
+   "male vocalists",
+   8
+  ],
+  [
+   "under 100 listeners",
+   3
+  ]
+ ],
  "Tiësto": [
   [
    "trance",
@@ -12385,6 +12543,12 @@
   [
    "tiesto",
    1
+  ]
+ ],
+ "Tobehonest": [
+  [
+   "usa",
+   100
   ]
  ],
  "Toby Romeo": [
@@ -12903,6 +13067,24 @@
   [
    "united states",
    100
+  ]
+ ],
+ "Welker": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "indie dance",
+   66
+  ],
+  [
+   "techno",
+   66
   ]
  ],
  "What So Not": [
