@@ -1392,6 +1392,48 @@
    1
   ]
  ],
+ "Big Brother & The Holding Company": [
+  [
+   "psychedelic rock",
+   100
+  ],
+  [
+   "classic rock",
+   100
+  ],
+  [
+   "psychedelic",
+   47
+  ],
+  [
+   "blues",
+   47
+  ],
+  [
+   "rock",
+   21
+  ],
+  [
+   "blues rock",
+   15
+  ],
+  [
+   "60s",
+   11
+  ],
+  [
+   "female vocalists",
+   2
+  ],
+  [
+   "acid rock",
+   2
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
  "Big Sean": [
   [
    "hip-hop",
@@ -1432,6 +1474,48 @@
   [
    "american",
    1
+  ]
+ ],
+ "Billie Eilish": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "indie pop",
+   66
+  ],
+  [
+   "electropop",
+   41
+  ],
+  [
+   "art pop",
+   29
+  ],
+  [
+   "alternative",
+   14
+  ],
+  [
+   "female vocalists",
+   13
+  ],
+  [
+   "indie",
+   12
+  ],
+  [
+   "electronic",
+   3
+  ],
+  [
+   "alternative rnb",
+   3
+  ],
+  [
+   "american",
+   3
   ]
  ],
  "Birdy": [
@@ -1931,6 +2015,48 @@
   ]
  ],
  "COLLEM": [],
+ "Café Tacvba": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "alternative rock",
+   89
+  ],
+  [
+   "rock",
+   57
+  ],
+  [
+   "mexico",
+   47
+  ],
+  [
+   "rock en espanol",
+   16
+  ],
+  [
+   "rock en español",
+   16
+  ],
+  [
+   "latin rock",
+   14
+  ],
+  [
+   "spanish",
+   3
+  ],
+  [
+   "mexican",
+   3
+  ],
+  [
+   "folk",
+   3
+  ]
+ ],
  "Cage the Elephant": [
   [
    "indie rock",
@@ -2581,6 +2707,48 @@
    1
   ]
  ],
+ "Cro": [
+  [
+   "rap",
+   100
+  ],
+  [
+   "german",
+   85
+  ],
+  [
+   "hip hop",
+   54
+  ],
+  [
+   "raop",
+   35
+  ],
+  [
+   "hip-hop",
+   15
+  ],
+  [
+   "german hiphop",
+   12
+  ],
+  [
+   "pop",
+   6
+  ],
+  [
+   "deutschrap",
+   1
+  ],
+  [
+   "stuttgart",
+   1
+  ],
+  [
+   "cro",
+   1
+  ]
+ ],
  "Crunkz": [
   [
    "german",
@@ -3214,6 +3382,16 @@
    66
   ]
  ],
+ "Delialah El-Atwi": [
+  [
+   "american",
+   100
+  ],
+  [
+   "usa",
+   100
+  ]
+ ],
  "Deorro": [
   [
    "house",
@@ -3256,6 +3434,7 @@
    1
   ]
  ],
+ "Dexta Small": [],
  "Dillon Francis": [
   [
    "moombahton",
@@ -4313,6 +4492,48 @@
   [
    "electropop",
    100
+  ]
+ ],
+ "Eminem": [
+  [
+   "rap",
+   100
+  ],
+  [
+   "hip-hop",
+   84
+  ],
+  [
+   "hip hop",
+   22
+  ],
+  [
+   "eminem",
+   19
+  ],
+  [
+   "pop",
+   6
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "detroit",
+   2
+  ],
+  [
+   "male vocalists",
+   1
+  ],
+  [
+   "slim shady",
+   1
+  ],
+  [
+   "gangsta rap",
+   1
   ]
  ],
  "Emmit Fenn": [
@@ -5796,6 +6017,48 @@
   [
    "alternative ryb",
    3
+  ]
+ ],
+ "Huxley": [
+  [
+   "house",
+   100
+  ],
+  [
+   "deep house",
+   77
+  ],
+  [
+   "electronic",
+   33
+  ],
+  [
+   "minimal",
+   30
+  ],
+  [
+   "uk garage",
+   10
+  ],
+  [
+   "tech house",
+   2
+  ],
+  [
+   "techno",
+   1
+  ],
+  [
+   "tech-house",
+   1
+  ],
+  [
+   "uk",
+   1
+  ],
+  [
+   "lesser known yet streamable artists",
+   1
   ]
  ],
  "Ian Asher": [
@@ -7378,6 +7641,48 @@
    1
   ]
  ],
+ "Kordhell": [
+  [
+   "phonk",
+   100
+  ],
+  [
+   "electronic",
+   15
+  ],
+  [
+   "witch house",
+   10
+  ],
+  [
+   "drift phonk",
+   6
+  ],
+  [
+   "house",
+   2
+  ],
+  [
+   "horrorcore",
+   2
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "phonk house",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "uk",
+   1
+  ]
+ ],
  "Kwengface": [
   [
    "drill",
@@ -8118,6 +8423,48 @@
   ],
   [
    "world",
+   1
+  ]
+ ],
+ "Lost Frequencies": [
+  [
+   "deep house",
+   100
+  ],
+  [
+   "electronic",
+   87
+  ],
+  [
+   "dance",
+   58
+  ],
+  [
+   "house",
+   49
+  ],
+  [
+   "belgian",
+   18
+  ],
+  [
+   "pop",
+   14
+  ],
+  [
+   "all",
+   3
+  ],
+  [
+   "tropical house",
+   1
+  ],
+  [
+   "belgium",
+   1
+  ],
+  [
+   "dj",
    1
   ]
  ],
@@ -11629,6 +11976,48 @@
    1
   ]
  ],
+ "Sofía Reyes": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "reggaeton",
+   56
+  ],
+  [
+   "mexico",
+   17
+  ],
+  [
+   "latin",
+   17
+  ],
+  [
+   "latin pop",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "trap",
+   2
+  ],
+  [
+   "my top songs",
+   1
+  ],
+  [
+   "deezer",
+   1
+  ],
+  [
+   "trap latino",
+   1
+  ]
+ ],
  "Space Wizard": [
   [
    "hard rock",
@@ -13888,6 +14277,48 @@
    1
   ]
  ],
+ "boy pablo": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "indie rock",
+   36
+  ],
+  [
+   "norwegian",
+   11
+  ],
+  [
+   "indie",
+   11
+  ],
+  [
+   "jangle pop",
+   5
+  ],
+  [
+   "norway",
+   3
+  ],
+  [
+   "lo-fi",
+   3
+  ],
+  [
+   "my top songs",
+   1
+  ],
+  [
+   "bedroom pop",
+   1
+  ],
+  [
+   "all",
+   1
+  ]
+ ],
  "deadmau5": [
   [
    "progressive house",
@@ -14068,6 +14499,7 @@
    1
   ]
  ],
+ "secs on the beach": [],
  "surfside": [],
  "warner case": [
   [
