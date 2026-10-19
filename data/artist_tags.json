@@ -465,6 +465,40 @@
    8
   ]
  ],
+ "Alemán": [
+  [
+   "rap",
+   100
+  ],
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "urban",
+   16
+  ],
+  [
+   "mexico",
+   16
+  ],
+  [
+   "naco",
+   8
+  ],
+  [
+   "underground",
+   8
+  ],
+  [
+   "mexican hip hop",
+   8
+  ],
+  [
+   "trap mexicano",
+   2
+  ]
+ ],
  "Alison Wonderland": [
   [
    "electronic",
@@ -2182,6 +2216,28 @@
   [
    "chill906",
    2
+  ]
+ ],
+ "Calle 24": [
+  [
+   "corridos tumbados",
+   100
+  ],
+  [
+   "mexico",
+   100
+  ],
+  [
+   "corridos",
+   16
+  ],
+  [
+   "latin",
+   16
+  ],
+  [
+   "corridos belicos",
+   8
   ]
  ],
  "Calvin Harris": [
@@ -10099,6 +10155,28 @@
    1
   ]
  ],
+ "Neton Vega": [
+  [
+   "mexico",
+   100
+  ],
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "corridos",
+   66
+  ],
+  [
+   "trap",
+   66
+  ],
+  [
+   "sierreno",
+   33
+  ]
+ ],
  "New Beat Order": [
   [
    "house",
@@ -14432,6 +14510,48 @@
   ],
   [
    "dance",
+   1
+  ]
+ ],
+ "Wisin": [
+  [
+   "reggaeton",
+   100
+  ],
+  [
+   "latin",
+   31
+  ],
+  [
+   "dance",
+   7
+  ],
+  [
+   "puerto rico",
+   7
+  ],
+  [
+   "puerto rican",
+   2
+  ],
+  [
+   "pop",
+   2
+  ],
+  [
+   "latin pop",
+   2
+  ],
+  [
+   "all",
+   1
+  ],
+  [
+   "black metal",
+   1
+  ],
+  [
+   "hip-hop",
    1
   ]
  ],
