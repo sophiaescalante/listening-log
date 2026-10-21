@@ -2134,6 +2134,48 @@
    1
   ]
  ],
+ "Brooks & Dunn": [
+  [
+   "country",
+   100
+  ],
+  [
+   "brooks and dunn",
+   33
+  ],
+  [
+   "modern country",
+   16
+  ],
+  [
+   "male country",
+   8
+  ],
+  [
+   "country rock",
+   4
+  ],
+  [
+   "contemporary country",
+   1
+  ],
+  [
+   "singer-songwriter",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "all",
+   1
+  ],
+  [
+   "new country",
+   1
+  ]
+ ],
  "BØRNS": [
   [
    "ambient",
@@ -6715,6 +6757,48 @@
    3
   ]
  ],
+ "Hozier": [
+  [
+   "blues",
+   100
+  ],
+  [
+   "indie",
+   90
+  ],
+  [
+   "soul",
+   56
+  ],
+  [
+   "singer-songwriter",
+   45
+  ],
+  [
+   "irish",
+   21
+  ],
+  [
+   "indie rock",
+   6
+  ],
+  [
+   "folk",
+   4
+  ],
+  [
+   "rock",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ]
+ ],
  "Huxley": [
   [
    "house",
@@ -8428,6 +8512,48 @@
   ],
   [
    "urban latino",
+   1
+  ]
+ ],
+ "Khruangbin": [
+  [
+   "funk",
+   100
+  ],
+  [
+   "psychedelic",
+   67
+  ],
+  [
+   "psychedelic rock",
+   39
+  ],
+  [
+   "rock",
+   22
+  ],
+  [
+   "usa",
+   9
+  ],
+  [
+   "ambient",
+   8
+  ],
+  [
+   "dub",
+   7
+  ],
+  [
+   "funk rock",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "texas",
    1
   ]
  ],
@@ -10518,6 +10644,48 @@
    1
   ]
  ],
+ "Midland": [
+  [
+   "deep house",
+   100
+  ],
+  [
+   "house",
+   95
+  ],
+  [
+   "electronic",
+   51
+  ],
+  [
+   "tech house",
+   42
+  ],
+  [
+   "country",
+   17
+  ],
+  [
+   "dubstep",
+   15
+  ],
+  [
+   "future garage",
+   5
+  ],
+  [
+   "techno",
+   1
+  ],
+  [
+   "tech-house",
+   1
+  ],
+  [
+   "british",
+   1
+  ]
+ ],
  "Mild Minds": [
   [
    "electronic",
@@ -10721,6 +10889,48 @@
   ],
   [
    "american",
+   1
+  ]
+ ],
+ "Mt. Joy": [
+  [
+   "folk",
+   100
+  ],
+  [
+   "americana",
+   11
+  ],
+  [
+   "american",
+   7
+  ],
+  [
+   "indie",
+   3
+  ],
+  [
+   "indie folk",
+   2
+  ],
+  [
+   "indie rock",
+   2
+  ],
+  [
+   "alternative",
+   2
+  ],
+  [
+   "folk pop",
+   1
+  ],
+  [
+   "10s",
+   1
+  ],
+  [
+   "usa",
    1
   ]
  ],
@@ -12857,6 +13067,48 @@
    1
   ]
  ],
+ "Sam Cooke": [
+  [
+   "soul",
+   100
+  ],
+  [
+   "rhythm and blues",
+   50
+  ],
+  [
+   "gospel",
+   20
+  ],
+  [
+   "oldies",
+   19
+  ],
+  [
+   "rnb",
+   6
+  ],
+  [
+   "60s",
+   4
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "blues",
+   1
+  ],
+  [
+   "sam cooke",
+   1
+  ],
+  [
+   "50s",
+   1
+  ]
+ ],
  "Sam Smith": [
   [
    "soul",
@@ -14170,6 +14422,90 @@
    1
   ]
  ],
+ "The Dip": [
+  [
+   "soul",
+   100
+  ],
+  [
+   "funk",
+   51
+  ],
+  [
+   "rnb",
+   34
+  ],
+  [
+   "indie pop",
+   1
+  ],
+  [
+   "seattle",
+   1
+  ],
+  [
+   "rhythm and blues",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "neo-soul",
+   1
+  ],
+  [
+   "terry seen live",
+   1
+  ],
+  [
+   "funk_add_to_lidarr_batch_26",
+   1
+  ]
+ ],
+ "The Lumineers": [
+  [
+   "folk",
+   100
+  ],
+  [
+   "indie",
+   76
+  ],
+  [
+   "folk rock",
+   40
+  ],
+  [
+   "american",
+   21
+  ],
+  [
+   "rock",
+   10
+  ],
+  [
+   "indie folk",
+   8
+  ],
+  [
+   "americana",
+   3
+  ],
+  [
+   "alternative",
+   1
+  ],
+  [
+   "indie rock",
+   1
+  ],
+  [
+   "usa",
+   1
+  ]
+ ],
  "The Marías": [
   [
    "dream pop",
@@ -14400,6 +14736,48 @@
   [
    "ocean",
    33
+  ]
+ ],
+ "The SteelDrivers": [
+  [
+   "bluegrass",
+   100
+  ],
+  [
+   "country",
+   55
+  ],
+  [
+   "alt-country",
+   19
+  ],
+  [
+   "folk",
+   11
+  ],
+  [
+   "americana",
+   3
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "blues",
+   1
+  ],
+  [
+   "new americana",
+   1
+  ],
+  [
+   "bluegrass artist",
+   1
+  ],
+  [
+   "progressive bluegrass",
+   1
   ]
  ],
  "The Sweeplings": [
