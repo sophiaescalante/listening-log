@@ -3081,6 +3081,48 @@
    8
   ]
  ],
+ "Costa": [
+  [
+   "breaks",
+   100
+  ],
+  [
+   "electro",
+   92
+  ],
+  [
+   "jungle",
+   61
+  ],
+  [
+   "trance",
+   41
+  ],
+  [
+   "ghettotech",
+   12
+  ],
+  [
+   "techno",
+   12
+  ],
+  [
+   "latin club",
+   6
+  ],
+  [
+   "rap",
+   1
+  ],
+  [
+   "spanish hip-hop",
+   1
+  ],
+  [
+   "spanish hip hop",
+   1
+  ]
+ ],
  "Crankdat": [
   [
    "melodic dubstep",
@@ -4123,6 +4165,48 @@
   [
    "tropical house",
    2
+  ]
+ ],
+ "Dj Bountyhunter": [
+  [
+   "gabber",
+   100
+  ],
+  [
+   "hardcore techno",
+   89
+  ],
+  [
+   "techno",
+   3
+  ],
+  [
+   "hard trance",
+   3
+  ],
+  [
+   "techno-classics",
+   1
+  ],
+  [
+   "hardcore",
+   1
+  ],
+  [
+   "trance",
+   1
+  ],
+  [
+   "acid",
+   1
+  ],
+  [
+   "belgium",
+   1
+  ],
+  [
+   "belgian",
+   1
   ]
  ],
  "Doja Cat": [
@@ -6092,6 +6176,24 @@
   [
    "hip hop",
    1
+  ]
+ ],
+ "Ghengar": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "darkstep",
+   17
+  ],
+  [
+   "riddim",
+   17
   ]
  ],
  "Goldfish": [
@@ -8243,6 +8345,48 @@
    1
   ]
  ],
+ "KI/KI": [
+  [
+   "trance",
+   100
+  ],
+  [
+   "dance",
+   69
+  ],
+  [
+   "techno",
+   46
+  ],
+  [
+   "electronic",
+   16
+  ],
+  [
+   "dutch",
+   8
+  ],
+  [
+   "acid",
+   8
+  ],
+  [
+   "netherlands",
+   4
+  ],
+  [
+   "dj",
+   1
+  ],
+  [
+   "deejay",
+   1
+  ],
+  [
+   "slash",
+   1
+  ]
+ ],
  "KYLE": [
   [
    "hip-hop",
@@ -8725,6 +8869,32 @@
   [
    "kid cudi",
    1
+  ]
+ ],
+ "Killen.": [
+  [
+   "swedish",
+   100
+  ],
+  [
+   "house",
+   44
+  ],
+  [
+   "electronic",
+   29
+  ],
+  [
+   "dance",
+   7
+  ],
+  [
+   "stutter house",
+   4
+  ],
+  [
+   "edm",
+   4
   ]
  ],
  "King Von": [
@@ -16503,6 +16673,32 @@
   [
    "pop",
    1
+  ]
+ ],
+ "ZAPRAVKA": [
+  [
+   "russian",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "danse",
+   16
+  ],
+  [
+   "rave",
+   16
+  ],
+  [
+   "meme",
+   8
+  ],
+  [
+   "hard bass",
+   8
   ]
  ],
  "ZHU": [
