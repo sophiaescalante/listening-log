@@ -41,6 +41,7 @@
    1
   ]
  ],
+ "4Rain": [],
  "54 Ultra": [
   [
    "indie",
@@ -2241,6 +2242,48 @@
   ],
   [
    "new country",
+   1
+  ]
+ ],
+ "Bystander": [
+  [
+   "aor",
+   100
+  ],
+  [
+   "straight edge",
+   80
+  ],
+  [
+   "80s",
+   30
+  ],
+  [
+   "hardcore",
+   13
+  ],
+  [
+   "melodic hard rock",
+   7
+  ],
+  [
+   "youth crew",
+   7
+  ],
+  [
+   "hard rock",
+   7
+  ],
+  [
+   "progressive deathcore",
+   2
+  ],
+  [
+   "metal",
+   1
+  ],
+  [
+   "rock",
    1
   ]
  ],
@@ -6086,6 +6129,48 @@
    1
   ]
  ],
+ "Fuzion": [
+  [
+   "dubstep",
+   100
+  ],
+  [
+   "electronic",
+   51
+  ],
+  [
+   "grime",
+   12
+  ],
+  [
+   "bass",
+   5
+  ],
+  [
+   "filthstep",
+   3
+  ],
+  [
+   "uk garage",
+   3
+  ],
+  [
+   "bassline",
+   3
+  ],
+  [
+   "post-hardcore",
+   1
+  ],
+  [
+   "hardcore",
+   1
+  ],
+  [
+   "metalcore",
+   1
+  ]
+ ],
  "Galantis": [
   [
    "house",
@@ -7321,6 +7406,32 @@
    1
   ]
  ],
+ "In Parallel": [
+  [
+   "house",
+   100
+  ],
+  [
+   "dance",
+   100
+  ],
+  [
+   "shoegaze",
+   66
+  ],
+  [
+   "alternative rock",
+   66
+  ],
+  [
+   "garage",
+   33
+  ],
+  [
+   "edm",
+   33
+  ]
+ ],
  "Inzo": [
   [
    "future bass",
@@ -7630,6 +7741,48 @@
   ],
   [
    "progressive",
+   1
+  ]
+ ],
+ "James Carter": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "saxophone",
+   51
+  ],
+  [
+   "contemporary jazz",
+   19
+  ],
+  [
+   "tenor sax",
+   12
+  ],
+  [
+   "free jazz",
+   4
+  ],
+  [
+   "post-bop",
+   2
+  ],
+  [
+   "james carter",
+   2
+  ],
+  [
+   "all",
+   1
+  ],
+  [
+   "sax",
+   1
+  ],
+  [
+   "modern creative",
    1
   ]
  ],
@@ -11048,6 +11201,7 @@
    33
   ]
  ],
+ "Melo Nada": [],
  "MesTo": [
   [
    "mesciak debesciak",
@@ -17258,6 +17412,7 @@
    1
   ]
  ],
+ "blissfool": [],
  "boy pablo": [
   [
    "indie pop",
@@ -17444,6 +17599,12 @@
   [
    "norway",
    3
+  ]
+ ],
+ "haven.": [
+  [
+   "ai",
+   100
   ]
  ],
  "it's murph": [
