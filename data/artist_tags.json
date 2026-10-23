@@ -2997,6 +2997,48 @@
    1
   ]
  ],
+ "Chrystal": [
+  [
+   "60s",
+   100
+  ],
+  [
+   "pop",
+   83
+  ],
+  [
+   "soul",
+   48
+  ],
+  [
+   "oldies",
+   42
+  ],
+  [
+   "female vocalists",
+   21
+  ],
+  [
+   "girl groups",
+   8
+  ],
+  [
+   "girl group",
+   6
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "new york",
+   1
+  ],
+  [
+   "phil spector",
+   1
+  ]
+ ],
  "Cid": [
   [
    "electronic",
@@ -5316,6 +5358,48 @@
    1
   ]
  ],
+ "Eslabon Armado": [
+  [
+   "corridos tumbados",
+   100
+  ],
+  [
+   "sierreno",
+   44
+  ],
+  [
+   "mexico",
+   17
+  ],
+  [
+   "corridos",
+   17
+  ],
+  [
+   "sad sierreno",
+   8
+  ],
+  [
+   "corrido",
+   8
+  ],
+  [
+   "mexican",
+   4
+  ],
+  [
+   "california",
+   1
+  ],
+  [
+   "latin",
+   1
+  ],
+  [
+   "folk",
+   1
+  ]
+ ],
  "Evan Honer": [
   [
    "country",
@@ -5923,6 +6007,40 @@
   ],
   [
    "pop",
+   1
+  ]
+ ],
+ "Fuerza Regida": [
+  [
+   "corridos tumbados",
+   100
+  ],
+  [
+   "mexico",
+   56
+  ],
+  [
+   "corridos",
+   37
+  ],
+  [
+   "sierreno",
+   37
+  ],
+  [
+   "latin",
+   8
+  ],
+  [
+   "corrido",
+   8
+  ],
+  [
+   "regional mexicano",
+   2
+  ],
+  [
+   "sad sierreno",
    1
   ]
  ],
@@ -17332,6 +17450,7 @@
  "nuhm": [],
  "secs on the beach": [],
  "surfside": [],
+ "tienanh109": [],
  "warner case": [
   [
    "dance",
