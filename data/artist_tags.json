@@ -5817,6 +5817,90 @@
    1
   ]
  ],
+ "Fleetwood Mac": [
+  [
+   "classic rock",
+   100
+  ],
+  [
+   "rock",
+   71
+  ],
+  [
+   "70s",
+   35
+  ],
+  [
+   "blues",
+   32
+  ],
+  [
+   "pop",
+   12
+  ],
+  [
+   "blues rock",
+   7
+  ],
+  [
+   "soft rock",
+   6
+  ],
+  [
+   "british",
+   1
+  ],
+  [
+   "fleetwood mac",
+   1
+  ],
+  [
+   "80s",
+   1
+  ]
+ ],
+ "Flight Facilities": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   98
+  ],
+  [
+   "chillout",
+   44
+  ],
+  [
+   "disco house",
+   38
+  ],
+  [
+   "funk",
+   15
+  ],
+  [
+   "electronica",
+   7
+  ],
+  [
+   "deep house",
+   6
+  ],
+  [
+   "australian",
+   2
+  ],
+  [
+   "nu disco",
+   2
+  ],
+  [
+   "downtempo",
+   1
+  ]
+ ],
  "FloyyMenor": [
   [
    "chile",
@@ -9554,6 +9638,32 @@
   [
    "electropop",
    1
+  ]
+ ],
+ "La La Land Cast": [
+  [
+   "soundtrack",
+   100
+  ],
+  [
+   "jazz",
+   100
+  ],
+  [
+   "musical",
+   17
+  ],
+  [
+   "swing",
+   17
+  ],
+  [
+   "la la land",
+   8
+  ],
+  [
+   "united states",
+   8
   ]
  ],
  "La Obsesion": [
