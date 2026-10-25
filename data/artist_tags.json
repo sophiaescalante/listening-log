@@ -41,6 +41,48 @@
    1
   ]
  ],
+ "311": [
+  [
+   "alternative",
+   100
+  ],
+  [
+   "alternative rock",
+   91
+  ],
+  [
+   "reggae",
+   59
+  ],
+  [
+   "rock",
+   53
+  ],
+  [
+   "ska",
+   24
+  ],
+  [
+   "rapcore",
+   5
+  ],
+  [
+   "reggae rock",
+   4
+  ],
+  [
+   "punk",
+   1
+  ],
+  [
+   "311",
+   1
+  ],
+  [
+   "90s",
+   1
+  ]
+ ],
  "4Rain": [],
  "54 Ultra": [
   [
@@ -1412,6 +1454,48 @@
    2
   ]
  ],
+ "Bakar": [
+  [
+   "french rap",
+   100
+  ],
+  [
+   "indie",
+   69
+  ],
+  [
+   "hip hop",
+   46
+  ],
+  [
+   "rap",
+   29
+  ],
+  [
+   "french hip hop",
+   15
+  ],
+  [
+   "hip-hop",
+   15
+  ],
+  [
+   "alternative",
+   8
+  ],
+  [
+   "british",
+   2
+  ],
+  [
+   "punk",
+   1
+  ],
+  [
+   "all",
+   1
+  ]
+ ],
  "Bakker": [],
  "Balu Brigada": [
   [
@@ -1620,6 +1704,48 @@
   ],
   [
    "usa",
+   1
+  ]
+ ],
+ "Bee Gees": [
+  [
+   "disco",
+   100
+  ],
+  [
+   "pop",
+   81
+  ],
+  [
+   "70s",
+   47
+  ],
+  [
+   "classic rock",
+   36
+  ],
+  [
+   "oldies",
+   12
+  ],
+  [
+   "british",
+   3
+  ],
+  [
+   "soft rock",
+   3
+  ],
+  [
+   "bee gees",
+   1
+  ],
+  [
+   "rock",
+   1
+  ],
+  [
+   "60s",
    1
   ]
  ],
@@ -2002,6 +2128,48 @@
   ],
   [
    "alternative",
+   1
+  ]
+ ],
+ "Bob Marley & The Wailers": [
+  [
+   "reggae",
+   100
+  ],
+  [
+   "roots reggae",
+   39
+  ],
+  [
+   "ska",
+   16
+  ],
+  [
+   "roots",
+   11
+  ],
+  [
+   "classic rock",
+   4
+  ],
+  [
+   "jamaican",
+   3
+  ],
+  [
+   "jamaica",
+   2
+  ],
+  [
+   "bob marley",
+   1
+  ],
+  [
+   "70s",
+   1
+  ],
+  [
+   "rocksteady",
    1
   ]
  ],
@@ -3961,6 +4129,48 @@
    1
   ]
  ],
+ "Damian Marley": [
+  [
+   "reggae",
+   100
+  ],
+  [
+   "dancehall",
+   40
+  ],
+  [
+   "jamaica",
+   20
+  ],
+  [
+   "ragga",
+   20
+  ],
+  [
+   "hip-hop",
+   9
+  ],
+  [
+   "jamaican",
+   2
+  ],
+  [
+   "hip hop",
+   1
+  ],
+  [
+   "dub",
+   1
+  ],
+  [
+   "damian marley",
+   1
+  ],
+  [
+   "marley",
+   1
+  ]
+ ],
  "Danell Arma": [],
  "Daniel Allan": [
   [
@@ -4105,6 +4315,48 @@
   [
    "synth rock",
    4
+  ]
+ ],
+ "Dawn Penn": [
+  [
+   "reggae",
+   100
+  ],
+  [
+   "dancehall",
+   51
+  ],
+  [
+   "rocksteady",
+   25
+  ],
+  [
+   "dub",
+   22
+  ],
+  [
+   "female vocalists",
+   11
+  ],
+  [
+   "jamaican",
+   7
+  ],
+  [
+   "soul",
+   7
+  ],
+  [
+   "jamaica",
+   1
+  ],
+  [
+   "trojan",
+   1
+  ],
+  [
+   "60s",
+   1
   ]
  ],
  "DeVault": [
@@ -8694,6 +8946,44 @@
    1
   ]
  ],
+ "Jr Thomas & The Volcanos": [
+  [
+   "ska",
+   100
+  ],
+  [
+   "soul",
+   44
+  ],
+  [
+   "reggae",
+   29
+  ],
+  [
+   "usa",
+   29
+  ],
+  [
+   "rocksteady",
+   15
+  ],
+  [
+   "united states",
+   4
+  ],
+  [
+   "skinhead reggae",
+   4
+  ],
+  [
+   "funk_add_to_lidarr_batch_14",
+   1
+  ],
+  [
+   "early reggae revival",
+   1
+  ]
+ ],
  "Juice WRLD": [
   [
    "trap",
@@ -11960,6 +12250,48 @@
    1
   ]
  ],
+ "Mo'kalamity": [
+  [
+   "reggae",
+   100
+  ],
+  [
+   "dub",
+   28
+  ],
+  [
+   "african",
+   18
+  ],
+  [
+   "roots reggae",
+   18
+  ],
+  [
+   "female vocalists",
+   1
+  ],
+  [
+   "rasta vibe",
+   1
+  ],
+  [
+   "france",
+   1
+  ],
+  [
+   "wonderful voice",
+   1
+  ],
+  [
+   "mo kalamity",
+   1
+  ],
+  [
+   "french",
+   1
+  ]
+ ],
  "Monster Rally": [
   [
    "chillwave",
@@ -12987,6 +13319,48 @@
    1
   ]
  ],
+ "Peter Bjorn and John": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "swedish",
+   82
+  ],
+  [
+   "indie pop",
+   50
+  ],
+  [
+   "indie rock",
+   38
+  ],
+  [
+   "alternative",
+   18
+  ],
+  [
+   "pop",
+   4
+  ],
+  [
+   "rock",
+   3
+  ],
+  [
+   "scandinavian",
+   1
+  ],
+  [
+   "sweden",
+   1
+  ],
+  [
+   "alternative rock",
+   1
+  ]
+ ],
  "Phantogram": [
   [
    "trip-hop",
@@ -13629,6 +14003,48 @@
    1
   ]
  ],
+ "Red Hot Chili Peppers": [
+  [
+   "rock",
+   100
+  ],
+  [
+   "alternative rock",
+   83
+  ],
+  [
+   "funk rock",
+   50
+  ],
+  [
+   "alternative",
+   41
+  ],
+  [
+   "funk",
+   20
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "90s",
+   2
+  ],
+  [
+   "red hot chili peppers",
+   1
+  ],
+  [
+   "california",
+   1
+  ],
+  [
+   "punk",
+   1
+  ]
+ ],
  "Regard": [
   [
    "electronic",
@@ -13980,6 +14396,48 @@
   ],
   [
    "dj",
+   1
+  ]
+ ],
+ "Rod Stewart": [
+  [
+   "classic rock",
+   100
+  ],
+  [
+   "rock",
+   88
+  ],
+  [
+   "soft rock",
+   39
+  ],
+  [
+   "70s",
+   39
+  ],
+  [
+   "pop",
+   18
+  ],
+  [
+   "british",
+   6
+  ],
+  [
+   "80s",
+   4
+  ],
+  [
+   "rod stewart",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ],
+  [
+   "singer-songwriter",
    1
   ]
  ],
@@ -15066,6 +15524,48 @@
    2
   ]
  ],
+ "Sticky Fingers": [
+  [
+   "indie",
+   100
+  ],
+  [
+   "australian",
+   100
+  ],
+  [
+   "rock",
+   61
+  ],
+  [
+   "reggae rock",
+   55
+  ],
+  [
+   "indie rock",
+   10
+  ],
+  [
+   "alternative",
+   10
+  ],
+  [
+   "reggae",
+   4
+  ],
+  [
+   "disco",
+   1
+  ],
+  [
+   "all",
+   1
+  ],
+  [
+   "psychedelic",
+   1
+  ]
+ ],
  "Sub Focus": [
   [
    "drum and bass",
@@ -15105,6 +15605,48 @@
   ],
   [
    "drum & bass",
+   1
+  ]
+ ],
+ "Sublime": [
+  [
+   "ska",
+   100
+  ],
+  [
+   "reggae",
+   85
+  ],
+  [
+   "punk",
+   40
+  ],
+  [
+   "alternative",
+   28
+  ],
+  [
+   "rock",
+   13
+  ],
+  [
+   "ska punk",
+   6
+  ],
+  [
+   "alternative rock",
+   4
+  ],
+  [
+   "punk rock",
+   1
+  ],
+  [
+   "dub",
+   1
+  ],
+  [
+   "90s",
    1
   ]
  ],
@@ -16252,6 +16794,48 @@
    1
   ]
  ],
+ "The Temptations": [
+  [
+   "soul",
+   100
+  ],
+  [
+   "motown",
+   72
+  ],
+  [
+   "funk",
+   35
+  ],
+  [
+   "oldies",
+   23
+  ],
+  [
+   "rnb",
+   8
+  ],
+  [
+   "60s",
+   5
+  ],
+  [
+   "rhythm and blues",
+   4
+  ],
+  [
+   "the temptations",
+   1
+  ],
+  [
+   "psychedelic soul",
+   1
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
  "The Weeknd": [
   [
    "rnb",
@@ -16333,6 +16917,48 @@
   ],
   [
    "scandinavian",
+   1
+  ]
+ ],
+ "Thee Sacred Souls": [
+  [
+   "soul",
+   100
+  ],
+  [
+   "funk",
+   28
+  ],
+  [
+   "rnb",
+   18
+  ],
+  [
+   "united states",
+   5
+  ],
+  [
+   "san diego",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "indie rock",
+   1
+  ],
+  [
+   "california",
+   1
+  ],
+  [
+   "r&b",
+   1
+  ],
+  [
+   "male vocalists",
    1
   ]
  ],
@@ -17512,6 +18138,48 @@
    1
   ]
  ],
+ "Wiz Khalifa": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "rap",
+   79
+  ],
+  [
+   "hip hop",
+   20
+  ],
+  [
+   "underground hip-hop",
+   19
+  ],
+  [
+   "pittsburgh",
+   7
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "wiz khalifa",
+   3
+  ],
+  [
+   "hip hop/rap",
+   1
+  ],
+  [
+   "east coast rap",
+   1
+  ],
+  [
+   "east coast",
+   1
+  ]
+ ],
  "Wuki": [
   [
    "house",
@@ -18455,6 +19123,40 @@
   ]
  ],
  "nuhm": [],
+ "projektbau": [
+  [
+   "house",
+   100
+  ],
+  [
+   "german",
+   100
+  ],
+  [
+   "lo-fi",
+   66
+  ],
+  [
+   "germany",
+   66
+  ],
+  [
+   "deutschland",
+   33
+  ],
+  [
+   "deutsch",
+   33
+  ],
+  [
+   "lo-fi house",
+   33
+  ],
+  [
+   "lofi house",
+   10
+  ]
+ ],
  "secs on the beach": [],
  "surfside": [],
  "tienanh109": [],
