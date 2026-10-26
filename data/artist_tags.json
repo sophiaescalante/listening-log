@@ -288,6 +288,40 @@
    1
   ]
  ],
+ "ATRIP": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "breakbeat",
+   66
+  ],
+  [
+   "british",
+   66
+  ],
+  [
+   "deep house",
+   8
+  ],
+  [
+   "united kingdom",
+   8
+  ],
+  [
+   "funk_add_to_lidarr",
+   8
+  ],
+  [
+   "funk_add_to_lidarr_batch_1",
+   3
+  ]
+ ],
  "AYYBO": [
   [
    "house",
@@ -2073,6 +2107,28 @@
   [
    "organ house",
    4
+  ]
+ ],
+ "Blair Muir": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "uk",
+   66
+  ],
+  [
+   "scotland",
+   66
+  ],
+  [
+   "uk house",
+   33
   ]
  ],
  "Blake and Miles": [
@@ -5304,6 +5360,7 @@
    1
   ]
  ],
+ "Ecchi.mp4": [],
  "Edward Maya": [
   [
    "electronic",
@@ -10182,6 +10239,20 @@
    1
   ]
  ],
+ "LOSTBOYJAY": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "canada",
+   17
+  ]
+ ],
  "La La Land Cast": [
   [
    "soundtrack",
@@ -12854,6 +12925,7 @@
    1
   ]
  ],
+ "Novaj": [],
  "ODESZA": [
   [
    "chillwave",
@@ -12908,6 +12980,36 @@
   [
    "united states",
    17
+  ]
+ ],
+ "Oden & Fatzo": [
+  [
+   "disco house",
+   100
+  ],
+  [
+   "house",
+   100
+  ],
+  [
+   "paris",
+   17
+  ],
+  [
+   "french",
+   17
+  ],
+  [
+   "jazz house",
+   8
+  ],
+  [
+   "lo-fi house",
+   8
+  ],
+  [
+   "lofi house",
+   8
   ]
  ],
  "Odie": [
@@ -16040,6 +16142,48 @@
    4
   ]
  ],
+ "Swoosh": [
+  [
+   "jungle",
+   100
+  ],
+  [
+   "drum and bass",
+   36
+  ],
+  [
+   "electronica",
+   11
+  ],
+  [
+   "electronic",
+   11
+  ],
+  [
+   "garage rock",
+   1
+  ],
+  [
+   "surf",
+   1
+  ],
+  [
+   "trance",
+   1
+  ],
+  [
+   "punk",
+   1
+  ],
+  [
+   "finnish",
+   1
+  ],
+  [
+   "dance",
+   1
+  ]
+ ],
  "TV Girl": [
   [
    "indie pop",
@@ -16448,6 +16592,48 @@
   [
    "techno",
    8
+  ]
+ ],
+ "Texture": [
+  [
+   "hip-hop",
+   100
+  ],
+  [
+   "eurodance",
+   61
+  ],
+  [
+   "90s",
+   12
+  ],
+  [
+   "trip-hop",
+   12
+  ],
+  [
+   "techno",
+   3
+  ],
+  [
+   "dance",
+   3
+  ],
+  [
+   "rap",
+   3
+  ],
+  [
+   "female vocalists",
+   1
+  ],
+  [
+   "dubstep",
+   1
+  ],
+  [
+   "witch house",
+   1
   ]
  ],
  "The Backseat Lovers": [
