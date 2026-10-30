@@ -7961,6 +7961,7 @@
    1
   ]
  ],
+ "HUNT.": [],
  "HURTBOX": [],
  "Harry Styles": [
   [
@@ -11798,6 +11799,12 @@
    1
   ]
  ],
+ "MANIL": [
+  [
+   "uk",
+   100
+  ]
+ ],
  "MARQ": [
   [
    "indie pop",
@@ -13563,6 +13570,48 @@
    17
   ]
  ],
+ "Odd Mob": [
+  [
+   "dance",
+   100
+  ],
+  [
+   "house",
+   64
+  ],
+  [
+   "electronic",
+   42
+  ],
+  [
+   "australian",
+   24
+  ],
+  [
+   "electro",
+   1
+  ],
+  [
+   "dnb",
+   1
+  ],
+  [
+   "all",
+   1
+  ],
+  [
+   "edm",
+   1
+  ],
+  [
+   "elektro-house",
+   1
+  ],
+  [
+   "triple j",
+   1
+  ]
+ ],
  "Oden & Fatzo": [
   [
    "disco house",
@@ -14016,6 +14065,48 @@
   ]
  ],
  "POLOVICH": [],
+ "Palm": [
+  [
+   "math rock",
+   100
+  ],
+  [
+   "hardcore",
+   78
+  ],
+  [
+   "indie rock",
+   18
+  ],
+  [
+   "experimental",
+   18
+  ],
+  [
+   "japanese",
+   7
+  ],
+  [
+   "metalcore",
+   7
+  ],
+  [
+   "sludge",
+   5
+  ],
+  [
+   "experimental rock",
+   1
+  ],
+  [
+   "art rock",
+   1
+  ],
+  [
+   "metal",
+   1
+  ]
+ ],
  "Parcels": [
   [
    "funk",
@@ -15751,6 +15842,48 @@
   ],
   [
    "england",
+   1
+  ],
+  [
+   "english",
+   1
+  ]
+ ],
+ "Sammy Virji": [
+  [
+   "uk garage",
+   100
+  ],
+  [
+   "electronic",
+   33
+  ],
+  [
+   "garage",
+   12
+  ],
+  [
+   "speed garage",
+   12
+  ],
+  [
+   "bassline",
+   6
+  ],
+  [
+   "british",
+   3
+  ],
+  [
+   "dance",
+   3
+  ],
+  [
+   "2-step",
+   1
+  ],
+  [
+   "house",
    1
   ],
   [
@@ -20468,6 +20601,36 @@
   [
    "chill house",
    66
+  ]
+ ],
+ "informal.": [
+  [
+   "indie electropop",
+   100
+  ],
+  [
+   "electropop",
+   100
+  ],
+  [
+   "future bass",
+   66
+  ],
+  [
+   "edm",
+   66
+  ],
+  [
+   "bass trap",
+   33
+  ],
+  [
+   "pop edm",
+   33
+  ],
+  [
+   "electronic trap",
+   33
   ]
  ],
  "it's murph": [
