@@ -8545,6 +8545,48 @@
    1
   ]
  ],
+ "Gryffin": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "dance",
+   37
+  ],
+  [
+   "american",
+   17
+  ],
+  [
+   "edm",
+   5
+  ],
+  [
+   "california",
+   1
+  ],
+  [
+   "san francisco",
+   1
+  ],
+  [
+   "tropical house",
+   1
+  ],
+  [
+   "chill house",
+   1
+  ],
+  [
+   "ten million plays",
+   1
+  ]
+ ],
  "HARDSTYLE CVNT": [
   [
    "hardstyle",
@@ -18053,6 +18095,48 @@
   [
    "house",
    7
+  ]
+ ],
+ "Surf Mesa": [
+  [
+   "lo-fi",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "usa",
+   17
+  ],
+  [
+   "american",
+   17
+  ],
+  [
+   "seattle",
+   8
+  ],
+  [
+   "producer",
+   8
+  ],
+  [
+   "elektro",
+   8
+  ],
+  [
+   "chill pop",
+   3
+  ],
+  [
+   "chill house",
+   3
+  ],
+  [
+   "artistes",
+   3
   ]
  ],
  "Surfaces": [
