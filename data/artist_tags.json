@@ -1652,6 +1652,12 @@
    2
   ]
  ],
+ "Bad Patterns": [
+  [
+   "uk",
+   100
+  ]
+ ],
  "Bakar": [
   [
    "french rap",
@@ -10855,6 +10861,48 @@
   [
    "electronic",
    1
+  ]
+ ],
+ "Karma": [
+  [
+   "downtempo",
+   100
+  ],
+  [
+   "electronic",
+   86
+  ],
+  [
+   "dance",
+   54
+  ],
+  [
+   "acid jazz",
+   48
+  ],
+  [
+   "lounge",
+   21
+  ],
+  [
+   "croatian",
+   20
+  ],
+  [
+   "rock",
+   10
+  ],
+  [
+   "drill",
+   2
+  ],
+  [
+   "progressive metal",
+   2
+  ],
+  [
+   "uk drill",
+   2
   ]
  ],
  "Kaskade": [
