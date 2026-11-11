@@ -2079,6 +2079,48 @@
    1
   ]
  ],
+ "Belanova": [
+  [
+   "electropop",
+   100
+  ],
+  [
+   "pop",
+   92
+  ],
+  [
+   "mexican",
+   39
+  ],
+  [
+   "electronic",
+   36
+  ],
+  [
+   "spanish",
+   16
+  ],
+  [
+   "female vocalists",
+   8
+  ],
+  [
+   "mexico",
+   6
+  ],
+  [
+   "latin",
+   1
+  ],
+  [
+   "latin pop",
+   1
+  ],
+  [
+   "dance",
+   1
+  ]
+ ],
  "Benny Benassi": [
   [
    "electronic",
@@ -5227,6 +5269,48 @@
   [
    "synth rock",
    4
+  ]
+ ],
+ "Darviin": [
+  [
+   "brazilian",
+   100
+  ],
+  [
+   "pop punk",
+   88
+  ],
+  [
+   "hardcore",
+   47
+  ],
+  [
+   "emo",
+   47
+  ],
+  [
+   "darvin",
+   15
+  ],
+  [
+   "rock",
+   10
+  ],
+  [
+   "pop rock",
+   3
+  ],
+  [
+   "brasil",
+   1
+  ],
+  [
+   "punk",
+   1
+  ],
+  [
+   "all",
+   1
   ]
  ],
  "David Guetta": [
@@ -10852,6 +10936,48 @@
    1
   ]
  ],
+ "Juanes": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "pop",
+   76
+  ],
+  [
+   "spanish",
+   47
+  ],
+  [
+   "rock",
+   35
+  ],
+  [
+   "latino",
+   12
+  ],
+  [
+   "colombian",
+   7
+  ],
+  [
+   "colombia",
+   6
+  ],
+  [
+   "latin pop",
+   1
+  ],
+  [
+   "juanes",
+   1
+  ],
+  [
+   "male vocalists",
+   1
+  ]
+ ],
  "Juice WRLD": [
   [
    "trap",
@@ -10934,6 +11060,48 @@
   [
    "breakup",
    1
+  ]
+ ],
+ "Julieta Venegas": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "pop",
+   87
+  ],
+  [
+   "female vocalists",
+   57
+  ],
+  [
+   "mexican",
+   46
+  ],
+  [
+   "spanish",
+   17
+  ],
+  [
+   "latin pop",
+   7
+  ],
+  [
+   "singer-songwriter",
+   7
+  ],
+  [
+   "mexico",
+   2
+  ],
+  [
+   "alternative",
+   2
+  ],
+  [
+   "folk",
+   2
   ]
  ],
  "Jungle": [
@@ -11800,6 +11968,48 @@
   ],
   [
    "art pop",
+   1
+  ]
+ ],
+ "Kevin Kaarl": [
+  [
+   "folk",
+   100
+  ],
+  [
+   "guitar",
+   44
+  ],
+  [
+   "mexico",
+   29
+  ],
+  [
+   "beautiful",
+   7
+  ],
+  [
+   "indie folk",
+   4
+  ],
+  [
+   "acustic",
+   4
+  ],
+  [
+   "romantic",
+   4
+  ],
+  [
+   "contemporary folk",
+   1
+  ],
+  [
+   "mexican",
+   1
+  ],
+  [
+   "mierda",
    1
   ]
  ],
@@ -12787,6 +12997,48 @@
    1
   ]
  ],
+ "Lewis OfMan": [
+  [
+   "french",
+   100
+  ],
+  [
+   "electronic",
+   36
+  ],
+  [
+   "france",
+   24
+  ],
+  [
+   "indie",
+   11
+  ],
+  [
+   "french touch",
+   5
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "electropop",
+   1
+  ],
+  [
+   "synthpop",
+   1
+  ],
+  [
+   "new wave",
+   1
+  ],
+  [
+   "alternative",
+   1
+  ]
+ ],
  "León Larregui": [
   [
    "mexico",
@@ -13323,6 +13575,48 @@
   ]
  ],
  "Lucaa": [],
+ "Luis Miguel": [
+  [
+   "latin",
+   100
+  ],
+  [
+   "boleros",
+   98
+  ],
+  [
+   "baladas",
+   51
+  ],
+  [
+   "spanish",
+   51
+  ],
+  [
+   "pop",
+   24
+  ],
+  [
+   "luis miguel",
+   15
+  ],
+  [
+   "mexico",
+   8
+  ],
+  [
+   "male vocalists",
+   2
+  ],
+  [
+   "latin pop",
+   2
+  ],
+  [
+   "mexican",
+   2
+  ]
+ ],
  "Lullabie": [],
  "Lunay": [
   [
@@ -13703,6 +13997,20 @@
    1
   ]
  ],
+ "Macario Martínez": [
+  [
+   "folk",
+   100
+  ],
+  [
+   "pop",
+   100
+  ],
+  [
+   "mexico",
+   66
+  ]
+ ],
  "Mackie": [
   [
    "dancehall",
@@ -13917,6 +14225,12 @@
   [
    "rock",
    1
+  ]
+ ],
+ "Marc Seguí": [
+  [
+   "spanish",
+   100
   ]
  ],
  "Marco Consonni": [],
