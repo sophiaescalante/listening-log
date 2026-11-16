@@ -13815,6 +13815,40 @@
    66
   ]
  ],
+ "Lyrah": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "electronic",
+   25
+  ],
+  [
+   "electro",
+   17
+  ],
+  [
+   "dance",
+   17
+  ],
+  [
+   "4",
+   8
+  ],
+  [
+   "usa",
+   8
+  ],
+  [
+   "female vocalists",
+   8
+  ],
+  [
+   "spotify",
+   3
+  ]
+ ],
  "M.I.A.": [
   [
    "hip-hop",
@@ -19912,6 +19946,40 @@
    1
   ]
  ],
+ "Sun Room": [
+  [
+   "surf rock",
+   100
+  ],
+  [
+   "garage rock",
+   100
+  ],
+  [
+   "surf",
+   17
+  ],
+  [
+   "garage punk",
+   17
+  ],
+  [
+   "indie",
+   8
+  ],
+  [
+   "punk rock",
+   2
+  ],
+  [
+   "garage",
+   2
+  ],
+  [
+   "us",
+   1
+  ]
+ ],
  "Sunday Scaries": [
   [
    "dance",
@@ -20821,6 +20889,48 @@
   ],
   [
    "alternative dance",
+   1
+  ]
+ ],
+ "The Chipmunks": [
+  [
+   "chipmunk vocalists",
+   100
+  ],
+  [
+   "christmas",
+   91
+  ],
+  [
+   "comedy",
+   48
+  ],
+  [
+   "kids",
+   15
+  ],
+  [
+   "cartoons",
+   5
+  ],
+  [
+   "need to rate",
+   3
+  ],
+  [
+   "soundtrack",
+   1
+  ],
+  [
+   "ross bagdasarian",
+   1
+  ],
+  [
+   "the chipmunks",
+   1
+  ],
+  [
+   "furry",
    1
   ]
  ],
@@ -23815,6 +23925,28 @@
    1
   ]
  ],
+ "almost a.m.": [
+  [
+   "rock",
+   100
+  ],
+  [
+   "indie",
+   100
+  ],
+  [
+   "alternative",
+   66
+  ],
+  [
+   "indie-rock",
+   66
+  ],
+  [
+   "alt-pop",
+   33
+  ]
+ ],
  "beabadoobee": [
   [
    "indie pop",
@@ -24447,6 +24579,7 @@
    66
   ]
  ],
+ "xxtristanxo": [],
  "ydg": [
   [
    "korean",
