@@ -626,6 +626,48 @@
    4
   ]
  ],
+ "Al Martino": [
+  [
+   "swing",
+   100
+  ],
+  [
+   "jazz",
+   87
+  ],
+  [
+   "60s",
+   49
+  ],
+  [
+   "oldies",
+   49
+  ],
+  [
+   "lounge",
+   14
+  ],
+  [
+   "al martino",
+   13
+  ],
+  [
+   "easy listening",
+   7
+  ],
+  [
+   "male vocalists",
+   2
+  ],
+  [
+   "50s",
+   1
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
  "Alan Fitzpatrick": [
   [
    "techno",
@@ -1465,6 +1507,7 @@
    1
   ]
  ],
+ "Atticus Rush": [],
  "Aventura": [
   [
    "bachata",
@@ -2930,6 +2973,48 @@
   ],
   [
    "world",
+   1
+  ]
+ ],
+ "Bobby Vinton": [
+  [
+   "oldies",
+   100
+  ],
+  [
+   "60s",
+   93
+  ],
+  [
+   "pop",
+   52
+  ],
+  [
+   "easy listening",
+   28
+  ],
+  [
+   "male vocalists",
+   12
+  ],
+  [
+   "bobby vinton",
+   4
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "jazz",
+   1
+  ],
+  [
+   "classic rock",
+   1
+  ],
+  [
+   "usa",
    1
   ]
  ],
@@ -4747,6 +4832,48 @@
    33
   ]
  ],
+ "Curtis Lee": [
+  [
+   "60s",
+   100
+  ],
+  [
+   "oldies",
+   86
+  ],
+  [
+   "doo wop",
+   50
+  ],
+  [
+   "rock n roll",
+   47
+  ],
+  [
+   "pop",
+   20
+  ],
+  [
+   "rock and roll",
+   10
+  ],
+  [
+   "male vocalists",
+   6
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "rockabilly",
+   1
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
  "D.O.D": [
   [
    "electro",
@@ -5639,6 +5766,48 @@
   [
    "edm",
    2
+  ]
+ ],
+ "Dean Martin": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "swing",
+   86
+  ],
+  [
+   "oldies",
+   39
+  ],
+  [
+   "easy listening",
+   27
+  ],
+  [
+   "lounge",
+   12
+  ],
+  [
+   "american",
+   3
+  ],
+  [
+   "50s",
+   3
+  ],
+  [
+   "male vocalists",
+   1
+  ],
+  [
+   "dean martin",
+   1
+  ],
+  [
+   "rat pack",
+   1
   ]
  ],
  "Deeper Purpose": [
@@ -7279,6 +7448,48 @@
    100
   ]
  ],
+ "Elvis Presley": [
+  [
+   "rock n roll",
+   100
+  ],
+  [
+   "classic rock",
+   74
+  ],
+  [
+   "rock",
+   36
+  ],
+  [
+   "oldies",
+   32
+  ],
+  [
+   "rock and roll",
+   16
+  ],
+  [
+   "rockabilly",
+   7
+  ],
+  [
+   "50s",
+   5
+  ],
+  [
+   "60s",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "country",
+   1
+  ]
+ ],
  "Ely Oaks": [
   [
    "dance",
@@ -7557,6 +7768,48 @@
   [
    "united states",
    66
+  ]
+ ],
+ "Etta James": [
+  [
+   "blues",
+   100
+  ],
+  [
+   "soul",
+   90
+  ],
+  [
+   "jazz",
+   57
+  ],
+  [
+   "female vocalists",
+   39
+  ],
+  [
+   "rhythm and blues",
+   16
+  ],
+  [
+   "60s",
+   2
+  ],
+  [
+   "etta james",
+   2
+  ],
+  [
+   "rnb",
+   1
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "oldies",
+   1
   ]
  ],
  "Evan Honer": [
@@ -8877,6 +9130,48 @@
   [
    "trip hop",
    2
+  ]
+ ],
+ "Glenn Miller": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "swing",
+   80
+  ],
+  [
+   "big band",
+   38
+  ],
+  [
+   "40s",
+   22
+  ],
+  [
+   "oldies",
+   9
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "glenn miller",
+   1
+  ],
+  [
+   "30s",
+   1
+  ],
+  [
+   "trombone",
+   1
+  ],
+  [
+   "instrumental",
+   1
   ]
  ],
  "Goldfish": [
@@ -13071,6 +13366,48 @@
    33
   ]
  ],
+ "Leo Sayer": [
+  [
+   "pop",
+   100
+  ],
+  [
+   "70s",
+   76
+  ],
+  [
+   "singer-songwriter",
+   47
+  ],
+  [
+   "oldies",
+   24
+  ],
+  [
+   "british",
+   10
+  ],
+  [
+   "80s",
+   10
+  ],
+  [
+   "male vocalists",
+   7
+  ],
+  [
+   "soft rock",
+   2
+  ],
+  [
+   "disco",
+   1
+  ],
+  [
+   "leo sayer",
+   1
+  ]
+ ],
  "Leon Bridges": [
   [
    "soul",
@@ -13729,6 +14066,48 @@
   ],
   [
    "electro house",
+   1
+  ]
+ ],
+ "Louis Armstrong": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "blues",
+   53
+  ],
+  [
+   "swing",
+   30
+  ],
+  [
+   "trumpet",
+   19
+  ],
+  [
+   "oldies",
+   8
+  ],
+  [
+   "vocal jazz",
+   2
+  ],
+  [
+   "american",
+   2
+  ],
+  [
+   "louis armstrong",
+   1
+  ],
+  [
+   "dixieland",
+   1
+  ],
+  [
+   "soul",
    1
   ]
  ],
@@ -16873,6 +17252,48 @@
    1
   ]
  ],
+ "Perry Como": [
+  [
+   "jazz",
+   100
+  ],
+  [
+   "oldies",
+   78
+  ],
+  [
+   "50s",
+   44
+  ],
+  [
+   "easy listening",
+   39
+  ],
+  [
+   "male vocalists",
+   15
+  ],
+  [
+   "swing",
+   6
+  ],
+  [
+   "perry como",
+   6
+  ],
+  [
+   "crooner",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "american",
+   1
+  ]
+ ],
  "Peter Bjorn and John": [
   [
    "indie",
@@ -18815,6 +19236,48 @@
   ],
   [
    "english",
+   1
+  ]
+ ],
+ "Santo & Johnny": [
+  [
+   "instrumental",
+   100
+  ],
+  [
+   "oldies",
+   81
+  ],
+  [
+   "surf",
+   45
+  ],
+  [
+   "50s",
+   34
+  ],
+  [
+   "guitar",
+   14
+  ],
+  [
+   "surf rock",
+   8
+  ],
+  [
+   "rock",
+   4
+  ],
+  [
+   "easy listening",
+   1
+  ],
+  [
+   "rock and roll",
+   1
+  ],
+  [
+   "summer of love",
    1
   ]
  ],
@@ -21020,6 +21483,48 @@
    1
   ]
  ],
+ "The Cascades": [
+  [
+   "gothic rock",
+   100
+  ],
+  [
+   "60s",
+   63
+  ],
+  [
+   "oldies",
+   38
+  ],
+  [
+   "pop",
+   28
+  ],
+  [
+   "doo wop",
+   9
+  ],
+  [
+   "german",
+   1
+  ],
+  [
+   "mod",
+   1
+  ],
+  [
+   "gothic",
+   1
+  ],
+  [
+   "usa",
+   1
+  ],
+  [
+   "rock",
+   1
+  ]
+ ],
  "The Chainsmokers": [
   [
    "electronic",
@@ -21101,6 +21606,48 @@
   ],
   [
    "furry",
+   1
+  ]
+ ],
+ "The Chordettes": [
+  [
+   "50s",
+   100
+  ],
+  [
+   "oldies",
+   82
+  ],
+  [
+   "female vocalists",
+   54
+  ],
+  [
+   "pop",
+   46
+  ],
+  [
+   "doo wop",
+   23
+  ],
+  [
+   "jazz",
+   5
+  ],
+  [
+   "american",
+   4
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "the chordettes",
+   1
+  ],
+  [
+   "girl groups",
    1
   ]
  ],
