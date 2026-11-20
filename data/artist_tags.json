@@ -1576,6 +1576,24 @@
   ]
  ],
  "Atticus Rush": [],
+ "Atura": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "usa",
+   66
+  ],
+  [
+   "hyperpop",
+   66
+  ]
+ ],
  "Aventura": [
   [
    "bachata",
@@ -1777,6 +1795,28 @@
   [
    "all",
    1
+  ]
+ ],
+ "BOLO THE DJ": [
+  [
+   "house",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "tech house",
+   66
+  ],
+  [
+   "latin house",
+   66
+  ],
+  [
+   "bass house",
+   33
   ]
  ],
  "BUNT.": [
@@ -4917,6 +4957,48 @@
   ],
   [
    "american",
+   1
+  ]
+ ],
+ "Cults": [
+  [
+   "indie pop",
+   100
+  ],
+  [
+   "lo-fi",
+   73
+  ],
+  [
+   "experimental",
+   32
+  ],
+  [
+   "noise",
+   22
+  ],
+  [
+   "indie",
+   11
+  ],
+  [
+   "psychadelic",
+   10
+  ],
+  [
+   "dream pop",
+   5
+  ],
+  [
+   "american",
+   1
+  ],
+  [
+   "pop",
+   1
+  ],
+  [
+   "psychedelic",
    1
   ]
  ],
@@ -8221,6 +8303,48 @@
    1
   ]
  ],
+ "Fcukers": [
+  [
+   "house",
+   100
+  ],
+  [
+   "dance",
+   100
+  ],
+  [
+   "electronic",
+   46
+  ],
+  [
+   "pop",
+   29
+  ],
+  [
+   "yt-dj-set",
+   8
+  ],
+  [
+   "usa",
+   8
+  ],
+  [
+   "new york",
+   4
+  ],
+  [
+   "female vocalists",
+   1
+  ],
+  [
+   "united states",
+   1
+  ],
+  [
+   "indie dance",
+   1
+  ]
+ ],
  "Feid": [
   [
    "reggaeton",
@@ -8875,6 +8999,48 @@
   ],
   [
    "pop",
+   1
+  ]
+ ],
+ "Freddie Dredd": [
+  [
+   "phonk",
+   100
+  ],
+  [
+   "rap",
+   43
+  ],
+  [
+   "hip-hop",
+   28
+  ],
+  [
+   "trap",
+   16
+  ],
+  [
+   "lo-fi",
+   5
+  ],
+  [
+   "hip hop",
+   4
+  ],
+  [
+   "canadian",
+   2
+  ],
+  [
+   "canada",
+   1
+  ],
+  [
+   "memphis rap",
+   1
+  ],
+  [
+   "doomshop",
    1
   ]
  ],
@@ -9858,6 +10024,7 @@
    1
   ]
  ],
+ "Guala": [],
  "HARDSTYLE CVNT": [
   [
    "hardstyle",
@@ -12078,6 +12245,36 @@
    10
   ]
  ],
+ "KAILA": [
+  [
+   "hardcore",
+   100
+  ],
+  [
+   "metalcore",
+   100
+  ],
+  [
+   "melodic metalcore",
+   66
+  ],
+  [
+   "deathcore",
+   66
+  ],
+  [
+   "borat",
+   33
+  ],
+  [
+   "crabcore",
+   33
+  ],
+  [
+   "bydlocore",
+   33
+  ]
+ ],
  "KAROL G": [
   [
    "reggaeton",
@@ -13063,6 +13260,28 @@
    1
   ]
  ],
+ "LEMONADE BABY": [
+  [
+   "dance",
+   100
+  ],
+  [
+   "electronic",
+   100
+  ],
+  [
+   "indie pop",
+   66
+  ],
+  [
+   "australia",
+   16
+  ],
+  [
+   "australian",
+   8
+  ]
+ ],
  "LMFAO": [
   [
    "electronic",
@@ -14022,6 +14241,36 @@
   [
    "pop rock",
    1
+  ]
+ ],
+ "Lomalo": [
+  [
+   "electropop",
+   100
+  ],
+  [
+   "jazz",
+   100
+  ],
+  [
+   "house",
+   66
+  ],
+  [
+   "electronic",
+   66
+  ],
+  [
+   "netherlands",
+   33
+  ],
+  [
+   "dance",
+   33
+  ],
+  [
+   "techno",
+   33
   ]
  ],
  "Lomiiel": [
@@ -15698,6 +15947,12 @@
   [
    "alternative rnb",
    1
+  ]
+ ],
+ "Milco": [
+  [
+   "uk garage",
+   100
   ]
  ],
  "Mild Minds": [
@@ -19379,6 +19634,48 @@
    1
   ]
  ],
+ "Sam Phillips": [
+  [
+   "singer-songwriter",
+   100
+  ],
+  [
+   "female vocalists",
+   82
+  ],
+  [
+   "alternative",
+   42
+  ],
+  [
+   "indie",
+   42
+  ],
+  [
+   "august",
+   16
+  ],
+  [
+   "wednesday",
+   14
+  ],
+  [
+   "green",
+   11
+  ],
+  [
+   "blue",
+   3
+  ],
+  [
+   "pink",
+   3
+  ],
+  [
+   "red",
+   3
+  ]
+ ],
  "Sam Smith": [
   [
    "soul",
@@ -21872,6 +22169,48 @@
   ],
   [
    "girl groups",
+   1
+  ]
+ ],
+ "The Cure": [
+  [
+   "post-punk",
+   100
+  ],
+  [
+   "new wave",
+   90
+  ],
+  [
+   "alternative",
+   33
+  ],
+  [
+   "80s",
+   32
+  ],
+  [
+   "rock",
+   13
+  ],
+  [
+   "gothic rock",
+   6
+  ],
+  [
+   "alternative rock",
+   5
+  ],
+  [
+   "british",
+   2
+  ],
+  [
+   "gothic",
+   1
+  ],
+  [
+   "goth",
    1
   ]
  ],
